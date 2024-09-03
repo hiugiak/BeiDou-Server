@@ -35,6 +35,8 @@ gms:
   service:
     # zh-CN en-US
     language: zh-CN
+    rate_limit:
+      enabled: false
   world:
     worlds:
       #Properties for Scania 0
@@ -227,8 +229,8 @@ gms:
     LOGIN_ATTEMPT_DURATION: 120         #登录尝试在系统中注册的持续时间（以秒为单位）。
 
     #Ip Configuration
-    HOST: 127.0.0.1                 #外网IP
-    LANHOST: 127.0.0.1              #局域网IP
+    HOST: 192.168.1.10                 #外网IP
+    LANHOST: 192.168.1.10              #局域网IP
     LOCALHOST: 127.0.0.1            #本地IP
     LOGIN_PORT: 8484                     #登录端口
 
