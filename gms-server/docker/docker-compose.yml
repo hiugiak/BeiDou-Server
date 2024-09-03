@@ -1,4 +1,3 @@
-version: '3'
 services:
   maplestory:
     container_name: beidou-server
