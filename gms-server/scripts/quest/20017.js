@@ -1,6 +1,6 @@
 /*
-	NPC Name: 		Cygnus
-	Description: 		Quest - Encounter with the Young Queen
+    NPC Name: 		Cygnus
+    Description: 		Quest - Encounter with the Young Queen
 */
 
 var status = -1;
@@ -36,7 +36,4 @@ function start(mode, type, selection) {
         qm.forceStartQuest();
         qm.dispose();
     }
-}
-
-function end(mode, type, selection) {
 }
