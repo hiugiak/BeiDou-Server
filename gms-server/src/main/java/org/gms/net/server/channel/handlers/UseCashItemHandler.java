@@ -193,7 +193,7 @@ public final class UseCashItemHandler extends AbstractPacketHandler {
                     // update macros, thanks to Arnah
                     if ((curLevelSPFrom - 1) == 0) {
                         boolean updated = false;
-                        for (SkillMacro macro : player.getMacros()) {
+                        for (SkillMacro macro : player.getSkillMacros()) {
                             if (macro == null) {
                                 continue;
                             }
@@ -506,6 +506,11 @@ public final class UseCashItemHandler extends AbstractPacketHandler {
             int gender = p.readInt();
             int jobid = p.readInt();
             int improveSp = p.readInt();
+            if (ItemConstants.notValidHairColor(haircolor)) {
+                log.warn("{} want to create a character with a not valid hair color {}", player.getName(), haircolor);
+                c.sendPacket(PacketCreator.enableActions());
+                return;
+            }
 
             int createStatus = switch (jobid) {
                 case 0 -> WarriorCreator.createCharacter(c, name, face, hair + haircolor, skin, gender, improveSp);

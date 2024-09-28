@@ -41856,23 +41856,27 @@
             </imgdir>
         </imgdir>
     </imgdir>
-    <imgdir name="3360">
+  <imgdir name="3360">
+    <imgdir name="0">
+      <int name="npc" value="2111006"/>
+      <int name="lvmin" value="70"/>
+      <string name="startscript" value="q3360s"/>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2111006"/>
-            <int name="lvmin" value="70"/>
-            <string name="startscript" value="q3360s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3359"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3359"/>
+          <int name="state" value="2"/>
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2111006"/>
-            <string name="endscript" value="q3360e"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2111006"/>
+      <imgdir name="infoex">
+        <imgdir name="0">
+          <string name="value" value="1"/>
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
     <imgdir name="3361">
         <imgdir name="1">
             <int name="npc" value="2111008"/>
@@ -48188,7 +48192,11 @@
                     <int name="id" value="4031579"/>
                 </imgdir>
             </imgdir>
-            <string name="endscript" value="q3926e"/>
+            <imgdir name="infoex">
+                <imgdir name="0">
+                    <string name="value" value="3333" />
+                </imgdir>
+            </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="3927">
@@ -51456,6 +51464,7 @@
         </imgdir>
         <imgdir name="0">
             <int name="npc" value="1012006"/>
+            <string name="startscript" value="q4647s"/>
             <imgdir name="quest">
                 <imgdir name="0">
                     <int name="id" value="4646"/>
@@ -76671,7 +76680,7 @@
         <imgdir name="0">
             <string name="startscript" value="q30005s"/>
             <int name="npc" value="9900000"/>
-            <int name="lvmin" value="0"/>
+            <int name="lvmin" value="39"/>
             <int name="lvmax" value="250"/>
             <int name="interval" value="1440"/>
             <int name="normalAutoStart" value="1"/>

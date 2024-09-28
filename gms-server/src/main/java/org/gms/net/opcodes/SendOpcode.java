@@ -239,6 +239,7 @@ public enum SendOpcode {
     LUCKSACK_FAIL(0xD1),
     MESO_BAG_MESSAGE(0xD2),
     UPDATE_QUEST_INFO(0xD3),
+    ON_NOTIFY_HP_DEC_BY_FIELD(0xD4),
     PLAYER_HINT(0xD6),
     MAKER_RESULT(0xD9),
     KOREAN_EVENT(0xDB),
@@ -353,7 +354,10 @@ public enum SendOpcode {
     MAPLELIFE_RESULT(0x15D),
     MAPLELIFE_ERROR(0x15E),
     VICIOUS_HAMMER(0x162),
-    VEGA_SCROLL(0x166);
+    VEGA_SCROLL(0x166),
+
+    UPDATE_HPMPAALERT(0x1000),
+    ;
     private int code = -2;
 
     SendOpcode(int code) {

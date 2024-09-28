@@ -44,6 +44,7 @@ public class BeginnerCreator extends CharacterFactory {
     }
 
     public static int createCharacter(Client c, String name, int face, int hair, int skin, int top, int bottom, int shoes, int weapon, int gender) {
+
         int iMapID = MapId.MUSHROOM_TOWN;
         if (YamlConfig.config.server.USE_BEIDOU_BEGINNERMAP)
         {

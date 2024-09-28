@@ -52,18 +52,18 @@ gms:
         event_message: Scania!
         why_am_i_recommended: Welcome to Scania!
         channels: 3
-        exp_rate: 10
-        meso_rate: 10
-        drop_rate: 10
-        boss_drop_rate: 10                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
-        quest_rate: 5                           #完成任务时获得的经验和金币的倍数。仅在USE_QUEST_RATE为true时可用。与服务器经验和金币倍数叠加.
-        fishing_rate: 10                        #钓鱼时投掷金币的成功率倍数.
-        travel_rate: 10                         #交通工具使用1/N的默认时间进行骑行/出发.
+        exp_rate: 1
+        meso_rate: 1
+        drop_rate: 1
+        boss_drop_rate: 1                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
+        quest_rate: 1                           #完成任务时获得的经验和金币的倍数。仅在USE_QUEST_RATE为true时可用。与服务器经验和金币倍数叠加.
+        fishing_rate: 1                        #钓鱼时投掷金币的成功率倍数.
+        travel_rate: 1                         #交通工具使用1/N的默认时间进行骑行/出发.
         #随等级成长的经验加成，仅刷怪有效。刷怪经验 *= (1+额外倍率x等级)
-        level_exp_rate: 0.01                    #每级提供刷怪经验加成 1=100% (0为不启用)
+        level_exp_rate: 0                    #每级提供刷怪经验加成 1=100% (0为不启用)
         #等级冲刺计划，仅刷怪有效，仅比目标等级低时有效。刷怪经验 *= [1+(目标等级-当前等级)*冲刺倍率]；
-        quick_level: 80                         #目标等级 (0为不启用)
-        quick_level_exp_rate: 0.1               #每比目标等级低1级提供的经验加成 1=100%
+        quick_level: 0                         #目标等级 (0为不启用)
+        quick_level_exp_rate: 0               #每比目标等级低1级提供的经验加成 1=100%
 
         #Properties for Bera 1
       - flag: 0
@@ -260,7 +260,7 @@ gms:
     USE_AUTOHIDE_GM: true              #开启后GM上线自动隐身. Thanks to Steven Deblois (steven1152).
     USE_FIXED_RATIO_HPMP_UPDATE: false   #Enables the HeavenMS-builtin HPMP update based on the current pool to max pool ratio.
     USE_FAMILY_SYSTEM: true
-    USE_DUEY: false                     # 客户端外挂可以通过该指令刷东西，这也是复制外挂入口
+    USE_DUEY: true                     # 是否开启快递
     USE_RANDOMIZE_HPMP_GAIN: true       #在升级时启用MaxHP/MaxMP增益和INT对MaxMP增益的随机化。
     USE_STORAGE_ITEM_SORT: true         #启用存储“整理物品”功能。
     USE_ITEM_SORT: true                 #启用库存“物品排序/合并”功能。
@@ -453,6 +453,8 @@ gms:
     PLAYERNPC_AUTODEPLOY: true      #在达到最大等级时，玩家NPC自动部署在名人堂。如果为false，符合条件的玩家必须与1st职业导师对话以部署NPC。
 
     #宠物自动药水配置
+    USE_SERVER_AUTOPOT: false       #服务端同步客户端的HPMP警戒线实现精确吃药（优先于USE_COMPULSORY_AUTOPOT判断）（如果客户端没有配套封包，请勿开启）
+    
     USE_COMPULSORY_AUTOPOT: false    #宠物将消耗尽可能多的药水以满足AUTOHP/MP比率阈值。
     USE_EQUIPS_ON_AUTOPOT: true     #自动药水处理程序上的玩家MaxHP和MaxMP检查值将通过装备的HP/MP加成进行更新。
     PET_AUTOHP_RATIO: 0.99          #将自动消耗药水，直到达到MaxHP/MaxMP的给定比率。
@@ -495,6 +497,11 @@ gms:
     MINIMUM_GM_LEVEL_TO_USE_STORAGE: 4
     MINIMUM_GM_LEVEL_TO_USE_DUEY: 4
     MINIMUM_GM_LEVEL_TO_DROP: 4
+    
+    #创建角色
+    ENABLE_ADVENTURERS: true             #允许创建冒险家
+    ENABLE_KNIGHTS_OF_CYGNUS: false       #允许创建骑士团
+    ENABLE_THE_LORD_OF_WAR: false         #允许创建战神
 
     #应搜索js覆盖脚本的任何NPC ID（如果它们已经有wz条目，否则它们会被忽略）。
     NPCS_SCRIPTABLE:

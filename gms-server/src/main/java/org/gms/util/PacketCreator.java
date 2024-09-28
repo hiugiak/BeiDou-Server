@@ -111,7 +111,6 @@ import java.sql.SQLException;
 import java.util.*;
 import java.util.List;
 import java.util.Map.Entry;
-import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
 
 /**
@@ -208,7 +207,7 @@ public class PacketCreator {
         p.writeShort(chr.getFame()); // fame
         p.writeInt(chr.getGachaExp()); //Gacha Exp
         p.writeInt(chr.getMapId()); // current map id
-        p.writeByte(chr.getInitialSpawnpoint()); // spawnpoint
+        p.writeByte(chr.getInitialSpawnPoint()); // spawnpoint
         p.writeInt(0);
     }
 
@@ -1887,7 +1886,7 @@ public class PacketCreator {
         // Monster Riding
         Integer bv = chr.getBuffedValue(BuffStat.MONSTER_RIDING);
         if (bv != null) {
-            Mount mount = chr.getMount();
+            Mount mount = chr.getMapleMount();
             if (mount != null) {
                 p.writeInt(mount.getItemId());
                 p.writeInt(mount.getSkillId());
@@ -1982,13 +1981,13 @@ public class PacketCreator {
             }
         }
         p.writeByte(0); //end of pets
-        if (chr.getMount() == null) {
+        if (chr.getMapleMount() == null) {
             p.writeInt(1); // mob level
             p.writeLong(0); // mob exp + tiredness
         } else {
-            p.writeInt(chr.getMount().getLevel());
-            p.writeInt(chr.getMount().getExp());
-            p.writeInt(chr.getMount().getTiredness());
+            p.writeInt(chr.getMapleMount().getLevel());
+            p.writeInt(chr.getMapleMount().getExp());
+            p.writeInt(chr.getMapleMount().getTiredness());
         }
 
         PlayerShop mps = chr.getPlayerShop();
@@ -2747,8 +2746,8 @@ public class PacketCreator {
         p.writeByte(0); //end of pets
 
         Item mount;     //mounts can potentially crash the client if the player's level is not properly checked
-        if (chr.getMount() != null && (mount = chr.getInventory(InventoryType.EQUIPPED).getItem((short) -18)) != null && ItemInformationProvider.getInstance().getEquipLevelReq(mount.getItemId()) <= chr.getLevel()) {
-            Mount mmount = chr.getMount();
+        if (chr.getMapleMount() != null && (mount = chr.getInventory(InventoryType.EQUIPPED).getItem((short) -18)) != null && ItemInformationProvider.getInstance().getEquipLevelReq(mount.getItemId()) <= chr.getLevel()) {
+            Mount mmount = chr.getMapleMount();
             p.writeByte(mmount.getId()); //mount
             p.writeInt(mmount.getLevel()); //level
             p.writeInt(mmount.getExp()); //exp
@@ -2889,6 +2888,12 @@ public class PacketCreator {
         p.writeShort(quest);
         p.writeInt(npc);
         p.writeInt(0);
+        return p;
+    }
+
+    public static Packet onNotifyHPDecByField(int change) {
+        final OutPacket p = OutPacket.create(SendOpcode.ON_NOTIFY_HP_DEC_BY_FIELD);
+        p.writeInt(change);
         return p;
     }
 
@@ -3985,10 +3990,11 @@ public class PacketCreator {
         return p;
     }
 
-    public static Packet getClock(int time) { // time in seconds
+    // 修复如果使用旅行倍率会出现小数的情况
+    public static Packet getClock(Number time) { // time in seconds
         OutPacket p = OutPacket.create(SendOpcode.CLOCK);
         p.writeByte(2); // clock type. if you send 3 here you have to send another byte (which does not matter at all) before the timestamp
-        p.writeInt(time);
+        p.writeInt(time.intValue());
         return p;
     }
 
@@ -6613,7 +6619,7 @@ public class PacketCreator {
         final OutPacket p = OutPacket.create(SendOpcode.SHOW_STATUS_INFO);
         p.writeByte(10);
         p.writeBytes(new byte[]{(byte) 0xB7, 4}); //?
-        p.writeString("pt=" + chr.getDojoPoints() + ";belt=" + belt + ";tuto=" + (chr.getFinishedDojoTutorial() ? "1" : "0"));
+        p.writeString("pt=" + chr.getDojoPoints() + ";belt=" + belt + ";tuto=" + (chr.isFinishedDojoTutorial() ? "1" : "0"));
         return p;
     }
 
@@ -7479,6 +7485,13 @@ public class PacketCreator {
     public static Packet UseTreasureBox(int type){
         OutPacket p = OutPacket.create(SendOpcode.SUCCESS_IN_USE_GACHAPON_BOX);
         p.writeInt(type);
+        return p;
+    }
+
+    public static Packet updateHpMpAlert(byte hp, byte mp) {
+        OutPacket p = OutPacket.create(SendOpcode.UPDATE_HPMPAALERT);
+        p.writeByte(hp);
+        p.writeByte(mp);
         return p;
     }
 

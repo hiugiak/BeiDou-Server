@@ -39,6 +39,7 @@ import org.gms.client.inventory.Pet;
 import org.gms.client.keybind.KeyBinding;
 import org.gms.config.YamlConfig;
 import org.gms.constants.game.GameConstants;
+import org.gms.manager.ServerManager;
 import org.gms.net.AbstractPacketHandler;
 import org.gms.net.packet.InPacket;
 import org.gms.net.server.PlayerBuffValueHolder;
@@ -54,6 +55,7 @@ import org.gms.net.server.guild.GuildPackets;
 import org.gms.net.server.world.PartyCharacter;
 import org.gms.net.server.world.PartyOperation;
 import org.gms.net.server.world.World;
+import org.gms.service.HpMpAlertService;
 import org.gms.util.packets.WeddingPackets;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -82,6 +84,7 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
     private static final Set<Integer> attemptingLoginAccounts = new HashSet<>();
 
     private final NoteService noteService;
+    private static final HpMpAlertService hpMpAlertService = ServerManager.getApplicationContext().getBean(HpMpAlertService.class);
 
     public PlayerLoggedinHandler(NoteService noteService) {
         this.noteService = noteService;
@@ -162,7 +165,7 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
                 try {
                     player = Character.loadCharFromDB(cid, c, true);
                     newcomer = true;
-                } catch (SQLException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
 
@@ -172,7 +175,7 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
                 }
             }
             c.setPlayer(player);
-            c.setAccID(player.getAccountID());
+            c.setAccID(player.getAccountId());
 
             boolean allowLogin = true;
 
@@ -225,6 +228,11 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
                 player.newClient(c);
             }
 
+            // 增加参数判断，避免给客户端发未知包导致异常
+            if (YamlConfig.config.server.USE_SERVER_AUTOPOT) {
+                // 同步HP MP提醒 考虑上面player.newClient(c)，如果在此之前发包，可能会造成错误
+                player.broadcastAcquaintances(PacketCreator.updateHpMpAlert(hpMpAlertService.getHpAlert(player.getId()), hpMpAlertService.getMpAlert(player.getId())));
+            }
             cserv.addPlayer(player);
             wserv.addPlayer(player);
             player.setEnteredChannelWorld();
@@ -371,7 +379,7 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
                     }
                 }
 
-                Mount mount = player.getMount();   // thanks Ari for noticing a scenario where Silver Mane quest couldn't be started
+                Mount mount = player.getMapleMount();   // thanks Ari for noticing a scenario where Silver Mane quest couldn't be started
                 if (mount.getItemId() != 0) {
                     player.sendPacket(PacketCreator.updateMount(player.getId(), mount, false));
                 }

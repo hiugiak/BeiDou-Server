@@ -1129,7 +1129,7 @@ public class Client extends ChannelInboundHandlerAdapter {
             }
 
             return Character.deleteCharFromDB(chr, senderAccId);
-        } catch (SQLException ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
             return false;
         }
@@ -1245,7 +1245,7 @@ public class Client extends ChannelInboundHandlerAdapter {
 
         for (World w : Server.getInstance().getWorlds()) {
             for (Character chr : w.getPlayerStorage().getAllCharacters()) {
-                if (accid == chr.getAccountID()) {
+                if (accid == chr.getAccountId()) {
                     log.warn("Chr {} has been removed from world {}. Possible Dupe attempt.", chr.getName(), GameConstants.WORLD_NAMES[w.getId()]);
                     chr.getClient().forceDisconnect();
                     w.getPlayerStorage().removePlayer(chr.getId());

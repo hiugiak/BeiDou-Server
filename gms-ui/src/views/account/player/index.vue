@@ -52,7 +52,7 @@
           <a-space>
             <a-button type="primary" @click="refreshClick">
               <template #icon>
-                <icon-plus />
+                <icon-refresh />
               </template>
               {{ $t('button.refresh') }}
             </a-button>
@@ -96,6 +96,12 @@
           <a-table-column
             :title="$t('account.player.job')"
             data-index="job"
+            :width="200"
+            align="center"
+          />
+          <a-table-column
+            :title="$t('account.player.jobName')"
+            data-index="jobName"
             :width="200"
             align="center"
           />
