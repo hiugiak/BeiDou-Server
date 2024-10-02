@@ -49,12 +49,14 @@ public abstract class ServerChannelInitializer extends ChannelInitializer<Socket
         setUpHandlers(socketChannel.pipeline(), sendIv, recvIv, client);
     }
 
-    private void writeInitialUnencryptedHelloPacket(SocketChannel socketChannel, InitializationVector sendIv, InitializationVector recvIv) {
-        socketChannel.writeAndFlush(Unpooled.wrappedBuffer(PacketCreator.getHello(ServerConstants.VERSION, sendIv, recvIv).getBytes()));
+    private void writeInitialUnencryptedHelloPacket(SocketChannel socketChannel, InitializationVector sendIv,
+            InitializationVector recvIv) {
+        socketChannel.writeAndFlush(
+                Unpooled.wrappedBuffer(PacketCreator.getHello(ServerConstants.VERSION, sendIv, recvIv).getBytes()));
     }
 
     private void setUpHandlers(ChannelPipeline pipeline, InitializationVector sendIv, InitializationVector recvIv,
-                               Client client) {
+            Client client) {
         pipeline.addLast("IdleStateHandler", new IdleStateHandler(0, 0, IDLE_TIME_SECONDS));
         pipeline.addLast("PacketCodec", new PacketCodec(ClientCyphers.of(sendIv, recvIv)));
         pipeline.addLast("Client", client);
