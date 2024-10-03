@@ -7946,7 +7946,7 @@
     </imgdir>
     <imgdir name="28177">
         <string name="name" value="抓住嫌疑犯"/>
-        <string name="parent" value="揭示秘密"/>
+        <string name="parent" value="揭露秘密"/>
         <int name="order" value="1"/>
         <string name="0" value="射手村的#b#@1012003:##k说我们需要抓住嫌疑犯。我们和他谈谈吧。"/>
         <string name="1" value="我们去抓获#b#m106010100##k的#b#@1040000:##k。"/>
@@ -7957,7 +7957,7 @@
     </imgdir>
     <imgdir name="28178">
         <string name="name" value="谁改变了他？"/>
-        <string name="parent" value="揭示秘密"/>
+        <string name="parent" value="揭露秘密"/>
         <int name="order" value="2"/>
         <string name="0" value="#b#m100000000##k的#b#@1012003:##k说要马上去见#b#m102000000##k的#b#@9201119:##k。"/>
         <string name="1" value="找到#b#m102000000##k的#b#@9201119:##k揭晓此事！"/>
