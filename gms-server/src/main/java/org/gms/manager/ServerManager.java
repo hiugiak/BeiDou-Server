@@ -11,6 +11,7 @@ import org.springdoc.core.properties.SpringDocConfigProperties;
 import org.springdoc.core.properties.SwaggerUiConfigProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.ApplicationContext;
@@ -36,17 +37,27 @@ public class ServerManager implements ApplicationContextAware, ApplicationRunner
     public void run(ApplicationArguments args) throws Exception {
         Server.getInstance().init();
 
-        SpringDocConfigProperties springDocConfigProperties = applicationContext.getBean(SpringDocConfigProperties.class);
-        SwaggerUiConfigProperties swaggerUiConfigProperties = applicationContext.getBean(SwaggerUiConfigProperties.class);
+        SpringDocConfigProperties springDocConfigProperties = null;
+        SwaggerUiConfigProperties swaggerUiConfigProperties = null;
+        try {
+            springDocConfigProperties = applicationContext.getBean(SpringDocConfigProperties.class);
+            swaggerUiConfigProperties = applicationContext.getBean(SwaggerUiConfigProperties.class);
+        } catch (NoSuchBeanDefinitionException e) {
+            log.info("springdoc not enabled");
+        }
         Environment environment = applicationContext.getBean(Environment.class);
-        log.info("版本(Version)：{} && 构建时间(BuildTime)：{}", ServerConstants.BEI_DOU_VERSION, ServerConstants.BEI_DOU_BUILD_TIME);
-        if (springDocConfigProperties.getApiDocs().isEnabled() && swaggerUiConfigProperties.isEnabled()) {
-            log.info(I18nUtil.getLogMessage("ServerManager.run.info1"), InetAddress.getLocalHost().getHostAddress(), environment.getProperty("server.port"));
+        log.info("版本(Version)：{} && 构建时间(BuildTime)：{}", ServerConstants.BEI_DOU_VERSION,
+                ServerConstants.BEI_DOU_BUILD_TIME);
+        if (springDocConfigProperties != null && springDocConfigProperties.getApiDocs().isEnabled()
+                && swaggerUiConfigProperties != null && swaggerUiConfigProperties.isEnabled()) {
+            log.info(I18nUtil.getLogMessage("ServerManager.run.info1"), InetAddress.getLocalHost().getHostAddress(),
+                    environment.getProperty("server.port"));
         }
         // 判断是否集成前端，集成则提示前端地址
-        try(InputStream resource = ServerApplication.class.getClassLoader().getResourceAsStream("static/index.html")) {
+        try (InputStream resource = ServerApplication.class.getClassLoader().getResourceAsStream("static/index.html")) {
             if (resource != null) {
-                log.info(I18nUtil.getLogMessage("ServerManager.run.info2"), InetAddress.getLocalHost().getHostAddress(), environment.getProperty("server.port"));
+                log.info(I18nUtil.getLogMessage("ServerManager.run.info2"), InetAddress.getLocalHost().getHostAddress(),
+                        environment.getProperty("server.port"));
             }
         }
     }

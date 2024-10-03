@@ -35,9 +35,9 @@ public class AuthTokenFilter extends OncePerRequestFilter {
     private JwtUtils jwtUtils;
     @Autowired
     private UserDetailsServiceImpl userDetailsService;
-    @Autowired
+    @Autowired(required = false)
     private SpringDocConfigProperties springDocConfigProperties;
-    @Autowired
+    @Autowired(required = false)
     private SwaggerUiConfigProperties swaggerUiConfigProperties;
     @Autowired
     private AccountService accountService;
@@ -45,20 +45,24 @@ public class AuthTokenFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(AuthTokenFilter.class);
 
     @Override
-    protected void doFilterInternal(@NonNull HttpServletRequest request, @NonNull HttpServletResponse response, @NonNull FilterChain filterChain)
+    protected void doFilterInternal(@NonNull HttpServletRequest request, @NonNull HttpServletResponse response,
+            @NonNull FilterChain filterChain)
             throws ServletException, IOException {
         try {
             String forwardedIp = request.getHeader("X-Forwarded-For");
             String realIp = request.getHeader("X-Real-IP");
             String remoteAddr = request.getRemoteAddr();
-            if (RequireUtil.isEmpty(remoteAddr)) remoteAddr = forwardedIp;
-            if (RequireUtil.isEmpty(remoteAddr)) remoteAddr = realIp;
+            if (RequireUtil.isEmpty(remoteAddr))
+                remoteAddr = forwardedIp;
+            if (RequireUtil.isEmpty(remoteAddr))
+                remoteAddr = realIp;
             RequireUtil.requireNotEmpty(remoteAddr, "Unknown remote address");
 
             // 封禁ip禁止请求
             if (accountService.isBanned(remoteAddr)) {
                 request.getInputStream().close();
-                throw new BizException("Banned ip is requesting, forwardedIp: " + forwardedIp + ",realIp: " + realIp + ", remoteAddr: " + remoteAddr);
+                throw new BizException("Banned ip is requesting, forwardedIp: " + forwardedIp + ",realIp: " + realIp
+                        + ", remoteAddr: " + remoteAddr);
             }
 
             // 限流
@@ -68,7 +72,10 @@ public class AuthTokenFilter extends OncePerRequestFilter {
 
             String jwt = parseJwt(request);
             // 测试token，所以生产环境一定要把swagger关掉，否则裸奔
-            if ("swagger".equals(jwt) && springDocConfigProperties.getApiDocs().isEnabled() && swaggerUiConfigProperties.isEnabled()) {
+            if ("swagger".equals(jwt) && springDocConfigProperties != null
+                    && springDocConfigProperties.getApiDocs().isEnabled() &&
+                    swaggerUiConfigProperties != null &&
+                    swaggerUiConfigProperties.isEnabled()) {
                 UserDetails userDetails = userDetailsService.loadUserByUsername("admin");
                 UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities());
