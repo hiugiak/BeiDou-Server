@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      dockerfile: ./docker/server.dev.Dockerfile
+    volumes:
+      - ../../beidou-server-config/application_docker_dev.yml:/opt/server/application.yml
+    depends_on:
+      db:
+        condition: service_healthy
