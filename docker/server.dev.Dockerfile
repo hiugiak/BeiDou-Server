@@ -22,8 +22,9 @@ WORKDIR /opt/server
 COPY ./pom.xml ./pom.xml
 COPY ./gms-server/src ./gms-server/src
 COPY ./gms-server/pom.xml ./gms-server/pom.xml
+COPY ./docker/settings.xml /usr/share/maven/ref/
 
-RUN mvn clean package -U
+RUN --mount=type=cache,target=/root/.m2 mvn -s /usr/share/maven/ref/settings.xml clean package -U
 
 FROM eclipse-temurin:21.0.4_7-jre-alpine
 

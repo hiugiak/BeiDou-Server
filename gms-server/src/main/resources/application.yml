@@ -503,6 +503,9 @@ gms:
     ENABLE_KNIGHTS_OF_CYGNUS: false       #是否允许创建骑士团，true=允许，false=禁止
     ENABLE_THE_LORD_OF_WAR: false         #是否允许创建战神，true=允许，false=禁止
 
+    #骑士团配置
+    CYGNUS_MAX_LEVEL: 120
+
     #应搜索js覆盖脚本的任何NPC ID（如果它们已经有wz条目，否则它们会被忽略）。
     NPCS_SCRIPTABLE:
       #9200000: Talk to Cody # Cody

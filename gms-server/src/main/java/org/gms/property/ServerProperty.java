@@ -311,6 +311,9 @@ public class ServerProperty {
     public boolean ENABLE_KNIGHTS_OF_CYGNUS;
     public boolean ENABLE_THE_LORD_OF_WAR;
 
+    // Cygnus Configuration
+    public int CYGNUS_MAX_LEVEL;
+
 
     //Custom NPC overrides. List of NPC IDs.
     public Map<String, String> NPCS_SCRIPTABLE = new HashMap<>();
