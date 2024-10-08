@@ -33,6 +33,7 @@ import org.gms.client.inventory.InventoryType;
 import org.gms.client.inventory.Item;
 import org.gms.client.inventory.WeaponType;
 import org.gms.config.YamlConfig;
+import org.gms.constants.game.GameConstants;
 import org.gms.constants.id.ItemId;
 import org.gms.constants.inventory.EquipSlot;
 import org.gms.constants.inventory.ItemConstants;
@@ -1244,25 +1245,40 @@ public class ItemInformationProvider {
         if (defaultValue == 0) {
             return 0;
         }
-        int lMaxRange = (int) Math.min(Math.ceil(defaultValue * 0.1), maxRange);
-        return (short) ((defaultValue - lMaxRange) + Math.floor(Randomizer.nextDouble() * (lMaxRange * 2 + 1)));
+        // int lMaxRange = (int) Math.min(Math.ceil(defaultValue * 0.1), maxRange);
+        // return (short) ((defaultValue - lMaxRange) + Math.floor(Randomizer.nextDouble() * (lMaxRange * 2 + 1)));
+        return (short) Math.max(0, defaultValue - maxRange + Math.floor(Randomizer.nextDouble() * (maxRange * 2 + 1)));
     }
 
     public Equip randomizeStats(Equip equip) {
-        equip.setStr(getRandStat(equip.getStr(), 5));
-        equip.setDex(getRandStat(equip.getDex(), 5));
-        equip.setInt(getRandStat(equip.getInt(), 5));
-        equip.setLuk(getRandStat(equip.getLuk(), 5));
-        equip.setMatk(getRandStat(equip.getMatk(), 5));
-        equip.setWatk(getRandStat(equip.getWatk(), 5));
-        equip.setAcc(getRandStat(equip.getAcc(), 5));
-        equip.setAvoid(getRandStat(equip.getAvoid(), 5));
-        equip.setJump(getRandStat(equip.getJump(), 5));
-        equip.setSpeed(getRandStat(equip.getSpeed(), 5));
-        equip.setWdef(getRandStat(equip.getWdef(), 10));
-        equip.setMdef(getRandStat(equip.getMdef(), 10));
-        equip.setHp(getRandStat(equip.getHp(), 10));
-        equip.setMp(getRandStat(equip.getMp(), 10));
+        equip.setStr(
+                getRandStat(equip.getStr(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.STR)));
+        equip.setDex(
+                getRandStat(equip.getDex(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.DEX)));
+        equip.setInt(
+                getRandStat(equip.getInt(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.INT)));
+        equip.setLuk(
+                getRandStat(equip.getLuk(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.LUK)));
+        equip.setMatk(getRandStat(equip.getMatk(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.MATK)));
+        equip.setWatk(
+                getRandStat(equip.getWatk(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.ATK)));
+        equip.setAcc(
+                getRandStat(equip.getAcc(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.ACC)));
+        equip.setAvoid(getRandStat(equip.getAvoid(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.AVOID)));
+        equip.setJump(getRandStat(equip.getJump(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.JUMP)));
+        equip.setSpeed(getRandStat(equip.getSpeed(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.SPEED)));
+        equip.setWdef(getRandStat(equip.getWdef(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.DEF)));
+        equip.setMdef(getRandStat(equip.getMdef(),
+                GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.MDEF)));
+        equip.setHp(
+                getRandStat(equip.getHp(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.HP)));
+        equip.setMp(
+                getRandStat(equip.getMp(), GameConstants.getEquipInitStatRandRange(GameConstants.EquipStatType.MP)));
         return equip;
     }
 

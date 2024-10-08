@@ -828,4 +828,37 @@ public class GameConstants {
         return weightedRewards.get(randomIndex);
     }
 
+    public static enum EquipStatType {
+        STR,
+        DEX,
+        INT,
+        LUK,
+        HP,
+        MP,
+        ATK, // phicial attack
+        MATK, // magic attack
+        DEF, // weapon defense
+        MDEF, // magic defense
+        JUMP,
+        SPEED,
+        ACC, // accuracy
+        AVOID // avoidability
+    }
+
+    public static int getEquipInitStatRandRange(EquipStatType statType) {
+        switch (statType) {
+            case STR, DEX, INT, LUK:
+                return Math.max(YamlConfig.config.server.EQP_BASIC_STAT_RAND_RANGE, 5);
+            case HP, MP, DEF, MDEF:
+                return Math.max(YamlConfig.config.server.EQP_DEF_HPMP_RAND_RANGE, 10);
+            case ATK, MATK, ACC, AVOID:
+                return Math.max(YamlConfig.config.server.EQP_ATTACK_ACC_AVOID_RAND_RANGE, 5);
+            case JUMP, SPEED:
+                return Math.max(YamlConfig.config.server.EQP_SPEED_JUMP_RAND_RANGE, 5);
+            default:
+                return 0;
+        }
+
+    }
+
 }

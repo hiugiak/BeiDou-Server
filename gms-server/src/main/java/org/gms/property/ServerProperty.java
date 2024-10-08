@@ -247,6 +247,10 @@ public class ServerProperty {
     public int MAX_EQUIPMNT_LVLUP_STAT_UP;
     public int MAX_EQUIPMNT_STAT;
     public int USE_EQUIPMNT_LVLUP;
+    public int EQP_BASIC_STAT_RAND_RANGE;
+    public int EQP_ATTACK_ACC_AVOID_RAND_RANGE;
+    public int EQP_SPEED_JUMP_RAND_RANGE;
+    public int EQP_DEF_HPMP_RAND_RANGE;
 
     //Map-Chair Configuration
     public boolean USE_CHAIR_EXTRAHEAL;
