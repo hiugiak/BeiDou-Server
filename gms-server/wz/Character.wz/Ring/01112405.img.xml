@@ -21,8 +21,9 @@
     <int name="incINT" value="3"/>
     <int name="incPAD" value="3"/>
     <int name="incMAD" value="3"/>
-    <int name="incMMP" value="30"/>
-    <int name="incMHP" value="30"/>
+    <int name="incMMP" value="500"/>
+    <int name="incMHP" value="500"/>
+    <int name="only" value="1"/>
     <int name="tuc" value="0"/>
     <int name="notSale" value="1"/>
     <int name="price" value="1"/>
