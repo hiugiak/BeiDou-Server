@@ -43,7 +43,7 @@ function start() {
     }
 
     const YamlConfig = Java.type('org.gms.config.YamlConfig');
-    belt_points = YamlConfig.config.server.USE_FAST_DOJO_UPGRADE ? Array(10, 90, 200, 460, 850) : Array(200, 1800, 4000, 9200, 17000);
+    belt_points = YamlConfig.config.server.USE_FAST_DOJO_UPGRADE ? Array(1, 9, 20, 46, 85) : Array(2, 18, 40, 92, 170);
 
     belt_on_inventory = [];
     for (var i = 0; i < belts.length; i++) {
@@ -228,7 +228,7 @@ function action(mode, type, selection) {
                                     if (selection > 0) {
                                         cm.gainItem(oldbelt, -1);
                                     }
-                                    cm.gainItem(belt, 1);
+                                    cm.gainItem(belt, 1, true, true);
                                     cm.getPlayer().setDojoPoints(cm.getPlayer().getDojoPoints() - points);
                                     cm.sendNext("这里有一个 #i" + 腰带 + "# #b#t" + 腰带 + "##k。你已经证明了自己的勇气，可以在道馆排名中晋升。干得好！");
                                 } else {
