@@ -92,12 +92,12 @@ function action(mode, type, selection) {
                 }
             } else if (status == 2) {
                 if (selection == 0) {
-                    if (!cm.haveItem(1082232) && cm.haveItem(4001158, 10)) {
-                        cm.gainItem(1082232, 1);
-                        cm.gainItem(4001158, -10);
+                    if (!cm.haveItem(1082232) && cm.haveItem(4001158, 1)) {
+                        cm.gainItem(1082232, 1, true, true);
+                        cm.gainItem(4001158, -1);
                         cm.dispose();
                     } else {
-                        cm.sendOk("你要么已经拥有女神手镯，要么没有10个#t4001158#。");
+                        cm.sendOk("你要么已经拥有女神手镯，要么没有#t4001158#。");
                         cm.dispose();
                     }
                 }
