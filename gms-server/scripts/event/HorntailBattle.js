@@ -107,11 +107,11 @@ function setup(channel) {
     var map, mob;
     map = eim.getInstanceMap(240060000);
     mob = LifeFactory.getMonster(8810000);
-    map.spawnMonsterOnGroundBelow(mob, new Point(960, 120));
+    map.spawnMonsterOnGroundBelow(mob, new Point(930, 120));
 
     map = eim.getInstanceMap(240060100);
     mob = LifeFactory.getMonster(8810001);
-    map.spawnMonsterOnGroundBelow(mob, new Point(-420, 120));
+    map.spawnMonsterOnGroundBelow(mob, new Point(-390, 120));
 
     eim.startEventTimer(eventTime * 60000);
     setEventRewards(eim);
