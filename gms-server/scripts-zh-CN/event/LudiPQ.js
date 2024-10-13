@@ -24,8 +24,8 @@
  */
 
 var isPq = true;
-var minPlayers = 5, maxPlayers = 6;
-var minLevel = 35, maxLevel = 50;
+var minPlayers = 1, maxPlayers = 6;
+var minLevel = 35, maxLevel = 255;
 var entryMap = 922010100;
 var exitMap = 922010000;
 var recruitMap = 221024500;
@@ -253,7 +253,8 @@ function end(eim) {
 }
 
 function giveRandomEventReward(eim, player) {
-    eim.giveEventReward(player);
+    const pi = player.getAbstractPlayerInteraction();
+    pi.gainItem(1022073, 1, true, true);
 }
 
 function clearPQ(eim) {
