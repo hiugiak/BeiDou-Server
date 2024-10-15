@@ -69,17 +69,17 @@ function action(mode, type, selection) {
                 var state = eim.getIntProperty("statusStg" + stage);
 
                 if (state == -1) {           // preamble
-                    cm.sendOk("Hi. Welcome to the #bstage " + stage + "#k. This is the 2nd stage, but everyone has to cooperate. There are 6 portals here. One is guarded by undefeatable monsters, and one is very high. I'd like you and your party to go in each one and break the boxes inside. Bring back the drops -- there should be 24.");
+                    cm.sendOk("Hi. Welcome to the #bstage " + stage + "#k. This is the 2nd stage, but everyone has to cooperate. There are 6 portals here. One is guarded by undefeatable monsters, and one is very high. I'd like you and your party to go in each one and break the boxes inside. Bring back the drops -- there should be 10.");
                     eim.setProperty("statusStg" + stage, 0);
                 } else {       // check stage completion
-                    if (cm.haveItem(4001022, 24)) {
-                        cm.sendOk("Good job! You have collected all 24 #b#t4001022#'s.#k");
-                        cm.gainItem(4001022, -24);
+                    if (cm.haveItem(4001022, 10)) {
+                        cm.sendOk("Good job! You have collected all 10 #b#t4001022#'s.#k");
+                        cm.gainItem(4001022, -10);
 
                         eim.setProperty("statusStg" + stage, 1);
                         clearStage(stage, eim, curMap);
                     } else {
-                        cm.sendNext("Sorry you don't have all 24 #b#t4001022#'s.#k");
+                        cm.sendNext("Sorry you don't have all 10 #b#t4001022#'s.#k");
                     }
                 }
             } else {

@@ -32,10 +32,12 @@
 @	Description: Used to find the combo to unlock the next door. Players stand on 5 different crates to guess the combo.
 */
 
+const comboCount = 4;
+
 function generateCombo() {
     var countPicked = 0;
     var positions = Array(0, 0, 0, 0, 0, 0, 0, 0, 0);
-    while (countPicked < 5) {
+    while (countPicked < comboCount) {
         var picked = Math.floor(Math.random() * positions.length);
         if (positions[picked] == 1) // Don't let it pick one its already picked.
         {
@@ -98,7 +100,7 @@ function action(mode, type, selection) {
                 var state = eim.getIntProperty("statusStg" + stage);
 
                 if (state == -1) {           // preamble
-                    cm.sendOk("嗨。欢迎来到 #bstage " + stage + "#k。在这个阶段，让你的队伍中的5名成员站在那些箱子上，以形成正确的组合来解锁下一个阶段。只有一个玩家应该留在所需的箱子上以确定组合。");
+                    cm.sendOk("嗨。欢迎来到 #bstage " + stage + `#k。在这个阶段，让你的队伍中的${comboCount}名成员站在那些箱子上，以形成正确的组合来解锁下一个阶段。只有一个玩家应该留在所需的箱子上以确定组合。`);
 
                     var st = (debug) ? 2 : 0;
                     eim.setProperty("statusStg" + stage, st);
@@ -110,7 +112,7 @@ function action(mode, type, selection) {
                         return;
                     }
 
-                    objset = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+                    var objset = [0, 0, 0, 0, 0, 0, 0, 0, 0];
                     var playersOnCombo = 0;
                     var map = cm.getPlayer().getMap();
                     var party = cm.getEventInstance().getPlayers();
@@ -125,7 +127,7 @@ function action(mode, type, selection) {
                         }
                     }
 
-                    if (playersOnCombo == 5 || cm.getPlayer().gmLevel() > 1) {
+                    if (playersOnCombo == comboCount || cm.getPlayer().gmLevel() > 1) {
                         var comboStr = eim.getProperty("stage" + stage + "combo");
                         if (comboStr == null) {
                             comboStr = generateCombo();
@@ -149,7 +151,7 @@ function action(mode, type, selection) {
                             cm.dispose();
                         }
                     } else {
-                        cm.sendNext("看起来你还没有找到5个箱子。请考虑不同的箱子组合。只允许站在箱子上的数量为5个，如果你移动箱子可能不算作答案，请记住这一点。继续加油！");
+                        cm.sendNext(`看起来你还没有找到${comboCount}个箱子。请考虑不同的箱子组合。只允许站在箱子上的数量为5个，如果你移动箱子可能不算作答案，请记住这一点。继续加油！`);
                         cm.dispose();
                     }
                 }
