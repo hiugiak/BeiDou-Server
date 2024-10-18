@@ -6971,7 +6971,7 @@
         <int name="z" value="0"/>
       </canvas>
       <int name="price" value="1"/>
-      <int name="only" value="1"/>
+      <int name="only" value="10"/>
       <int name="tradeBlock" value="1"/>
     </imgdir>
   </imgdir>
@@ -6986,7 +6986,7 @@
         <int name="z" value="0"/>
       </canvas>
       <int name="price" value="1"/>
-      <int name="only" value="1"/>
+      <int name="only" value="10"/>
       <int name="tradeBlock" value="1"/>
     </imgdir>
   </imgdir>
@@ -7001,7 +7001,7 @@
         <int name="z" value="0"/>
       </canvas>
       <int name="price" value="1"/>
-      <int name="only" value="1"/>
+      <int name="only" value="10"/>
       <int name="tradeBlock" value="1"/>
     </imgdir>
   </imgdir>

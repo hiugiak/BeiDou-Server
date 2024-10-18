@@ -57,7 +57,7 @@ function action(mode, type, selection) {
         text += "当前信用券：" + cm.getPlayer().getCashShop().getCash(4) + "\r\n";
         text += " \r\n\r\n";
         text += "#L0#新人福利#l \t #L1#每日签到#l \t #L2#在线奖励#l\r\n";
-        text += "#L3#传送自由#l \t #L63#整容集合#l \t #L65#一键删除道具#l\r\n";
+        text += "#L3#传送自由#l \t #L63#整容集合#l \t #L70#怪物手册兑换戒指#l\r\n";
         if (cm.getPlayer().isGM()) {
             text += "\r\n\r\n";
             text += "\t\t\t\t#r=====以下内容仅GM可见=====\r\n";
@@ -121,6 +121,9 @@ function doSelect(selection) {
             break;
         case 68:
             openNpc("Example2")
+            break;
+        case 70:
+            openNpc("MonsterBook")
             break;
         default:
             cm.sendOk("该功能暂不支持，敬请期待！");
