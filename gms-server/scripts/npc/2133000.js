@@ -91,29 +91,29 @@ function action(mode, type, selection) {
             }
         } else if (status == 2) {
             if (selection == 0) {
-                if (!cm.haveItem(1032060) && cm.haveItem(4001198, 10)) {
-                    cm.gainItem(1032060, 1);
-                    cm.gainItem(4001198, -10);
+                if (!cm.haveItem(1032060) && cm.haveItem(4001198, 1)) {
+                    cm.gainItem(1032060, 1, true, true);
+                    cm.gainItem(4001198, -1);
                     cm.dispose();
                 } else {
                     cm.sendOk("You either have Altair Earrings already or you do not have 10 Altair Fragments.");
                     cm.dispose();
                 }
             } else if (selection == 1) {
-                if (cm.haveItem(1032060) && !cm.haveItem(1032061) && cm.haveItem(4001198, 10)) {
+                if (cm.haveItem(1032060) && !cm.haveItem(1032061) && cm.haveItem(4001198, 1)) {
                     cm.gainItem(1032060, -1);
-                    cm.gainItem(1032061, 1);
-                    cm.gainItem(4001198, -10);
+                    cm.gainItem(1032061, 1, true, true);
+                    cm.gainItem(4001198, -1);
                     cm.dispose();
                 } else {
                     cm.sendOk("You either don't have Altair Earrings already or you do not have 10 Altair Fragments.");
                     cm.dispose();
                 }
             } else if (selection == 2) {
-                if (cm.haveItem(1032061) && !cm.haveItem(1032072) && cm.haveItem(4001198, 10)) {
+                if (cm.haveItem(1032061) && !cm.haveItem(1032072) && cm.haveItem(4001198, 1)) {
                     cm.gainItem(1032061, -1);
                     cm.gainItem(1032072, 1);    // thanks yuxaij for noticing unexpected itemid here
-                    cm.gainItem(4001198, -10);
+                    cm.gainItem(4001198, -1);
                     cm.dispose();
                 } else {
                     cm.sendOk("You either don't have Glittering Altair Earrings already or you do not have 10 Altair Fragments.");
