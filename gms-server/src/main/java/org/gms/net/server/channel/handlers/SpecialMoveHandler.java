@@ -86,7 +86,7 @@ public final class SpecialMoveHandler extends AbstractPacketHandler {
             } else if (skillid != Corsair.BATTLE_SHIP) {
                 int cooldownTime = effect.getCooldown();
                 if (StatEffect.isHerosWill(skillid) && YamlConfig.config.server.USE_FAST_REUSE_HERO_WILL) {
-                    cooldownTime /= 60;
+                    cooldownTime /= 6;
                 }
 
                 c.sendPacket(PacketCreator.skillCooldown(skillid, cooldownTime));
