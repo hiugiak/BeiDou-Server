@@ -35,7 +35,6 @@ function action(mode, type, selection) {
         status++;
     }
 
-    const InventoryType = Java.type('org.gms.client.inventory.InventoryType');
     switch (status) {
         case 0:
             var text = `#r目前卡组数量为: ${countCardSet()}#k，要兑换戒指吗？`;
@@ -49,11 +48,12 @@ function action(mode, type, selection) {
             }
             sel = selection;
             if (!playerCanHoldRing(sel)) {
-                cm.sendOk('身上已有其它怪物卡戒指，无法兑换。');
+                cm.sendOk('身上已有怪物卡戒指，无法兑换。');
                 return cm.dispose();
             }
             if (sel == 0) {
                 cm.gainItem(ringInfoList[0].ID, 1);
+                cm.sendOk(`成功兑换 #i${ringInfoList[sel].ID}# #t${ringInfoList[sel].ID}#。`);
                 return cm.dispose();
             }
             return showRequirement(sel);
@@ -94,6 +94,7 @@ function action(mode, type, selection) {
             if (materialID > 0) {
                 cm.gainItem(materialID, -10);
             }
+            cm.sendOk(`成功兑换 #i${ringInfoList[sel].ID}# #t${ringInfoList[sel].ID}#。`);
             return cm.dispose();
         default:
             return cm.dispose();
@@ -134,13 +135,11 @@ function countCardSet() {
 }
 
 function playerCanHoldRing(targetRingIndex) {
-    const InventoryType = Java.type('org.gms.client.inventory.InventoryType');
-    const inventory = cm.getPlayer().getInventory(InventoryType.EQUIP);
     for (var i = 0; i < ringInfoList.length; i++) {
         if (i == targetRingIndex - 1) {
             continue;
         }
-        if (inventory.countById(ringInfoList[i].ID) > 0) {
+        if (cm.getPlayer().haveItem(ringInfoList[i].ID)) {
             return false;
         }
     }
