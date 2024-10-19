@@ -47,16 +47,6 @@ public class MapScriptManager extends AbstractScriptManager {
     }
 
     public boolean runMapScript(Client c, String mapScriptPath, boolean firstUser) {
-        if (firstUser) {
-            Character chr = c.getPlayer();
-            int mapid = chr.getMapId();
-            if (chr.hasEntered(mapScriptPath, mapid)) {
-                return false;
-            } else {
-                chr.enteredScript(mapScriptPath, mapid);
-            }
-        }
-
         Invocable iv = scripts.get(mapScriptPath);
         if (iv != null) {
             try {

@@ -16,116 +16,132 @@ function start() {
 }
 
 function action(mode, type, selection) {
-    if (mode == -1) {
-        cm.dispose();
-    } else {
-        if (mode == 0 && status == 0) {
-            cm.dispose();
-            return;
-        }
-        if (mode == 1) {
-            status++;
-        } else {
-            status--;
-        }
-
-        if (status == 0) {
-            var ellinStr = ellinMapMessage(mapid);
-
-            if (mapid == 930000000) {
-                cm.sendNext(ellinStr);
-            } else if (mapid == 930000300) {
-                var eim = cm.getEventInstance();
-
-                if (eim.getIntProperty("statusStg4") == 0) {
-                    eim.showClearEffect(cm.getMap().getId());
-                    eim.setIntProperty("statusStg4", 1);
-                }
-
-                cm.sendNext(ellinStr);
-            } else if (mapid == 930000400) {
-                if (cm.haveItem(4001169, 20)) {
-                    if (cm.isEventLeader()) {
-                        cm.sendNext("哦，你带来了它们！我们现在可以继续了，我们要继续吗？");
-                    } else {
-                        cm.sendOk("你已经带来了他们，但你不是队长！请让队长把弹珠给我……");
-                        cm.dispose();
-
-                    }
-                } else {
-                    if (cm.getEventInstance().gridCheck(cm.getPlayer()) != 1) {
-                        cm.sendNext(ellinStr);
-
-                        cm.getEventInstance().gridInsert(cm.getPlayer(), 1);
-                        status = -1;
-                    } else {
-                        var mobs = cm.getMap().countMonsters();
-
-                        if (mobs > 0) {
-                            if (!cm.haveItem(2270004)) {
-                                if (cm.canHold(2270004, 10)) {
-                                    cm.gainItem(2270004, 10);
-                                    cm.sendOk("拿10个#t2270004#。首先，#r削弱#o9300174#的力量，一旦它的生命值降低，使用我给你的物品来捕捉它们。");
-                                    cm.dispose();
-
-                                } else {
-                                    cm.sendOk("在领取净化器之前，请确保你的使用物品栏有足够的空间！");
-                                    cm.dispose();
-
-                                }
-                            } else {
-                                cm.sendYesNo(ellinStr + "\r\n\r\nIt may be you are #rwilling to quit#k? Please double-think it, maybe your partners are still trying this instance.");
-                            }
-                        } else {
-                            cm.sendYesNo("你们已经捕捉到了所有的 #o9300174#。让队长把所有的 #b20 #t4001169##k 给我，然后我们继续。" + "\r\n\r\n也许你是 #rwilling to quit#k？请三思，也许你的队友还在努力尝试这个副本。");
-                        }
-                    }
-                }
-            } else {
-                cm.sendYesNo(ellinStr + "\r\n\r\nIt may be you are #rwilling to quit#k? Please double-think it, maybe your partners are still trying this instance.");
-            }
-        } else if (status == 1) {
-            if (mapid == 930000000) {
-            } else if (mapid == 930000300) {
-                cm.getEventInstance().warpEventTeam(930000400);
-            } else if (mapid == 930000400) {
-                if (cm.haveItem(4001169, 20) && cm.isEventLeader()) {
-                    cm.gainItem(4001169, -20);
-                    cm.getEventInstance().warpEventTeam(930000500);
-                } else {
-                    cm.warp(930000800, 0);
-                }
-            } else {
-                cm.warp(930000800, 0);
-            }
-
-            cm.dispose();
-        }
+    switch (mapid) {
+        case 930000000:
+            return messageWithLeaveOption('好了，现在必须进入怪人所在的森林了。但是在这之前，我要先把你变成阿尔泰营地的成员。', mode, type, selection);
+        case 930000010:
+            return messageWithLeaveOption('请你确认好自己的外貌，不要搞混了！', mode, type, selection);
+        case 930000100:
+            return messageWithLeaveOption('因为苔藓木妖，森林受到了毒素的污染。你去把苔藓木妖全部消灭掉！', mode, type, selection);
+        case 930000200:
+            return messageWithLeaveOption('一棵巨大的荆棘草挡住了前进的道路。我们必须从#b#o9300173##k身上拿到毒素来清除荆棘草。但自然状态下的毒素浓度太高，我们无法处理。可以使用那边的#b水坑#k来稀释它。', mode, type, selection);
+        case 930000300:
+            return onThirdStage(mode, type, selection);
+        case 930000400:
+            return onFourthStage(mode, type, selection);
+        case 930000600:
+            return messageWithLeaveOption('把紫色魔力石放到怪人的祭坛上！', mode, type, selection);
+        case 930000700:
+            return messageWithLeaveOption('你们做到了！非常感谢你们净化了森林！', mode, type, selection);
+        default:
+            return messageWithLeaveOption('', mode, type, selection);
     }
 }
 
-function ellinMapMessage(mapid) {
-    switch (mapid) {
-        case 930000000:
-            return "Welcome to the Forest of Poison Haze. Proceed by entering the portal.";
-
-        case 930000100:
-            return "The #b#o9300172##k have taken the area. We have to eliminate all these contaminated monsters to proceed further.";
-
-        case 930000200:
-            return "A great spine has blocked the way ahead. To remove this barrier we must retrieve the poison the #b#o9300173##k carries to deter the overgrown spine. However, the poison in natural state can't be handled, as it is way too concentrated. Use the #bfountain#k over there to dilute it.";
-
-        case 930000300:
-            return "Oh great, you have reached me. We can now proceed further inside the forest.";
-
-        case 930000400:
-            return "The #b#o9300175##k took over this area. However they are not ordinary monsters, then regrow pretty fast, #rnormal weapon and magic does no harm to it#k at all. We have to purify all these contaminated monsters, using #b#t2270004##k! Let your group leader get me 20 Monster Marbles from them.";
-
-        case 930000600:
-            return "The root of all problems of the forest! Place the obtained Magic Stone on the Altar and prepare yourselves!";
-
-        case 930000700:
-            return "This is it, you guys did it! Thank you so much for purifying the forest!!";
-
+var leaveConfirmStatus = -1;
+function messageWithLeaveOption(tips, mode, type, selection) {
+    if (mode == -1) { // END CHAT
+        return cm.dispose();
     }
+
+    if (type == 0 && mode == 0) {
+        leaveConfirmStatus--;
+    } else {
+        leaveConfirmStatus++;
+    }
+
+    switch (leaveConfirmStatus) {
+        case 0:
+            return cm.sendSimple(tips + '\r\n\r\n#L0##b离开#m930000000#。#k#l');
+        case 1:
+            if (mode == 1 && selection == 0) {
+                return cm.sendYesNo('你的队友可能还在努力尝试，你确定要离开吗？');
+            }
+            return cm.dispose();
+        case 2:
+            if (mode == 1) {
+                return cm.warp(930000800, 0);
+            }
+            return cm.dispose();
+        default:
+            return cm.dispose();
+    }
+}
+
+function onThirdStage(mode, type, selection) {
+    if (mode == -1) { // END CHAT
+        return cm.dispose();
+    }
+
+    if (type == 0 && mode == 0) {
+        status--;
+    } else {
+        status++;
+    }
+
+    if (type == 1 && mode == 0) { // NO
+        return cm.dispose();
+    } else if (mode == 1) { // YES
+        cm.getEventInstance().warpEventTeam(930000400);
+        return cm.dispose();
+    }
+
+    var eim = cm.getEventInstance();
+    if (eim.getIntProperty("statusStg4") == 0) {
+        eim.showClearEffect(cm.getMap().getId());
+        eim.setIntProperty("statusStg4", 1);
+    }
+    cm.sendYesNo('吁……还好你来到了这里。我们继续前进吧？')
+}
+
+function onFourthStage(mode, type, selection) {
+    if (mode == -1) { // END CHAT
+        return cm.dispose();
+    }
+
+    if (type == 0 && mode == 0) {
+        status--;
+    } else {
+        status++;
+    }
+
+    if (cm.haveItem(4001169, 20)) {
+        if (!cm.isEventLeader()) {
+            cm.sendOk('请由队长把20个#t4001169#交给我！');
+            return cm.dispose();
+        }
+
+        if (status == 0) {
+            return cm.sendYesNo('#t4001169#全部搜集到啦！要继续前进吗？');
+        } else if (mode == 1) {
+            cm.gainItem(4001169, -20);
+            cm.getEventInstance().warpEventTeam(930000500);
+        }
+        return cm.dispose();
+    }
+
+    if (cm.getEventInstance().gridCheck(cm.getPlayer()) != 1) {
+        cm.sendNext('#b#o9300175##k占领了这片区域。然而它们不是普通的怪物，它们长得很快，#r普通的武器和魔法对它没有任何伤害#k，必须使用#b#t2270004##k来净化它们！');
+        cm.getEventInstance().gridInsert(cm.getPlayer(), 1);
+        status = -1;
+        return;
+    }
+
+    var mobs = cm.getMap().countMonsters();
+    if (mobs == 0) {
+        return messageWithLeaveOption('请由队长把20个#t4001169#拿给我！', mode, type, selection);
+    }
+
+    if (cm.haveItem(2270004)) {
+        return messageWithLeaveOption('从我这里拿到#p2270004#后，捕捉怪物，然后由队长把20个#t4001169#拿给我！', mode, type, selection);
+    }
+
+    if (!cm.canHold(2270004, 10)) {
+        cm.sendOk("在领取#t2270004#之前，请确保你的背包消耗栏有足够的空间！");
+        cm.dispose();
+    }
+
+    cm.gainItem(2270004, 10);
+    cm.sendOk("这是10个#t2270004#。先削弱#o9300175#的力量，#r一旦它的生命值降低，使用#t2270004#来捕捉它们。");
+    return cm.dispose();
 }
