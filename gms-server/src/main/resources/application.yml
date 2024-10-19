@@ -437,6 +437,10 @@ gms:
     MAX_EQUIPMNT_LVLUP_STAT_UP: 10000   #装备在升级时可以拥有的最大属性升级。
     MAX_EQUIPMNT_STAT: 32767            #装备通过升级可以拥有的最大属性。
     USE_EQUIPMNT_LVLUP: 1               #所有装备在最大等级N时升级，设置为1禁用。
+    EQP_BASIC_STAT_RAND_RANGE: 5        #装备四维初始值变化范围
+    EQP_ATTACK_ACC_AVOID_RAND_RANGE: 5  #装备物理/魔法攻击/命中/回避初始值变化范围
+    EQP_SPEED_JUMP_RAND_RANGE: 5        #装备跳跃/移速初始值变化范围
+    EQP_DEF_HPMP_RAND_RANGE: 10         #装备防御/HP/MP初始值变化范围
 
     #地图椅子配置
     USE_CHAIR_EXTRAHEAL: false       #启用地图椅子进一步恢复玩家的HP和MP（玩家必须拥有椅子精通技能）。
@@ -502,6 +506,9 @@ gms:
     ENABLE_ADVENTURERS: true             #是否允许创建冒险家，true=允许，false=禁止
     ENABLE_KNIGHTS_OF_CYGNUS: false       #是否允许创建骑士团，true=允许，false=禁止
     ENABLE_THE_LORD_OF_WAR: false         #是否允许创建战神，true=允许，false=禁止
+
+    #骑士团配置
+    CYGNUS_MAX_LEVEL: 120
 
     #应搜索js覆盖脚本的任何NPC ID（如果它们已经有wz条目，否则它们会被忽略）。
     NPCS_SCRIPTABLE:
