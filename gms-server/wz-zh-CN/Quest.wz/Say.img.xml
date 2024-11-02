@@ -25787,7 +25787,7 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="1" value="测试很简单。你到现在唯一可以进入的空间#b#m270010100##k去，把#o8200001#们打倒。如果你能打倒#r999名#o8200001##k，我就允许你移动。"/>
+                <string name="1" value="测试很简单。你到现在唯一可以进入的空间#b#m270010100##k去，把#o8200001#们打倒。如果你能打倒#r333名#o8200001##k，我就允许你移动。"/>
                 <string name="0" value="明智的选择。但是我必须先#b测试#k一下你的力量。即使获得了进入神殿的许可，如果你的力量不够的话，一切就都没有意义了。因为#b要在过去的时间中逆行的话，必须要有足够的力量#k。"/>
             </imgdir>
             <imgdir name="no">
@@ -25795,14 +25795,14 @@
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200001#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200001#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，给予你回味第二次记忆的机会。#k"/>
                 <string name="1" value="请你快出发吧。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200001##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200001##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -25814,21 +25814,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270010200##k把#r#o8200002##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270010200##k把#r#o8200002##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200002# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200002# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，给予你回味第三次记忆的机会。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270010300##k了。当然你也应该想到了，继续前进时不可能的。想要继续前进的话...必须接受新的测试。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200002##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200002##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -25839,21 +25839,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270010300##k把#r#o8200003##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270010300##k把#r#o8200003##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200003# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200003# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，给予你回味第四次记忆的机会。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270010400##k了。当然你也应该想到了，继续前进时不可能的。想要继续前进的话...必须接受新的测试。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200003##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200003##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -25864,21 +25864,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270010400##k把#r#o8200004##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270010400##k把#r#o8200004##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200004# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200004# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，给予你回味第五次记忆的机会。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270010500##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200004##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200004##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -25954,21 +25954,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270020100##k把 #r#o8200005##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270020100##k把 #r#o8200005##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="#o8200005# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200005# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，允许你回味第二次后悔。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270020200##k了。当然，继续往前移动是不可能的。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="#r#o8200005# 999？#k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200005##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -25979,21 +25979,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270020200##k把#r#o8200006##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270020200##k把#r#o8200006##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200006# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200006# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，允许你回味第三次后悔。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270020300##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200006##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200006##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26004,21 +26004,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270020300##k把#r#o8200007##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270020300##k把#r#o8200007##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200007# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200007# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270020400##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回味第四次后悔。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200007##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200007##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26029,21 +26029,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270020400##k把#r#o8200008##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270020400##k把#r#o8200008##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200008# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200008# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270020500##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d#d我代表时间女神露娜，允许你回味第五次后悔。#k#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200008##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200008##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26123,21 +26123,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030100##k把#r#o8200009##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030100##k把#r#o8200009##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200009# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200009# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第二次忘却。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030200##k了。当然，继续往前移动是不可能的。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200009##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200009##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26148,21 +26148,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030200##k把#r#o8200010##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030200##k把#r#o8200010##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200010# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200010# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030300##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第三次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200010##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200010##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26173,21 +26173,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030300##k把#r#o8200011##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030300##k把#r#o8200011##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200011# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200011# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030400##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第四次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200011##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200011##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26198,21 +26198,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030400##k把#r#o8200012##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030400##k把#r#o8200012##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200012#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200012#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030500##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第五次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200012##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200012##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26413,21 +26413,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030100##k把#r#o8200009##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030100##k把#r#o8200009##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200009# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200009# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030200##k了。当然，继续往前移动是不可能的。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第二次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200009##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200009##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26438,21 +26438,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030200##k把#r#o8200010##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030200##k把#r#o8200010##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200010# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200010# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030300##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第三次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200010##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200010##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26463,21 +26463,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030300##k把#r#o8200011##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030300##k把#r#o8200011##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200011# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200011# 打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030400##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第四次忘却。#k"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200011##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200011##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -26488,21 +26488,21 @@
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="请你去#b#m270030400##k把#r#o8200012##k打倒。如果你能打倒#r999名#k，我就允许你继续向前移动。"/>
+                <string name="0" value="请你去#b#m270030400##k把#r#o8200012##k打倒。如果你能打倒#r333名#k，我就允许你继续向前移动。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="要是觉得困难的话就没办法了。你已经到极限了。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="这么快就把999名#o8200012#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
+            <string name="0" value="这么快就把333名#o8200012#打倒了。真了不起。现在，我允许你移动到下一个地区。"/>
             <imgdir name="yes">
                 <string name="0" value="#d我代表时间女神露娜，允许你回顾第五次忘却。#k"/>
                 <string name="1" value="好了，你去看看吧。现在应该可以到达#b#m270030500##k了。当然，再往前走是不可能的。想要继续前进的话，请你来接受新的测试。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="mob">
-                    <string name="0" value="你还没把#r999名#o8200012##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
+                    <string name="0" value="你还没把#r333名#o8200012##k打倒吗？看来你还不具备在过去的时间中逆行的力量。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
