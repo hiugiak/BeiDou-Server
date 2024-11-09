@@ -1395,16 +1395,15 @@ public class Monster extends AbstractLoadedLife {
 
                 if (YamlConfig.config.server.USE_ANTI_IMMUNITY_CRASH) {
                     if (skillid == Crusader.ARMOR_CRASH) {
-                        if (!isBuffed(MonsterStatus.WEAPON_REFLECT)) {
+                            debuffMobStat(MonsterStatus.MAGIC_IMMUNITY);
                             debuffMobStat(MonsterStatus.WEAPON_IMMUNITY);
-                        }
-                        if (!isBuffed(MonsterStatus.MAGIC_REFLECT)) {
-                            debuffMobStat(MonsterStatus.MAGIC_IMMUNITY);
-                        }
+                            debuffMobStat(MonsterStatus.MAGIC_REFLECT);
+                            debuffMobStat(MonsterStatus.WEAPON_REFLECT);
                     } else if (skillid == WhiteKnight.MAGIC_CRASH) {
-                        if (!isBuffed(MonsterStatus.MAGIC_REFLECT)) {
                             debuffMobStat(MonsterStatus.MAGIC_IMMUNITY);
-                        }
+                            debuffMobStat(MonsterStatus.WEAPON_IMMUNITY);
+                            debuffMobStat(MonsterStatus.MAGIC_REFLECT);
+                            debuffMobStat(MonsterStatus.WEAPON_REFLECT);
                     } else {
                         if (!isBuffed(MonsterStatus.WEAPON_REFLECT)) {
                             debuffMobStat(MonsterStatus.WEAPON_IMMUNITY);

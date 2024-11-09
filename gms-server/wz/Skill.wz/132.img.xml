@@ -2525,52 +2525,52 @@
                 <imgdir name="21">
                     <string name="hs" value="h21"/>
                     <int name="x" value="51"/>
-                    <int name="damage" value="73"/>
+                    <int name="damage" value="75"/>
                 </imgdir>
                 <imgdir name="22">
                     <string name="hs" value="h22"/>
                     <int name="x" value="52"/>
-                    <int name="damage" value="76"/>
+                    <int name="damage" value="80"/>
                 </imgdir>
                 <imgdir name="23">
                     <string name="hs" value="h23"/>
                     <int name="x" value="53"/>
-                    <int name="damage" value="79"/>
+                    <int name="damage" value="85"/>
                 </imgdir>
                 <imgdir name="24">
                     <string name="hs" value="h24"/>
                     <int name="x" value="54"/>
-                    <int name="damage" value="82"/>
+                    <int name="damage" value="90"/>
                 </imgdir>
                 <imgdir name="25">
                     <string name="hs" value="h25"/>
                     <int name="x" value="55"/>
-                    <int name="damage" value="85"/>
+                    <int name="damage" value="95"/>
                 </imgdir>
                 <imgdir name="26">
                     <string name="hs" value="h26"/>
                     <int name="x" value="56"/>
-                    <int name="damage" value="88"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="27">
                     <string name="hs" value="h27"/>
                     <int name="x" value="57"/>
-                    <int name="damage" value="91"/>
+                    <int name="damage" value="105"/>
                 </imgdir>
                 <imgdir name="28">
                     <string name="hs" value="h28"/>
                     <int name="x" value="58"/>
-                    <int name="damage" value="94"/>
+                    <int name="damage" value="110"/>
                 </imgdir>
                 <imgdir name="29">
                     <string name="hs" value="h29"/>
                     <int name="x" value="59"/>
-                    <int name="damage" value="97"/>
+                    <int name="damage" value="115"/>
                 </imgdir>
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="x" value="60"/>
-                    <int name="damage" value="100"/>
+                    <int name="damage" value="120"/>
                 </imgdir>
             </imgdir>
             <imgdir name="effect">

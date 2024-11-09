@@ -1124,7 +1124,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="120"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="38"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -1565,7 +1565,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="120"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="38"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -2035,7 +2035,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="110"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="27"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -2506,7 +2506,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="110"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="27"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -2948,7 +2948,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="125"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="40"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -3389,7 +3389,7 @@
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="35"/>
-                    <int name="damage" value="125"/>
+                    <int name="damage" value="130"/>
                     <int name="mad" value="40"/>
                     <int name="time" value="200"/>
                     <vector name="lt" x="-55" y="-40"/>
@@ -3487,6 +3487,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="155"/>
                 </imgdir>
                 <imgdir name="2">
                     <string name="hs" value="h2"/>
@@ -3496,6 +3497,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="150"/>
                 </imgdir>
                 <imgdir name="3">
                     <string name="hs" value="h3"/>
@@ -3505,6 +3507,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="145"/>
                 </imgdir>
                 <imgdir name="4">
                     <string name="hs" value="h4"/>
@@ -3514,6 +3517,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="140"/>
                 </imgdir>
                 <imgdir name="5">
                     <string name="hs" value="h5"/>
@@ -3523,6 +3527,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="135"/>
                 </imgdir>
                 <imgdir name="6">
                     <string name="hs" value="h6"/>
@@ -3532,6 +3537,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="130"/>
                 </imgdir>
                 <imgdir name="7">
                     <string name="hs" value="h7"/>
@@ -3541,6 +3547,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="125"/>
                 </imgdir>
                 <imgdir name="8">
                     <string name="hs" value="h8"/>
@@ -3550,6 +3557,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="120"/>
                 </imgdir>
                 <imgdir name="9">
                     <string name="hs" value="h9"/>
@@ -3559,6 +3567,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="115"/>
                 </imgdir>
                 <imgdir name="10">
                     <string name="hs" value="h10"/>
@@ -3568,6 +3577,7 @@
                     <vector name="lt" x="-200" y="-100"/>
                     <vector name="rb" x="200" y="100"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="110"/>
                 </imgdir>
                 <imgdir name="11">
                     <string name="hs" value="h11"/>
@@ -3577,6 +3587,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="105"/>
                 </imgdir>
                 <imgdir name="12">
                     <string name="hs" value="h12"/>
@@ -3586,6 +3597,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="100"/>
                 </imgdir>
                 <imgdir name="13">
                     <string name="hs" value="h13"/>
@@ -3595,6 +3607,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="95"/>
                 </imgdir>
                 <imgdir name="14">
                     <string name="hs" value="h14"/>
@@ -3604,6 +3617,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="90"/>
                 </imgdir>
                 <imgdir name="15">
                     <string name="hs" value="h15"/>
@@ -3613,6 +3627,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="85"/>
                 </imgdir>
                 <imgdir name="16">
                     <string name="hs" value="h16"/>
@@ -3622,6 +3637,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="80"/>
                 </imgdir>
                 <imgdir name="17">
                     <string name="hs" value="h17"/>
@@ -3631,6 +3647,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="75"/>
                 </imgdir>
                 <imgdir name="18">
                     <string name="hs" value="h18"/>
@@ -3640,6 +3657,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="70"/>
                 </imgdir>
                 <imgdir name="19">
                     <string name="hs" value="h19"/>
@@ -3649,6 +3667,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="65"/>
                 </imgdir>
                 <imgdir name="20">
                     <string name="hs" value="h20"/>
@@ -3658,6 +3677,7 @@
                     <vector name="lt" x="-220" y="-120"/>
                     <vector name="rb" x="220" y="120"/>
                     <int name="mobCount" value="6"/>
+                    <int name="cooltime" value="60"/>
                 </imgdir>
             </imgdir>
             <imgdir name="effect">
