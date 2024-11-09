@@ -151,6 +151,7 @@ public class ItemId {
     public static final int CHAOS_SCROll_60 = 2049100;
     public static final int LIAR_TREE_SAP = 2049101;
     public static final int MAPLE_SYRUP = 2049102;
+    public static final int CHAOS_SCROLL_WITH_GOODNESS_60 = 2049122;
     public static final int WHITE_SCROLL = 2340000;
     public static final int CLEAN_SLATE_1 = 2049000;
     public static final int CLEAN_SLATE_3 = 2049001;

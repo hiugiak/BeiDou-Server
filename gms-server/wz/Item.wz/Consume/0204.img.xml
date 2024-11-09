@@ -8655,4 +8655,17 @@
       <int name="cursed" value="50"/>
     </imgdir>
   </imgdir>
+  <imgdir name="02049122">
+    <imgdir name="info">
+      <canvas name="icon" width="30" height="30">
+        <vector name="origin" x="-1" y="29"/>
+      </canvas>
+      <canvas name="iconRaw" width="30" height="26">
+        <vector name="origin" x="-1" y="29"/>
+      </canvas>
+      <int name="price" value="1"/>
+      <int name="randstat" value="1"/>
+      <int name="success" value="60"/>
+    </imgdir>
+  </imgdir>
 </imgdir>
