@@ -152,12 +152,12 @@ function playerDead(eim, player) {
 
     eim.setIntProperty("fallenPlayers", count);
 
-    if (count == 5) {
+    if (count == 10) {
         eim.dropMessage(5, "[Expedition] Too many players have fallen, Pink Bean is now deemed undefeatable; the expedition is over.");
         end(eim);
-    } else if (count == 4) {
+    } else if (count == 9) {
         eim.dropMessage(5, "[Expedition] Pink Bean is growing stronger than ever, last stand mode everyone!");
-    } else if (count == 3) {
+    } else if (count == 8) {
         eim.dropMessage(5, "[Expedition] Casualty count is starting to get out of control. Battle with care.");
     }
 }
