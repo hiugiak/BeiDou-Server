@@ -2750,7 +2750,7 @@
         <imgdir name="2">
             <string name="action" value="alert"/>
             <int name="frame" value="2"/>
-            <int name="delay" value="1320"/>
+            <int name="delay" value="132"/>
         </imgdir>
     </imgdir>
     <imgdir name="blizzard">
@@ -2767,7 +2767,7 @@
         <imgdir name="2">
             <string name="action" value="alert"/>
             <int name="frame" value="2"/>
-            <int name="delay" value="1320"/>
+            <int name="delay" value="132"/>
         </imgdir>
     </imgdir>
     <imgdir name="genesis">
@@ -2784,7 +2784,7 @@
         <imgdir name="2">
             <string name="action" value="alert"/>
             <int name="frame" value="2"/>
-            <int name="delay" value="900"/>
+            <int name="delay" value="1"/>
         </imgdir>
     </imgdir>
     <imgdir name="brandish1">

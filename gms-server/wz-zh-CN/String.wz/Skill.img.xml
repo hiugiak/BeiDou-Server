@@ -3102,27 +3102,27 @@
         <string name="name" value="魔力吸收"/>
     </imgdir>
     <imgdir name="2101001">
-        <string name="desc" value="[最高等级 : 20]\n通过精神交流提高周围所有队员的魔力，\n并且受到敌人的攻击仍不会后退。\n必需技能: #c魔力吸收等级3以上#"/>
-        <string name="h1" value="消耗MP10, 队员的魔力+2, 有21%的几率不会后退(持续10秒)                    "/>
-        <string name="h10" value="消耗MP10, 队员的魔力+20, 有30%的几率不会后退(持续100秒)                    "/>
-        <string name="h11" value="消耗MP20, 队员的魔力+22, 有31%的几率不会后退(持续110秒)                    "/>
-        <string name="h12" value="消耗MP20, 队员的魔力+24, 有32%的几率不会后退(持续120秒)                    "/>
-        <string name="h13" value="消耗MP20, 队员的魔力+26, 有33%的几率不会后退(持续130秒)                    "/>
-        <string name="h14" value="消耗MP20, 队员的魔力+28, 有34%的几率不会后退(持续140秒)                    "/>
-        <string name="h15" value="消耗MP20, 队员的魔力+30, 有35%的几率不会后退(持续150秒)                    "/>
-        <string name="h16" value="消耗MP20, 队员的魔力+32, 有36%的几率不会后退(持续160秒)                    "/>
-        <string name="h17" value="消耗MP20, 队员的魔力+34, 有37%的几率不会后退(持续170秒)                    "/>
-        <string name="h18" value="消耗MP20, 队员的魔力+36, 有38%的几率不会后退(持续180秒)                    "/>
-        <string name="h19" value="消耗MP20, 队员的魔力+38, 有39%的几率不会后退(持续190秒)                    "/>
-        <string name="h2" value="消耗MP10, 队员的魔力+4, 有22%的几率不会后退(持续20秒)                    "/>
-        <string name="h20" value="消耗MP20, 队员的魔力+40, 有40%的几率不会后退(持续200秒)                    "/>
-        <string name="h3" value="消耗MP10, 队员的魔力+6, 有23%的几率不会后退(持续30秒)                    "/>
-        <string name="h4" value="消耗MP10, 队员的魔力+8, 有24%的几率不会后退(持续40秒)                    "/>
-        <string name="h5" value="消耗MP10, 队员的魔力+10, 有25%的几率不会后退(持续50秒)                    "/>
-        <string name="h6" value="消耗MP10, 队员的魔力+12, 有26%的几率不会后退(持续60秒)                    "/>
-        <string name="h7" value="消耗MP10, 队员的魔力+14, 有27%的几率不会后退(持续70秒)                    "/>
-        <string name="h8" value="消耗MP10, 队员的魔力+16, 有28%的几率不会后退(持续80秒)                    "/>
-        <string name="h9" value="消耗MP10, 队员的魔力+18, 有29%的几率不会后退(持续90秒)                    "/>
+        <string name="desc" value="[最高等级 : 20]\n通过精神交流提高周围所有队员的魔力，\n并且使队员受到敌人的攻击时有40%几率不会后退。\n必要技能 : #c魔力吸收等级3以上#"/>
+        <string name="h1" value="消耗MP10, 队员的魔力+1 , 持续10秒                       "/>
+        <string name="h10" value="消耗MP10, 队员的魔力+10 , 持续100秒                       "/>
+        <string name="h11" value="消耗MP10, 队员的魔力+11 , 持续110秒                       "/>
+        <string name="h12" value="消耗MP10, 队员的魔力+12 , 持续120秒                       "/>
+        <string name="h13" value="消耗MP10, 队员的魔力+13 , 持续130秒                       "/>
+        <string name="h14" value="消耗MP10, 队员的魔力+14 , 持续140秒                       "/>
+        <string name="h15" value="消耗MP10, 队员的魔力+15 , 持续150秒                       "/>
+        <string name="h16" value="消耗MP10, 队员的魔力+16 , 持续160秒                       "/>
+        <string name="h17" value="消耗MP10, 队员的魔力+17 , 持续170秒                       "/>
+        <string name="h18" value="消耗MP10, 队员的魔力+18 , 持续180秒                       "/>
+        <string name="h19" value="消耗MP10, 队员的魔力+19 , 持续190秒                       "/>
+        <string name="h2" value="消耗MP10, 队员的魔力+2 , 持续20秒                       "/>
+        <string name="h20" value="消耗MP10, 队员的魔力+20 , 持续200秒                       "/>
+        <string name="h3" value="消耗MP10, 队员的魔力+3 , 持续30秒                       "/>
+        <string name="h4" value="消耗MP10, 队员的魔力+4 , 持续40秒                       "/>
+        <string name="h5" value="消耗MP10, 队员的魔力+5 , 持续50秒                       "/>
+        <string name="h6" value="消耗MP10, 队员的魔力+6 , 持续60秒                       "/>
+        <string name="h7" value="消耗MP10, 队员的魔力+7 , 持续70秒                       "/>
+        <string name="h8" value="消耗MP10, 队员的魔力+8 , 持续80秒                       "/>
+        <string name="h9" value="消耗MP10, 队员的魔力+9 , 持续90秒                       "/>
         <string name="name" value="精神力"/>
     </imgdir>
     <imgdir name="2101002">
@@ -3266,38 +3266,38 @@
         <string name="name" value="火毒抗性"/>
     </imgdir>
     <imgdir name="2110001">
-        <string name="desc" value="[最高等级:30]\n消耗更多MP,提高自己的魔法攻击力"/>
-        <string name="h1" value="消耗MP增加105%, 魔法攻击造成伤害102%                    "/>
-        <string name="h10" value="消耗MP增加150%, 魔法攻击造成伤害120%                    "/>
-        <string name="h11" value="消耗MP增加160%, 魔法攻击造成伤害122%                    "/>
-        <string name="h12" value="消耗MP增加155%, 魔法攻击造成伤害124%                    "/>
-        <string name="h13" value="消耗MP增加165%, 魔法攻击造成伤害126%                    "/>
-        <string name="h14" value="消耗MP增加160%, 魔法攻击造成伤害128%                    "/>
-        <string name="h15" value="消耗MP增加170%, 魔法攻击造成伤害130%                    "/>
-        <string name="h16" value="消耗MP增加165%, 魔法攻击造成伤害132%                    "/>
-        <string name="h17" value="消耗MP增加175%, 魔法攻击造成伤害134%                    "/>
-        <string name="h18" value="消耗MP增加170%, 魔法攻击造成伤害136%                    "/>
-        <string name="h19" value="消耗MP增加180%, 魔法攻击造成伤害138%                    "/>
-        <string name="h2" value="消耗MP增加110%, 魔法攻击造成伤害104%                    "/>
-        <string name="h20" value="消耗MP增加175%, 魔法攻击造成伤害140%                    "/>
-        <string name="h21" value="消耗MP增加185%, 魔法攻击造成伤害142%                    "/>
-        <string name="h22" value="消耗MP增加180%, 魔法攻击造成伤害144%                    "/>
-        <string name="h23" value="消耗MP增加190%, 魔法攻击造成伤害146%                    "/>
-        <string name="h24" value="消耗MP增加185%, 魔法攻击造成伤害148%                    "/>
-        <string name="h25" value="消耗MP增加195%, 魔法攻击造成伤害150%                    "/>
-        <string name="h26" value="消耗MP增加190%, 魔法攻击造成伤害152%                    "/>
-        <string name="h27" value="消耗MP增加205%, 魔法攻击造成伤害154%                    "/>
-        <string name="h28" value="消耗MP增加200%, 魔法攻击造成伤害156%                    "/>
-        <string name="h29" value="消耗MP增加195%, 魔法攻击造成伤害158%                    "/>
-        <string name="h3" value="消耗MP增加115%, 魔法攻击造成伤害106%                    "/>
-        <string name="h30" value="消耗MP增加200%, 魔法攻击造成伤害160%                    "/>
-        <string name="h4" value="消耗MP增加120%, 魔法攻击造成伤害108%                    "/>
-        <string name="h5" value="消耗MP增加125%, 魔法攻击造成伤害110%                    "/>
-        <string name="h6" value="消耗MP增加130%, 魔法攻击造成伤害112%                    "/>
-        <string name="h7" value="消耗MP增加135%, 魔法攻击造成伤害114%                    "/>
-        <string name="h8" value="消耗MP增加140%, 魔法攻击造成伤害116%                    "/>
-        <string name="h9" value="消耗MP增加145%, 魔法攻击造成伤害118%                    "/>
+        <string name="desc" value="[最高等级:30]\n消耗更多的MP,提高自己的魔法攻击力"/>
         <string name="name" value="魔力激化"/>
+        <string name="h1" value="消耗MP增加105%, 魔法攻击造成伤害107%                    "/>
+        <string name="h10" value="消耗MP增加150%, 魔法攻击造成伤害119%                    "/>
+        <string name="h11" value="消耗MP增加160%, 魔法攻击造成伤害121%                    "/>
+        <string name="h12" value="消耗MP增加155%, 魔法攻击造成伤害121%                    "/>
+        <string name="h13" value="消耗MP增加165%, 魔法攻击造成伤害123%                    "/>
+        <string name="h14" value="消耗MP增加160%, 魔法攻击造成伤害123%                    "/>
+        <string name="h15" value="消耗MP增加170%, 魔法攻击造成伤害125%                    "/>
+        <string name="h16" value="消耗MP增加165%, 魔法攻击造成伤害125%                    "/>
+        <string name="h17" value="消耗MP增加175%, 魔法攻击造成伤害127%                    "/>
+        <string name="h18" value="消耗MP增加170%, 魔法攻击造成伤害127%                    "/>
+        <string name="h19" value="消耗MP增加180%, 魔法攻击造成伤害129%                    "/>
+        <string name="h2" value="消耗MP增加110%, 魔法攻击造成伤害109%                    "/>
+        <string name="h20" value="消耗MP增加175%, 魔法攻击造成伤害129%                    "/>
+        <string name="h21" value="消耗MP增加185%, 魔法攻击造成伤害131%                    "/>
+        <string name="h22" value="消耗MP增加180%, 魔法攻击造成伤害131%                    "/>
+        <string name="h23" value="消耗MP增加190%, 魔法攻击造成伤害133%                    "/>
+        <string name="h24" value="消耗MP增加185%, 魔法攻击造成伤害133%                    "/>
+        <string name="h25" value="消耗MP增加195%, 魔法攻击造成伤害135%                    "/>
+        <string name="h26" value="消耗MP增加190%, 魔法攻击造成伤害135%                    "/>
+        <string name="h27" value="消耗MP增加205%, 魔法攻击造成伤害137%                    "/>
+        <string name="h28" value="消耗MP增加200%, 魔法攻击造成伤害137%                    "/>
+        <string name="h29" value="消耗MP增加195%, 魔法攻击造成伤害137%                    "/>
+        <string name="h3" value="消耗MP增加115%, 魔法攻击造成伤害111%                    "/>
+        <string name="h30" value="消耗MP增加200%, 魔法攻击造成伤害140%                    "/>
+        <string name="h4" value="消耗MP增加120%, 魔法攻击造成伤害113%                    "/>
+        <string name="h5" value="消耗MP增加125%, 魔法攻击造成伤害114%                    "/>
+        <string name="h6" value="消耗MP增加130%, 魔法攻击造成伤害115%                    "/>
+        <string name="h7" value="消耗MP增加135%, 魔法攻击造成伤害116%                    "/>
+        <string name="h8" value="消耗MP增加140%, 魔法攻击造成伤害117%                    "/>
+        <string name="h9" value="消耗MP增加145%, 魔法攻击造成伤害118%                    "/>
     </imgdir>
     <imgdir name="2111002">
         <string name="desc" value="[最高等级:30]\n在自己周边引发大爆炸，范围内的怪物\n都遭受火属性攻击，最多攻击8个怪物。"/>
@@ -3553,40 +3553,40 @@
     </imgdir>
     <imgdir name="2121003">
         <string name="desc" value="火凤球用火柱环绕怪物,给予持续伤害。\n被火凤球抓住的人冰系抗性降低。"/>
-        <string name="h1" value="消耗MP 15 , 基本攻击力 186, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h10" value="消耗MP 18 , 基本攻击力 240, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h11" value="消耗MP 18 , 基本攻击力 246, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h12" value="消耗MP 18 , 基本攻击力 252, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h13" value="消耗MP 21 , 基本攻击力 258, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h14" value="消耗MP 21 , 基本攻击力 264, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h15" value="消耗MP 21 , 基本攻击力 270, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h16" value="消耗MP 21 , 基本攻击力 276, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h17" value="消耗MP 21 , 基本攻击力 282, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h18" value="消耗MP 21 , 基本攻击力 288, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h19" value="消耗MP 31 , 基本攻击力 294, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h2" value="消耗MP 15 , 基本攻击力 192, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h20" value="消耗MP 31 , 基本攻击力 300, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h21" value="消耗MP 31 , 基本攻击力 306, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h22" value="消耗MP 31 , 基本攻击力 312, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h23" value="消耗MP 31 , 基本攻击力 318, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h24" value="消耗MP 31 , 基本攻击力 324, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h25" value="消耗MP 34 , 基本攻击力 330, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h26" value="消耗MP 34 , 基本攻击力 336, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h27" value="消耗MP 34 , 基本攻击力 342, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h28" value="消耗MP 34 , 基本攻击力 348, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h29" value="消耗MP 34 , 基本攻击力 354, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h3" value="消耗MP 15 , 基本攻击力 198, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h30" value="消耗MP 34 , 基本攻击力 360, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h4" value="消耗MP 15 , 基本攻击力 204, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h5" value="消耗MP 15 , 基本攻击力 210, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h6" value="消耗MP 15 , 基本攻击力 216, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h7" value="消耗MP 18 , 基本攻击力 222, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h8" value="消耗MP 18 , 基本攻击力 228, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h9" value="消耗MP 18 , 基本攻击力 234, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
+        <string name="h1" value="消耗MP15 , 基本攻击力186 , 熟练度15% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h10" value="消耗MP18 , 基本攻击力240 , 熟练度30% , 持续时间10秒 , 3名攻击                    "/>
+        <string name="h11" value="消耗MP18 , 基本攻击力246 , 熟练度30% , 持续时间10秒 , 3名攻击                    "/>
+        <string name="h12" value="消耗MP18 , 基本攻击力252 , 熟练度30% , 持续时间10秒 , 3名攻击                    "/>
+        <string name="h13" value="消耗MP21 , 基本攻击力258 , 熟练度35% , 持续时间10秒 , 4名攻击                    "/>
+        <string name="h14" value="消耗MP21 , 基本攻击力264 , 熟练度35% , 持续时间10秒 , 4名攻击                    "/>
+        <string name="h15" value="消耗MP21 , 基本攻击力270 , 熟练度35% , 持续时间10秒 , 4名攻击                    "/>
+        <string name="h16" value="消耗MP21 , 基本攻击力276 , 熟练度40% , 持续时间15秒 , 4名攻击                    "/>
+        <string name="h17" value="消耗MP21 , 基本攻击力282 , 熟练度40% , 持续时间15秒 , 4名攻击                    "/>
+        <string name="h18" value="消耗MP21 , 基本攻击力288 , 熟练度40% , 持续时间15秒 , 4名攻击                    "/>
+        <string name="h19" value="消耗MP31 , 基本攻击力294 , 熟练度45% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h2" value="消耗MP15 , 基本攻击力192 , 熟练度15% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h20" value="消耗MP31 , 基本攻击力300 , 熟练度45% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h21" value="消耗MP31 , 基本攻击力306 , 熟练度45% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h22" value="消耗MP31 , 基本攻击力312 , 熟练度50% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h23" value="消耗MP31 , 基本攻击力318 , 熟练度50% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h24" value="消耗MP31 , 基本攻击力324 , 熟练度50% , 持续时间15秒 , 5名攻击                    "/>
+        <string name="h25" value="消耗MP34 , 基本攻击力330 , 熟练度55% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h26" value="消耗MP34 , 基本攻击力336 , 熟练度55% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h27" value="消耗MP34 , 基本攻击力342 , 熟练度55% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h28" value="消耗MP34 , 基本攻击力348 , 熟练度60% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h29" value="消耗MP34 , 基本攻击力354 , 熟练度60% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h3" value="消耗MP15 , 基本攻击力198 , 熟练度15% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h30" value="消耗MP34 , 基本攻击力360 , 熟练度60% , 持续时间15秒 , 6名攻击                    "/>
+        <string name="h4" value="消耗MP15 , 基本攻击力204 , 熟练度30% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h5" value="消耗MP15 , 基本攻击力210 , 熟练度20% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h6" value="消耗MP15 , 基本攻击力216 , 熟练度20% , 持续时间10秒 , 2名攻击                    "/>
+        <string name="h7" value="消耗MP18 , 基本攻击力222 , 熟练度25% , 持续时间10秒 , 3名攻击                    "/>
+        <string name="h8" value="消耗MP18 , 基本攻击力228 , 熟练度25% , 持续时间10秒 , 3名攻击                    "/>
+        <string name="h9" value="消耗MP18 , 基本攻击力 234 , 熟练度25% , 持续时间10秒 , 3名攻击                    "/>
         <string name="name" value="火凤球"/>
     </imgdir>
     <imgdir name="2121004">
-        <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值. \n#c冷却时间 : 3分#"/>
+        <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="11秒 内不消耗MP                    "/>
         <string name="h10" value="20秒 内不消耗MP                    "/>
         <string name="h11" value="21秒 内不消耗MP                    "/>
@@ -3622,103 +3622,103 @@
     <imgdir name="2121005">
         <string name="desc" value="一定时间内召唤冰属性的冰破魔兽. \n最多攻击6只敌人.\n必要技能 : #c火凤球等级5以上#"/>
         <string name="name" value="冰破魔兽"/>
-        <string name="h1" value="消耗MP 13 , 基本 攻击力 260, 持续时间 55秒                    "/>
-        <string name="h10" value="消耗MP 40 , 基本 攻击力 350, 持续时间 100秒                    "/>
-        <string name="h11" value="消耗MP 43 , 基本 攻击力 360, 持续时间 105秒                    "/>
-        <string name="h12" value="消耗MP 46 , 基本 攻击力 370, 持续时间 110秒                    "/>
-        <string name="h13" value="消耗MP 49 , 基本 攻击力 380, 持续时间 115秒                    "/>
-        <string name="h14" value="消耗MP 52 , 基本 攻击力 390, 持续时间 120秒                    "/>
-        <string name="h15" value="消耗MP 55 , 基本 攻击力 400, 持续时间 125秒                    "/>
-        <string name="h16" value="消耗MP 58 , 基本 攻击力 410, 持续时间 130秒                    "/>
-        <string name="h17" value="消耗MP 61 , 基本 攻击力 420, 持续时间 135秒                    "/>
-        <string name="h18" value="消耗MP 64 , 基本 攻击力 430, 持续时间 140秒                    "/>
-        <string name="h19" value="消耗MP 67 , 基本 攻击力 440, 持续时间 145秒                    "/>
-        <string name="h2" value="消耗MP 16 , 基本 攻击力 270, 持续时间 60秒                    "/>
-        <string name="h20" value="消耗MP 70 , 基本 攻击力 450, 持续时间 150秒                    "/>
-        <string name="h21" value="消耗MP 73 , 基本 攻击力 460, 持续时间 155秒                    "/>
-        <string name="h22" value="消耗MP 76 , 基本 攻击力 470, 持续时间 160秒                    "/>
-        <string name="h23" value="消耗MP 79 , 基本 攻击力 480, 持续时间 165秒                    "/>
-        <string name="h24" value="消耗MP 82 , 基本 攻击力 490, 持续时间 170秒                    "/>
-        <string name="h25" value="消耗MP 85 , 基本 攻击力 500, 持续时间 175秒                    "/>
-        <string name="h26" value="消耗MP 88 , 基本 攻击力 510, 持续时间 180秒                    "/>
-        <string name="h27" value="消耗MP 91 , 基本 攻击力 520, 持续时间 185秒                    "/>
-        <string name="h28" value="消耗MP 94 , 基本 攻击力 530, 持续时间 190秒                    "/>
-        <string name="h29" value="消耗MP 97 , 基本 攻击力 540, 持续时间 195秒                    "/>
-        <string name="h3" value="消耗MP 19 , 基本 攻击力 280, 持续时间 65秒                    "/>
-        <string name="h30" value="消耗MP 100 , 基本 攻击力 550, 持续时间 200秒                    "/>
-        <string name="h4" value="消耗MP 22 , 基本 攻击力 290, 持续时间 70秒                    "/>
-        <string name="h5" value="消耗MP 25 , 基本 攻击力 300, 持续时间 75秒                    "/>
-        <string name="h6" value="消耗MP 28 , 基本 攻击力 310, 持续时间 80秒                    "/>
-        <string name="h7" value="消耗MP 31 , 基本 攻击力 320, 持续时间 85秒                    "/>
-        <string name="h8" value="消耗MP 34 , 基本 攻击力 330, 持续时间 90秒                    "/>
-        <string name="h9" value="消耗MP 37 , 基本 攻击力 340, 持续时间 95秒                    "/>
+        <string name="h1" value="消耗MP 13 , 基本 攻击力 459, 持续时间 15秒                    "/>
+        <string name="h10" value="消耗MP 40 , 基本 攻击力 540, 持续时间 60秒                    "/>
+        <string name="h11" value="消耗MP 43 , 基本 攻击力 552, 持续时间 65秒                    "/>
+        <string name="h12" value="消耗MP 46 , 基本 攻击力 564, 持续时间 70秒                    "/>
+        <string name="h13" value="消耗MP 49 , 基本 攻击力 576, 持续时间 75秒                    "/>
+        <string name="h14" value="消耗MP 52 , 基本 攻击力 588, 持续时间 80秒                    "/>
+        <string name="h15" value="消耗MP 55 , 基本 攻击力 600, 持续时间 85秒                    "/>
+        <string name="h16" value="消耗MP 58 , 基本 攻击力 612, 持续时间 90秒                    "/>
+        <string name="h17" value="消耗MP 61 , 基本 攻击力 624, 持续时间 95秒                    "/>
+        <string name="h18" value="消耗MP 64 , 基本 攻击力 636, 持续时间 100秒                    "/>
+        <string name="h19" value="消耗MP 67 , 基本 攻击力 648, 持续时间 105秒                    "/>
+        <string name="h2" value="消耗MP 16 , 基本 攻击力 468, 持续时间 20秒                    "/>
+        <string name="h20" value="消耗MP 70 , 基本 攻击力 660, 持续时间 110秒                    "/>
+        <string name="h21" value="消耗MP 73 , 基本 攻击力 675, 持续时间 115秒                    "/>
+        <string name="h22" value="消耗MP 76 , 基本 攻击力 690, 持续时间 120秒                    "/>
+        <string name="h23" value="消耗MP 79 , 基本 攻击力 705, 持续时间 125秒                    "/>
+        <string name="h24" value="消耗MP 82 , 基本 攻击力 720, 持续时间 130秒                    "/>
+        <string name="h25" value="消耗MP 85 , 基本 攻击力 735, 持续时间 135秒                    "/>
+        <string name="h26" value="消耗MP 88 , 基本 攻击力 750, 持续时间 140秒                    "/>
+        <string name="h27" value="消耗MP 91 , 基本 攻击力 765, 持续时间 145秒                    "/>
+        <string name="h28" value="消耗MP 94 , 基本 攻击力 780, 持续时间 150秒                    "/>
+        <string name="h29" value="消耗MP 97 , 基本 攻击力 795, 持续时间 155秒                    "/>
+        <string name="h3" value="消耗MP 19 , 基本 攻击力 477, 持续时间 25秒                    "/>
+        <string name="h30" value="消耗MP 100 , 基本 攻击力 810, 持续时间 160秒                    "/>
+        <string name="h4" value="消耗MP 22 , 基本 攻击力 486, 持续时间 30秒                    "/>
+        <string name="h5" value="消耗MP 25 , 基本 攻击力 495, 持续时间 35秒                    "/>
+        <string name="h6" value="消耗MP 28 , 基本 攻击力 504, 持续时间 40秒                    "/>
+        <string name="h7" value="消耗MP 31 , 基本 攻击力 513, 持续时间 45秒                    "/>
+        <string name="h8" value="消耗MP 34 , 基本 攻击力 522, 持续时间 50秒                    "/>
+        <string name="h9" value="消耗MP 37 , 基本 攻击力 531, 持续时间 55秒                    "/>
     </imgdir>
     <imgdir name="2121006">
-        <string name="desc" value="攻击一个敌人2次,并一定时间内使之麻痹."/>
-        <string name="h1" value="消耗MP 16 , 基本 攻击力 164, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h10" value="消耗MP 16 , 基本 攻击力 200, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h11" value="消耗MP 24 , 基本 攻击力 204, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h12" value="消耗MP 24 , 基本 攻击力 208, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h13" value="消耗MP 24 , 基本 攻击力 212, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h14" value="消耗MP 24 , 基本 攻击力 216, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h15" value="消耗MP 24 , 基本 攻击力 220, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h16" value="消耗MP 24 , 基本 攻击力 224, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h17" value="消耗MP 24 , 基本 攻击力 228, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h18" value="消耗MP 24 , 基本 攻击力 232, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h19" value="消耗MP 24 , 基本 攻击力 236, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h2" value="消耗MP 16 , 基本 攻击力 168, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h20" value="消耗MP 24 , 基本 攻击力 240, 熟练度 60%, 持续时间 10秒                    "/>
-        <string name="h21" value="消耗MP 30 , 基本 攻击力 244, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h22" value="消耗MP 30 , 基本 攻击力 248, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h23" value="消耗MP 30 , 基本 攻击力 252, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h24" value="消耗MP 30 , 基本 攻击力 256, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h25" value="消耗MP 30 , 基本 攻击力 260, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h26" value="消耗MP 29 , 基本 攻击力 264, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h27" value="消耗MP 28 , 基本 攻击力 268, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h28" value="消耗MP 27 , 基本 攻击力 272, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h29" value="消耗MP 26 , 基本 攻击力 276, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h3" value="消耗MP 16 , 基本 攻击力 172, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h30" value="消耗MP 25 , 基本 攻击力 280, 熟练度 60%, 持续时间 15秒                    "/>
-        <string name="h4" value="消耗MP 16 , 基本 攻击力 176, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h5" value="消耗MP 16 , 基本 攻击力 180, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h6" value="消耗MP 16 , 基本 攻击力 184, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h7" value="消耗MP 16 , 基本 攻击力 188, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h8" value="消耗MP 16 , 基本 攻击力 192, 熟练度 60%, 持续时间 5秒                    "/>
-        <string name="h9" value="消耗MP 16 , 基本 攻击力 196, 熟练度 60%, 持续时间 5秒                    "/>
+        <string name="desc" value="给一个敌人伤害后 , 一定时间内使之麻痹 ."/>
+        <string name="h1" value="消耗MP16 , 基本 攻击力399 , 熟练度15% , 持续时间5秒                    "/>
+        <string name="h10" value="消耗MP16 , 基本 攻击力480 , 熟练度30% , 持续时间5秒                    "/>
+        <string name="h11" value="消耗MP24 , 基本 攻击力489 , 熟练度30% , 持续时间10秒                    "/>
+        <string name="h12" value="消耗MP24 , 基本 攻击力498 , 熟练度30% , 持续时间10秒                    "/>
+        <string name="h13" value="消耗MP24 , 基本 攻击力507 , 熟练度35% , 持续时间10秒                    "/>
+        <string name="h14" value="消耗MP24 , 基本 攻击力516 , 熟练度35% , 持续时间10秒                    "/>
+        <string name="h15" value="消耗MP24 , 基本 攻击力525 , 熟练度35% , 持续时间10秒                    "/>
+        <string name="h16" value="消耗MP24 , 基本 攻击力534 , 熟练度40% , 持续时间10秒                    "/>
+        <string name="h17" value="消耗MP24 , 基本 攻击力543 , 熟练度40% , 持续时间10秒                    "/>
+        <string name="h18" value="消耗MP24 , 基本 攻击力552 , 熟练度40% , 持续时间10秒                    "/>
+        <string name="h19" value="消耗MP24 , 基本 攻击力561 , 熟练度45% , 持续时间10秒                    "/>
+        <string name="h2" value="消耗MP16 , 基本 攻击力408 , 熟练度15% , 持续时间5秒                    "/>
+        <string name="h20" value="消耗MP24 , 基本 攻击力570 , 熟练度45% , 持续时间10秒                    "/>
+        <string name="h21" value="消耗MP30 , 基本 攻击力576 , 熟练度45% , 持续时间15秒                    "/>
+        <string name="h22" value="消耗MP30 , 基本 攻击力582 , 熟练度50% , 持续时间15秒                    "/>
+        <string name="h23" value="消耗MP30 , 基本 攻击力598 , 熟练度50% , 持续时间15秒                    "/>
+        <string name="h24" value="消耗MP30 , 基本 攻击力594 , 熟练度50% , 持续时间15秒                    "/>
+        <string name="h25" value="消耗MP30 , 基本 攻击力600 , 熟练度55% , 持续时间15秒                    "/>
+        <string name="h26" value="消耗MP29 , 基本 攻击力606 , 熟练度55% , 持续时间15秒                    "/>
+        <string name="h27" value="消耗MP28 , 基本 攻击力612 , 熟练度55% , 持续时间15秒                    "/>
+        <string name="h28" value="消耗MP27 , 基本 攻击力618 , 熟练度60% , 持续时间15秒                    "/>
+        <string name="h29" value="消耗MP26 , 基本 攻击力624 , 熟练度60% , 持续时间15秒                    "/>
+        <string name="h3" value="消耗MP16 , 基本 攻击力417 , 熟练度15% , 持续时间5秒                    "/>
+        <string name="h30" value="消耗MP25 , 基本 攻击力630 , 熟练度60% , 持续时间15秒                    "/>
+        <string name="h4" value="消耗MP16 , 基本 攻击力426 , 熟练度20% , 持续时间5秒                    "/>
+        <string name="h5" value="消耗MP16 , 基本 攻击力435 , 熟练度20% , 持续时间5秒                    "/>
+        <string name="h6" value="消耗MP16 , 基本 攻击力444 , 熟练度20% , 持续时间5秒                    "/>
+        <string name="h7" value="消耗MP16 , 基本 攻击力453 , 熟练度25% , 持续时间5秒                    "/>
+        <string name="h8" value="消耗MP16 , 基本 攻击力462 , 熟练度25% , 持续时间5秒                    "/>
+        <string name="h9" value="消耗MP16 , 基本 攻击力471 , 熟练度25% , 持续时间5秒                    "/>
         <string name="name" value="连环爆破"/>
     </imgdir>
     <imgdir name="2121007">
-        <string name="desc" value="从天空召唤陨石,\n向15只以下的怪物给予强烈的火焰伤害.\n#c冷却时间: 10秒#"/>
-        <string name="h1" value="消耗MP 1450 , 基本 攻击力 175 , 攻击2次.                   "/>
-        <string name="h10" value="消耗MP 1900 , 基本 攻击力 220 , 攻击2次.                   "/>
-        <string name="h11" value="消耗MP 1950 , 基本 攻击力 225 , 攻击2次.                   "/>
-        <string name="h12" value="消耗MP 2000 , 基本 攻击力 230 , 攻击2次.                   "/>
-        <string name="h13" value="消耗MP 2050 , 基本 攻击力 235 , 攻击2次.                   "/>
-        <string name="h14" value="消耗MP 2100 , 基本 攻击力 240 , 攻击2次.                   "/>
-        <string name="h15" value="消耗MP 2150 , 基本 攻击力 245 , 攻击2次.                   "/>
-        <string name="h16" value="消耗MP 2200 , 基本 攻击力 250 , 攻击2次.                   "/>
-        <string name="h17" value="消耗MP 2250 , 基本 攻击力 255 , 攻击2次.                   "/>
-        <string name="h18" value="消耗MP 2300 , 基本 攻击力 260 , 攻击2次.                   "/>
-        <string name="h19" value="消耗MP 2350 , 基本 攻击力 265 , 攻击2次.                   "/>
-        <string name="h2" value="消耗MP 1500 , 基本 攻击力 180 , 攻击2次.                   "/>
-        <string name="h20" value="消耗MP 2400 , 基本 攻击力 270 , 攻击2次.                   "/>
-        <string name="h21" value="消耗MP 2450 , 基本 攻击力 275 , 攻击2次.                   "/>
-        <string name="h22" value="消耗MP 2500 , 基本 攻击力 280 , 攻击2次.                   "/>
-        <string name="h23" value="消耗MP 2550 , 基本 攻击力 285 , 攻击2次.                   "/>
-        <string name="h24" value="消耗MP 2600 , 基本 攻击力 290 , 攻击2次.                   "/>
-        <string name="h25" value="消耗MP 2650 , 基本 攻击力 295 , 攻击2次.                   "/>
-        <string name="h26" value="消耗MP 2600 , 基本 攻击力 300 , 攻击2次.                   "/>
-        <string name="h27" value="消耗MP 2550 , 基本 攻击力 305 , 攻击2次.                   "/>
-        <string name="h28" value="消耗MP 2500 , 基本 攻击力 310 , 攻击2次.                   "/>
-        <string name="h29" value="消耗MP 2450 , 基本 攻击力 315 , 攻击2次.                   "/>
-        <string name="h3" value="消耗MP 1550 , 基本 攻击力 185 , 攻击2次.                   "/>
-        <string name="h30" value="消耗MP 2400 , 基本 攻击力 320 , 攻击2次.                   "/>
-        <string name="h4" value="消耗MP 1600 , 基本 攻击力 190 , 攻击2次.                   "/>
-        <string name="h5" value="消耗MP 1650 , 基本 攻击力 195 , 攻击2次.                   "/>
-        <string name="h6" value="消耗MP 1700 , 基本 攻击力 200 , 攻击2次.                   "/>
-        <string name="h7" value="消耗MP 1750 , 基本 攻击力 205 , 攻击2次.                   "/>
-        <string name="h8" value="消耗MP 1800 , 基本 攻击力 210 , 攻击2次.                   "/>
-        <string name="h9" value="消耗MP 1850 , 基本 攻击力 215 , 攻击2次.                   "/>
+        <string name="desc" value="从天空召唤陨石,\n向15只以下的怪物给予强烈的火焰伤害."/>
+        <string name="h1" value="消耗MP 2100 , 基本攻击力 330                    "/>
+        <string name="h10" value="消耗MP 3000 , 基本攻击力 420                    "/>
+        <string name="h11" value="消耗MP 3100 , 基本攻击力 430                    "/>
+        <string name="h12" value="消耗MP 3200 , 基本攻击力 440                    "/>
+        <string name="h13" value="消耗MP 3300 , 基本攻击力 450                    "/>
+        <string name="h14" value="消耗MP 3400 , 基本攻击力 460                    "/>
+        <string name="h15" value="消耗MP 3500 , 基本攻击力 470                    "/>
+        <string name="h16" value="消耗MP 3600 , 基本攻击力 480                    "/>
+        <string name="h17" value="消耗MP 3700 , 基本攻击力 490                    "/>
+        <string name="h18" value="消耗MP 3800 , 基本攻击力 500                    "/>
+        <string name="h19" value="消耗MP 3900 , 基本攻击力 510                    "/>
+        <string name="h2" value="消耗MP 2200 , 基本攻击力 340                    "/>
+        <string name="h20" value="消耗MP 4000 , 基本攻击力 520                    "/>
+        <string name="h21" value="消耗MP 3950 , 基本攻击力 525                    "/>
+        <string name="h22" value="消耗MP 3900 , 基本攻击力 530                    "/>
+        <string name="h23" value="消耗MP 3850 , 基本攻击力 535                    "/>
+        <string name="h24" value="消耗MP 3800 , 基本攻击力 540                    "/>
+        <string name="h25" value="消耗MP 3750 , 基本攻击力 545                    "/>
+        <string name="h26" value="消耗MP 3700 , 基本攻击力 550                    "/>
+        <string name="h27" value="消耗MP 3650 , 基本攻击力 555                    "/>
+        <string name="h28" value="消耗MP 3600 , 基本攻击力 560                    "/>
+        <string name="h29" value="消耗MP 3550 , 基本攻击力 565                    "/>
+        <string name="h3" value="消耗MP 2300 , 基本攻击力 350                    "/>
+        <string name="h30" value="消耗MP 3500 , 基本攻击力 570                    "/>
+        <string name="h4" value="消耗MP 2400 , 基本攻击力 360                    "/>
+        <string name="h5" value="消耗MP 2500 , 基本攻击力 380                    "/>
+        <string name="h6" value="消耗MP 2600 , 基本攻击力 380                    "/>
+        <string name="h7" value="消耗MP 2700 , 基本攻击力 390                    "/>
+        <string name="h8" value="消耗MP 2800 , 基本攻击力 400                    "/>
+        <string name="h9" value="消耗MP 2900 , 基本攻击力 410                    "/>
         <string name="name" value="天降落星"/>
     </imgdir>
     <imgdir name="2121008">
@@ -3755,28 +3755,28 @@
         <string name="name" value="魔力吸收"/>
     </imgdir>
     <imgdir name="2201001">
-        <string name="desc" value="[最高等级 : 20]\n通过精神交流提高周围所有队员的魔力，\n并且受到敌人的攻击仍不会后退。\n必要技能 : #c魔力吸收等级3以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n通过精神交流提高周围所有队员的魔力，\n并且使队员受到敌人的攻击时有40%几率不会后退。\n必要技能 : #c魔力吸收等级3以上#"/>
         <string name="name" value="精神力"/>
-        <string name="h1" value="消耗MP10, 队员的魔力+2, 有21%的几率不会后退(持续10秒)                    "/>
-        <string name="h10" value="消耗MP10, 队员的魔力+20, 有30%的几率不会后退(持续100秒)                    "/>
-        <string name="h11" value="消耗MP20, 队员的魔力+22, 有31%的几率不会后退(持续110秒)                    "/>
-        <string name="h12" value="消耗MP20, 队员的魔力+24, 有32%的几率不会后退(持续120秒)                    "/>
-        <string name="h13" value="消耗MP20, 队员的魔力+26, 有33%的几率不会后退(持续130秒)                    "/>
-        <string name="h14" value="消耗MP20, 队员的魔力+28, 有34%的几率不会后退(持续140秒)                    "/>
-        <string name="h15" value="消耗MP20, 队员的魔力+30, 有35%的几率不会后退(持续150秒)                    "/>
-        <string name="h16" value="消耗MP20, 队员的魔力+32, 有36%的几率不会后退(持续160秒)                    "/>
-        <string name="h17" value="消耗MP20, 队员的魔力+34, 有37%的几率不会后退(持续170秒)                    "/>
-        <string name="h18" value="消耗MP20, 队员的魔力+36, 有38%的几率不会后退(持续180秒)                    "/>
-        <string name="h19" value="消耗MP20, 队员的魔力+38, 有39%的几率不会后退(持续190秒)                    "/>
-        <string name="h2" value="消耗MP10, 队员的魔力+4, 有22%的几率不会后退(持续20秒)                    "/>
-        <string name="h20" value="消耗MP20, 队员的魔力+40, 有40%的几率不会后退(持续200秒)                    "/>
-        <string name="h3" value="消耗MP10, 队员的魔力+6, 有23%的几率不会后退(持续30秒)                    "/>
-        <string name="h4" value="消耗MP10, 队员的魔力+8, 有24%的几率不会后退(持续40秒)                    "/>
-        <string name="h5" value="消耗MP10, 队员的魔力+10, 有25%的几率不会后退(持续50秒)                    "/>
-        <string name="h6" value="消耗MP10, 队员的魔力+12, 有26%的几率不会后退(持续60秒)                    "/>
-        <string name="h7" value="消耗MP10, 队员的魔力+14, 有27%的几率不会后退(持续70秒)                    "/>
-        <string name="h8" value="消耗MP10, 队员的魔力+16, 有28%的几率不会后退(持续80秒)                    "/>
-        <string name="h9" value="消耗MP10, 队员的魔力+18, 有29%的几率不会后退(持续90秒)                    "/>
+        <string name="h1" value="消耗MP10, 队员的魔力+1 , 持续10秒                       "/>
+        <string name="h10" value="消耗MP10, 队员的魔力+10 , 持续100秒                       "/>
+        <string name="h11" value="消耗MP20, 队员的魔力+11 , 持续110秒                       "/>
+        <string name="h12" value="消耗MP20, 队员的魔力+12 , 持续120秒                       "/>
+        <string name="h13" value="消耗MP20, 队员的魔力+13 , 持续130秒                       "/>
+        <string name="h14" value="消耗MP20, 队员的魔力+14 , 持续140秒                       "/>
+        <string name="h15" value="消耗MP20, 队员的魔力+15 , 持续150秒                       "/>
+        <string name="h16" value="消耗MP20, 队员的魔力+16 , 持续160秒                       "/>
+        <string name="h17" value="消耗MP20, 队员的魔力+17 , 持续170秒                       "/>
+        <string name="h18" value="消耗MP20, 队员的魔力+18 , 持续180秒                       "/>
+        <string name="h19" value="消耗MP20, 队员的魔力+19 , 持续190秒                       "/>
+        <string name="h2" value="消耗MP10, 队员的魔力+2 , 持续20秒                       "/>
+        <string name="h20" value="消耗MP20, 队员的魔力+20 , 持续200秒                       "/>
+        <string name="h3" value="消耗MP10, 队员的魔力+3 , 持续30秒                       "/>
+        <string name="h4" value="消耗MP10, 队员的魔力+4 , 持续40秒                       "/>
+        <string name="h5" value="消耗MP10, 队员的魔力+5 , 持续50秒                       "/>
+        <string name="h6" value="消耗MP10, 队员的魔力+6 , 持续60秒                       "/>
+        <string name="h7" value="消耗MP10, 队员的魔力+7 , 持续70秒                       "/>
+        <string name="h8" value="消耗MP10, 队员的魔力+8 , 持续80秒                       "/>
+        <string name="h9" value="消耗MP10, 队员的魔力+9 , 持续90秒                       "/>
     </imgdir>
     <imgdir name="2201002">
         <string name="desc" value="[最高等级 : 20]\n用方向键可以瞬间移动一定的距离。"/>
@@ -3921,35 +3921,35 @@
     <imgdir name="2210001">
         <string name="desc" value="[最高等级:30]\n消耗更多的MP,提高自己的魔法攻击力"/>
         <string name="name" value="魔力激化"/>
-        <string name="h1" value="消耗MP增加105%, 魔法攻击造成伤害102%                    "/>
-        <string name="h10" value="消耗MP增加150%, 魔法攻击造成伤害120%                    "/>
-        <string name="h11" value="消耗MP增加160%, 魔法攻击造成伤害122%                    "/>
-        <string name="h12" value="消耗MP增加155%, 魔法攻击造成伤害124%                    "/>
-        <string name="h13" value="消耗MP增加165%, 魔法攻击造成伤害126%                    "/>
-        <string name="h14" value="消耗MP增加160%, 魔法攻击造成伤害128%                    "/>
-        <string name="h15" value="消耗MP增加170%, 魔法攻击造成伤害130%                    "/>
-        <string name="h16" value="消耗MP增加165%, 魔法攻击造成伤害132%                    "/>
-        <string name="h17" value="消耗MP增加175%, 魔法攻击造成伤害134%                    "/>
-        <string name="h18" value="消耗MP增加170%, 魔法攻击造成伤害136%                    "/>
-        <string name="h19" value="消耗MP增加180%, 魔法攻击造成伤害138%                    "/>
-        <string name="h2" value="消耗MP增加110%, 魔法攻击造成伤害104%                    "/>
-        <string name="h20" value="消耗MP增加175%, 魔法攻击造成伤害140%                    "/>
-        <string name="h21" value="消耗MP增加185%, 魔法攻击造成伤害142%                    "/>
-        <string name="h22" value="消耗MP增加180%, 魔法攻击造成伤害144%                    "/>
-        <string name="h23" value="消耗MP增加190%, 魔法攻击造成伤害146%                    "/>
-        <string name="h24" value="消耗MP增加185%, 魔法攻击造成伤害148%                    "/>
-        <string name="h25" value="消耗MP增加195%, 魔法攻击造成伤害150%                    "/>
-        <string name="h26" value="消耗MP增加190%, 魔法攻击造成伤害152%                    "/>
-        <string name="h27" value="消耗MP增加205%, 魔法攻击造成伤害154%                    "/>
-        <string name="h28" value="消耗MP增加200%, 魔法攻击造成伤害156%                    "/>
-        <string name="h29" value="消耗MP增加195%, 魔法攻击造成伤害158%                    "/>
-        <string name="h3" value="消耗MP增加115%, 魔法攻击造成伤害106%                    "/>
-        <string name="h30" value="消耗MP增加200%, 魔法攻击造成伤害160%                    "/>
-        <string name="h4" value="消耗MP增加120%, 魔法攻击造成伤害108%                    "/>
-        <string name="h5" value="消耗MP增加125%, 魔法攻击造成伤害110%                    "/>
-        <string name="h6" value="消耗MP增加130%, 魔法攻击造成伤害112%                    "/>
-        <string name="h7" value="消耗MP增加135%, 魔法攻击造成伤害114%                    "/>
-        <string name="h8" value="消耗MP增加140%, 魔法攻击造成伤害116%                    "/>
+        <string name="h1" value="消耗MP增加105%, 魔法攻击造成伤害107%                    "/>
+        <string name="h10" value="消耗MP增加150%, 魔法攻击造成伤害119%                    "/>
+        <string name="h11" value="消耗MP增加160%, 魔法攻击造成伤害121%                    "/>
+        <string name="h12" value="消耗MP增加155%, 魔法攻击造成伤害121%                    "/>
+        <string name="h13" value="消耗MP增加165%, 魔法攻击造成伤害123%                    "/>
+        <string name="h14" value="消耗MP增加160%, 魔法攻击造成伤害123%                    "/>
+        <string name="h15" value="消耗MP增加170%, 魔法攻击造成伤害125%                    "/>
+        <string name="h16" value="消耗MP增加165%, 魔法攻击造成伤害125%                    "/>
+        <string name="h17" value="消耗MP增加175%, 魔法攻击造成伤害127%                    "/>
+        <string name="h18" value="消耗MP增加170%, 魔法攻击造成伤害127%                    "/>
+        <string name="h19" value="消耗MP增加180%, 魔法攻击造成伤害129%                    "/>
+        <string name="h2" value="消耗MP增加110%, 魔法攻击造成伤害109%                    "/>
+        <string name="h20" value="消耗MP增加175%, 魔法攻击造成伤害129%                    "/>
+        <string name="h21" value="消耗MP增加185%, 魔法攻击造成伤害131%                    "/>
+        <string name="h22" value="消耗MP增加180%, 魔法攻击造成伤害131%                    "/>
+        <string name="h23" value="消耗MP增加190%, 魔法攻击造成伤害133%                    "/>
+        <string name="h24" value="消耗MP增加185%, 魔法攻击造成伤害133%                    "/>
+        <string name="h25" value="消耗MP增加195%, 魔法攻击造成伤害135%                    "/>
+        <string name="h26" value="消耗MP增加190%, 魔法攻击造成伤害135%                    "/>
+        <string name="h27" value="消耗MP增加205%, 魔法攻击造成伤害137%                    "/>
+        <string name="h28" value="消耗MP增加200%, 魔法攻击造成伤害137%                    "/>
+        <string name="h29" value="消耗MP增加195%, 魔法攻击造成伤害137%                    "/>
+        <string name="h3" value="消耗MP增加115%, 魔法攻击造成伤害111%                    "/>
+        <string name="h30" value="消耗MP增加200%, 魔法攻击造成伤害140%                    "/>
+        <string name="h4" value="消耗MP增加120%, 魔法攻击造成伤害113%                    "/>
+        <string name="h5" value="消耗MP增加125%, 魔法攻击造成伤害114%                    "/>
+        <string name="h6" value="消耗MP增加130%, 魔法攻击造成伤害115%                    "/>
+        <string name="h7" value="消耗MP增加135%, 魔法攻击造成伤害116%                    "/>
+        <string name="h8" value="消耗MP增加140%, 魔法攻击造成伤害117%                    "/>
         <string name="h9" value="消耗MP增加145%, 魔法攻击造成伤害118%                    "/>
     </imgdir>
     <imgdir name="2211002">
@@ -4207,36 +4207,36 @@
     <imgdir name="2221003">
         <string name="desc" value="冻结多数怪物,给予持续伤害.\n被冰凤球抓住的人火系抗性降低."/>
         <string name="name" value="冰凤球"/>
-        <string name="h9" value="消耗MP 18 , 基本攻击力 194, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h1" value="消耗MP 15 , 基本攻击力 146, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h10" value="消耗MP 18 , 基本攻击力 200, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h11" value="消耗MP 18 , 基本攻击力 206, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h12" value="消耗MP 18 , 基本攻击力 212, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h13" value="消耗MP 21 , 基本攻击力 218, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h14" value="消耗MP 21 , 基本攻击力 224, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h15" value="消耗MP 21 , 基本攻击力 230, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h16" value="消耗MP 21 , 基本攻击力 236, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h17" value="消耗MP 21 , 基本攻击力 242, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h18" value="消耗MP 21 , 基本攻击力 248, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h19" value="消耗MP 31 , 基本攻击力 254, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h2" value="消耗MP 15 , 基本攻击力 152, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h20" value="消耗MP 31 , 基本攻击力 260, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h21" value="消耗MP 31 , 基本攻击力 266, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h22" value="消耗MP 31 , 基本攻击力 272, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h23" value="消耗MP 31 , 基本攻击力 278, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h24" value="消耗MP 31 , 基本攻击力 284, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h25" value="消耗MP 34 , 基本攻击力 290, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h26" value="消耗MP 34 , 基本攻击力 296, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h27" value="消耗MP 34 , 基本攻击力 302, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h28" value="消耗MP 34 , 基本攻击力 308, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h29" value="消耗MP 34 , 基本攻击力 314, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h3" value="消耗MP 15 , 基本攻击力 158, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h30" value="消耗MP 34 , 基本攻击力 320, 熟练度 60%, 持续时间 15秒, 6名攻击                    "/>
-        <string name="h4" value="消耗MP 15 , 基本攻击力 164, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h5" value="消耗MP 15 , 基本攻击力 170, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h6" value="消耗MP 15 , 基本攻击力 176, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h7" value="消耗MP 18 , 基本攻击力 182, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
-        <string name="h8" value="消耗MP 18 , 基本攻击力 188, 熟练度 60%, 持续时间 10秒, 6名攻击                    "/>
+        <string name="h9" value="消耗MP18 , 基本攻击力174, 熟练度25%, 持续时间10秒, 3名攻击                    "/>
+        <string name="h1" value="消耗MP15 , 基本攻击力126, 熟练度15%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h10" value="消耗MP18 , 基本攻击力180, 熟练度30%, 持续时间10秒, 3名攻击                    "/>
+        <string name="h11" value="消耗MP18 , 基本攻击力186, 熟练度30%, 持续时间10秒, 3名攻击                    "/>
+        <string name="h12" value="消耗MP18 , 基本攻击力192, 熟练度30%, 持续时间10秒, 3名攻击                    "/>
+        <string name="h13" value="消耗MP21 , 基本攻击力198, 熟练度35%, 持续时间10秒, 4名攻击                    "/>
+        <string name="h14" value="消耗MP21 , 基本攻击力204, 熟练度35%, 持续时间10秒, 4名攻击                    "/>
+        <string name="h15" value="消耗MP21 , 基本攻击力210, 熟练度35%, 持续时间10秒, 4名攻击                    "/>
+        <string name="h16" value="消耗MP21 , 基本攻击力216, 熟练度40%, 持续时间15秒, 4名攻击                    "/>
+        <string name="h17" value="消耗MP21 , 基本攻击力222, 熟练度40%, 持续时间15秒, 4名攻击                    "/>
+        <string name="h18" value="消耗MP21 , 基本攻击力228, 熟练度40%, 持续时间15秒, 4名攻击                    "/>
+        <string name="h19" value="消耗MP31 , 基本攻击力234, 熟练度45%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h2" value="消耗MP15 , 基本攻击力132, 熟练度15%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h20" value="消耗MP31 , 基本攻击力240, 熟练度45%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h21" value="消耗MP31 , 基本攻击力246, 熟练度45%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h22" value="消耗MP31 , 基本攻击力252, 熟练度50%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h23" value="消耗MP31 , 基本攻击力258, 熟练度50%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h24" value="消耗MP31 , 基本攻击力264, 熟练度50%, 持续时间15秒, 5名攻击                    "/>
+        <string name="h25" value="消耗MP34 , 基本攻击力270, 熟练度55%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h26" value="消耗MP34 , 基本攻击力276, 熟练度55%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h27" value="消耗MP34 , 基本攻击力282, 熟练度55%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h28" value="消耗MP34 , 基本攻击力288, 熟练度60%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h29" value="消耗MP34 , 基本攻击力294, 熟练度60%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h3" value="消耗MP15 , 基本攻击力138, 熟练度15%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h30" value="消耗MP34 , 基本攻击力300, 熟练度60%, 持续时间15秒, 6名攻击                    "/>
+        <string name="h4" value="消耗MP15 , 基本攻击力144, 熟练度20%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h5" value="消耗MP15 , 基本攻击力150, 熟练度20%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h6" value="消耗MP15 , 基本攻击力156, 熟练度20%, 持续时间10秒, 2名攻击                    "/>
+        <string name="h7" value="消耗MP18 , 基本攻击力162, 熟练度25%, 持续时间10秒, 3名攻击                    "/>
+        <string name="h8" value="消耗MP18 , 基本攻击力168, 熟练度25%, 持续时间10秒, 3名攻击                    "/>
     </imgdir>
     <imgdir name="2221004">
         <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值 \n#c冷却时间 : 3分#"/>
@@ -4307,72 +4307,72 @@
         <string name="name" value="火魔兽"/>
     </imgdir>
     <imgdir name="2221006">
-        <string name="desc" value="使用高压电,给敌人2次电属性攻击.被电击的\n敌人周围要是有其他敌人,同样会受伤害."/>
-        <string name="h1" value="消耗MP 16 , 基本 攻击力 144, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h10" value="消耗MP 16 , 基本 攻击力 180, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h11" value="消耗MP 24 , 基本 攻击力 184, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h12" value="消耗MP 24 , 基本 攻击力 188, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h13" value="消耗MP 24 , 基本 攻击力 192, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h14" value="消耗MP 24 , 基本 攻击力 196, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h15" value="消耗MP 24 , 基本 攻击力 200, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h16" value="消耗MP 24 , 基本 攻击力 204, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h17" value="消耗MP 24 , 基本 攻击力 208, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h18" value="消耗MP 24 , 基本 攻击力 212, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h19" value="消耗MP 24 , 基本 攻击力 216, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h2" value="消耗MP 16 , 基本 攻击力 148, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h20" value="消耗MP 24 , 基本 攻击力 220, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h21" value="消耗MP 30 , 基本 攻击力 224, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h22" value="消耗MP 30 , 基本 攻击力 228, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h23" value="消耗MP 30 , 基本 攻击力 232, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h24" value="消耗MP 30 , 基本 攻击力 236, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h25" value="消耗MP 30 , 基本 攻击力 240, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h26" value="消耗MP 29 , 基本 攻击力 244, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h27" value="消耗MP 28 , 基本 攻击力 248, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h28" value="消耗MP 27 , 基本 攻击力 252, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h29" value="消耗MP 26 , 基本 攻击力 256, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h3" value="消耗MP 16 , 基本 攻击力 152, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h30" value="消耗MP 25 , 基本 攻击力 260, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h4" value="消耗MP 16 , 基本 攻击力 156, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h5" value="消耗MP 16 , 基本 攻击力 160, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h6" value="消耗MP 16 , 基本 攻击力 164, 熟练度 60%, 最大给6名伤害.                    "/>
-        <string name="h7" value="消耗MP 16 , 基本 攻击力 168, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h8" value="消耗MP 16 , 基本 攻击力 172, 熟练度 60%, 最大给6名 伤害.                    "/>
-        <string name="h9" value="消耗MP 16 , 基本 攻击力 176, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="desc" value="使用高压电,给敌人电属性攻击.\n被电击的敌人周围要是有其他敌人,同样会受伤害."/>
+        <string name="h1" value="消耗MP 16 , 基本 攻击力 309, 熟练度 15%, 最大给6名伤害.                    "/>
+        <string name="h10" value="消耗MP 16 , 基本 攻击力 390, 熟练度 30%, 最大给6名 伤害.                    "/>
+        <string name="h11" value="消耗MP 24 , 基本 攻击力 399, 熟练度 30%, 最大给6名 伤害.                    "/>
+        <string name="h12" value="消耗MP 24 , 基本 攻击力 408, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="h13" value="消耗MP 24 , 基本 攻击力 417, 熟练度 35%, 最大给6名 伤害.                    "/>
+        <string name="h14" value="消耗MP 24 , 基本 攻击力 426, 熟练度 35%, 最大给6名 伤害.                    "/>
+        <string name="h15" value="消耗MP 24 , 基本 攻击力 435, 熟练度 35%, 最大给6名 伤害.                    "/>
+        <string name="h16" value="消耗MP 24 , 基本 攻击力 444, 熟练度 40%, 最大给6名 伤害.                    "/>
+        <string name="h17" value="消耗MP 24 , 基本 攻击力 453, 熟练度 40%, 最大给6名 伤害.                    "/>
+        <string name="h18" value="消耗MP 24 , 基本 攻击力 462, 熟练度 40%, 最大给6名 伤害.                    "/>
+        <string name="h19" value="消耗MP 24 , 基本 攻击力 471, 熟练度 45%, 最大给6名 伤害.                    "/>
+        <string name="h2" value="消耗MP 16 , 基本 攻击力 318, 熟练度 15%, 最大给6名伤害.                    "/>
+        <string name="h20" value="消耗MP 24 , 基本 攻击力 480, 熟练度 45%, 最大给6名 伤害.                    "/>
+        <string name="h21" value="消耗MP 30 , 基本 攻击力 486, 熟练度 45%, 最大给6名 伤害.                    "/>
+        <string name="h22" value="消耗MP 30 , 基本 攻击力 492, 熟练度 50%, 最大给6名 伤害.                    "/>
+        <string name="h23" value="消耗MP 30 , 基本 攻击力 498, 熟练度 50%, 最大给6名 伤害.                    "/>
+        <string name="h24" value="消耗MP 30 , 基本 攻击力 504, 熟练度 50%, 最大给6名 伤害.                    "/>
+        <string name="h25" value="消耗MP 30 , 基本 攻击力 510, 熟练度 55%, 最大给6名 伤害.                    "/>
+        <string name="h26" value="消耗MP 29 , 基本 攻击力 516, 熟练度 55%, 最大给6名 伤害.                    "/>
+        <string name="h27" value="消耗MP 28 , 基本 攻击力 522, 熟练度 55%, 最大给6名 伤害.                    "/>
+        <string name="h28" value="消耗MP 27 , 基本 攻击力 528, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="h29" value="消耗MP 26 , 基本 攻击力 534, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="h3" value="消耗MP 16 , 基本 攻击力 327, 熟练度 15%, 最大给6名伤害.                    "/>
+        <string name="h30" value="消耗MP 25 , 基本 攻击力 540, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="h4" value="消耗MP 16 , 基本 攻击力 336, 熟练度 20%, 最大给6名伤害.                    "/>
+        <string name="h5" value="消耗MP 16 , 基本 攻击力 345, 熟练度 20%, 最大给6名伤害.                    "/>
+        <string name="h6" value="消耗MP 16 , 基本 攻击力 354, 熟练度 20%, 最大给6名伤害.                    "/>
+        <string name="h7" value="消耗MP 16 , 基本 攻击力 363, 熟练度 25%, 最大给6名 伤害.                    "/>
+        <string name="h8" value="消耗MP 16 , 基本 攻击力 372, 熟练度 60%, 最大给6名 伤害.                    "/>
+        <string name="h9" value="消耗MP 16 , 基本 攻击力 381, 熟练度 25%, 最大给6名 伤害.                    "/>
         <string name="name" value="链环闪电"/>
     </imgdir>
     <imgdir name="2221007">
-        <string name="desc" value="从天空掉冰枪,\n给15只以下的怪物强烈的冰属性伤害.\n#c冷却时间: 10秒#"/>
+        <string name="desc" value="从天空掉冰枪,\n给15只以下的怪物强烈的冰属性伤害."/>
         <string name="name" value="落霜冰破"/>
-        <string name="h1" value="消耗MP 1450 , 基本 攻击力 175 , 攻击2次.                   "/>
-        <string name="h10" value="消耗MP 1900 , 基本 攻击力 220 , 攻击2次.                   "/>
-        <string name="h11" value="消耗MP 1950 , 基本 攻击力 225 , 攻击2次.                   "/>
-        <string name="h12" value="消耗MP 2000 , 基本 攻击力 230 , 攻击2次.                   "/>
-        <string name="h13" value="消耗MP 2050 , 基本 攻击力 235 , 攻击2次.                   "/>
-        <string name="h14" value="消耗MP 2100 , 基本 攻击力 240 , 攻击2次.                   "/>
-        <string name="h15" value="消耗MP 2150 , 基本 攻击力 245 , 攻击2次.                   "/>
-        <string name="h16" value="消耗MP 2200 , 基本 攻击力 250 , 攻击2次.                   "/>
-        <string name="h17" value="消耗MP 2250 , 基本 攻击力 255 , 攻击2次.                   "/>
-        <string name="h18" value="消耗MP 2300 , 基本 攻击力 260 , 攻击2次.                   "/>
-        <string name="h19" value="消耗MP 2350 , 基本 攻击力 265 , 攻击2次.                   "/>
-        <string name="h2" value="消耗MP 1500 , 基本 攻击力 180 , 攻击2次.                   "/>
-        <string name="h20" value="消耗MP 2400 , 基本 攻击力 270 , 攻击2次.                   "/>
-        <string name="h21" value="消耗MP 2450 , 基本 攻击力 273 , 攻击2次.                   "/>
-        <string name="h22" value="消耗MP 2500 , 基本 攻击力 276 , 攻击2次.                   "/>
-        <string name="h23" value="消耗MP 2550 , 基本 攻击力 279 , 攻击2次.                   "/>
-        <string name="h24" value="消耗MP 2600 , 基本 攻击力 282 , 攻击2次.                   "/>
-        <string name="h25" value="消耗MP 2650 , 基本 攻击力 285 , 攻击2次.                   "/>
-        <string name="h26" value="消耗MP 2600 , 基本 攻击力 288 , 攻击2次.                   "/>
-        <string name="h27" value="消耗MP 2550 , 基本 攻击力 291 , 攻击2次.                   "/>
-        <string name="h28" value="消耗MP 2500 , 基本 攻击力 294 , 攻击2次.                   "/>
-        <string name="h29" value="消耗MP 2450 , 基本 攻击力 297 , 攻击2次.                   "/>
-        <string name="h3" value="消耗MP 1550 , 基本 攻击力 185 , 攻击2次.                   "/>
-        <string name="h30" value="消耗MP 2400 , 基本 攻击力 300 , 攻击2次.                   "/>
-        <string name="h4" value="消耗MP 1600 , 基本 攻击力 190 , 攻击2次.                   "/>
-        <string name="h5" value="消耗MP 1650 , 基本 攻击力 195 , 攻击2次.                   "/>
-        <string name="h6" value="消耗MP 1700 , 基本 攻击力 200 , 攻击2次.                   "/>
-        <string name="h7" value="消耗MP 1750 , 基本 攻击力 205 , 攻击2次.                   "/>
-        <string name="h8" value="消耗MP 1800 , 基本 攻击力 210 , 攻击2次.                   "/>
-        <string name="h9" value="消耗MP 1850 , 基本 攻击力 215 , 攻击2次.                   "/>
+        <string name="h1" value="消耗MP 2100 , 基本攻击力 330                    "/>
+        <string name="h10" value="消耗MP 3000 , 基本攻击力 420                    "/>
+        <string name="h11" value="消耗MP 3100 , 基本攻击力 430                    "/>
+        <string name="h12" value="消耗MP 3200 , 基本攻击力 440                    "/>
+        <string name="h13" value="消耗MP 3300 , 基本攻击力 450                    "/>
+        <string name="h14" value="消耗MP 3400 , 基本攻击力 460                    "/>
+        <string name="h15" value="消耗MP 3500 , 基本攻击力 470                    "/>
+        <string name="h16" value="消耗MP 3600 , 基本攻击力 480                    "/>
+        <string name="h17" value="消耗MP 3700 , 基本攻击力 490                    "/>
+        <string name="h18" value="消耗MP 3800 , 基本攻击力 500                    "/>
+        <string name="h19" value="消耗MP 3900 , 基本攻击力 510                    "/>
+        <string name="h2" value="消耗MP 2200 , 基本攻击力 340                    "/>
+        <string name="h20" value="消耗MP 4000 , 基本攻击力 520                    "/>
+        <string name="h21" value="消耗MP 3950 , 基本攻击力 525                    "/>
+        <string name="h22" value="消耗MP 3900 , 基本攻击力 530                    "/>
+        <string name="h23" value="消耗MP 3850 , 基本攻击力 535                    "/>
+        <string name="h24" value="消耗MP 3800 , 基本攻击力 540                    "/>
+        <string name="h25" value="消耗MP 3750 , 基本攻击力 545                    "/>
+        <string name="h26" value="消耗MP 3700 , 基本攻击力 550                    "/>
+        <string name="h27" value="消耗MP 3650 , 基本攻击力 555                    "/>
+        <string name="h28" value="消耗MP 3600 , 基本攻击力 560                    "/>
+        <string name="h29" value="消耗MP 3550 , 基本攻击力 565                    "/>
+        <string name="h3" value="消耗MP 2300 , 基本攻击力 350                    "/>
+        <string name="h30" value="消耗MP 3500 , 基本攻击力 570                    "/>
+        <string name="h4" value="消耗MP 2400 , 基本攻击力 360                    "/>
+        <string name="h5" value="消耗MP 2500 , 基本攻击力 380                    "/>
+        <string name="h6" value="消耗MP 2600 , 基本攻击力 380                    "/>
+        <string name="h7" value="消耗MP 2700 , 基本攻击力 390                    "/>
+        <string name="h8" value="消耗MP 2800 , 基本攻击力 400                    "/>
+        <string name="h9" value="消耗MP 2900 , 基本攻击力 410                    "/>
     </imgdir>
     <imgdir name="2221008">
         <string name="desc" value="从异常状态中恢复.\n 随着等级的上升,冷却时间逐渐缩短."/>
@@ -4860,36 +4860,36 @@
     <imgdir name="2321003">
         <string name="desc" value="一定时间内召唤圣龙.最多攻击6个敌人\n必需技能 : #c圣龙召唤等级15以上#"/>
         <string name="name" value="强化圣龙"/>
-        <string name="h1" value="消耗MP 13 , 基本 攻击力 255, 持续时间 55秒                    "/>
-        <string name="h10" value="消耗MP 40 , 基本 攻击力 300, 持续时间 100秒                    "/>
-        <string name="h11" value="消耗MP 43 , 基本 攻击力 305, 持续时间 105秒                    "/>
-        <string name="h12" value="消耗MP 46 , 基本 攻击力 310, 持续时间 110秒                    "/>
-        <string name="h13" value="消耗MP 49 , 基本 攻击力 315, 持续时间 115秒                    "/>
-        <string name="h14" value="消耗MP 52 , 基本 攻击力 320, 持续时间 120秒                    "/>
-        <string name="h15" value="消耗MP 55 , 基本 攻击力 325, 持续时间 125秒                    "/>
-        <string name="h16" value="消耗MP 58 , 基本 攻击力 330, 持续时间 130秒                    "/>
-        <string name="h17" value="消耗MP 61 , 基本 攻击力 335, 持续时间 135秒                    "/>
-        <string name="h18" value="消耗MP 64 , 基本 攻击力 340, 持续时间 140秒                    "/>
-        <string name="h19" value="消耗MP 67 , 基本 攻击力 345, 持续时间 145秒                    "/>
-        <string name="h2" value="消耗MP 16 , 基本 攻击力 260, 持续时间 60秒                    "/>
-        <string name="h20" value="消耗MP 70 , 基本 攻击力 350, 持续时间 150秒                    "/>
-        <string name="h21" value="消耗MP 73 , 基本 攻击力 355, 持续时间 155秒                    "/>
-        <string name="h22" value="消耗MP 76 , 基本 攻击力 360, 持续时间 160秒                    "/>
-        <string name="h23" value="消耗MP 79 , 基本 攻击力 365, 持续时间 165秒                    "/>
-        <string name="h24" value="消耗MP 82 , 基本 攻击力 370, 持续时间 170秒                    "/>
-        <string name="h25" value="消耗MP 85 , 基本 攻击力 375, 持续时间 175秒                    "/>
-        <string name="h26" value="消耗MP 88 , 基本 攻击力 380, 持续时间 180秒                    "/>
-        <string name="h27" value="消耗MP 91 , 基本 攻击力 385, 持续时间 185秒                    "/>
-        <string name="h28" value="消耗MP 94 , 基本 攻击力 390, 持续时间 190秒                    "/>
-        <string name="h29" value="消耗MP 97 , 基本 攻击力 395, 持续时间 195秒                    "/>
-        <string name="h3" value="消耗MP 19 , 基本 攻击力 265, 持续时间 65秒                    "/>
-        <string name="h30" value="消耗MP 100 , 基本 攻击力 400, 持续时间 200秒                    "/>
-        <string name="h4" value="消耗MP 22 , 基本 攻击力 270, 持续时间 70秒                    "/>
-        <string name="h5" value="消耗MP 25 , 基本 攻击力 275, 持续时间 75秒                    "/>
-        <string name="h6" value="消耗MP 28 , 基本 攻击力 280, 持续时间 80秒                    "/>
-        <string name="h7" value="消耗MP 31 , 基本 攻击力 285, 持续时间 85秒                    "/>
-        <string name="h8" value="消耗MP 34 , 基本 攻击力 290, 持续时间 90秒                    "/>
-        <string name="h9" value="消耗MP 37 , 基本 攻击力 295, 持续时间 95秒                    "/>
+        <string name="h1" value="消耗MP 13 , 基本攻击力 339 , 持续时间 15秒                    "/>
+        <string name="h10" value="消耗MP 40 , 基本攻击力 420 , 持续时间 60秒                    "/>
+        <string name="h11" value="消耗MP 43 , 基本攻击力 432 , 持续时间 65秒                    "/>
+        <string name="h12" value="消耗MP 46 , 基本攻击力 444 , 持续时间 70秒                    "/>
+        <string name="h13" value="消耗MP 49 , 基本攻击力 456 , 持续时间 75秒                    "/>
+        <string name="h14" value="消耗MP 52 , 基本攻击力 468 , 持续时间 80秒                    "/>
+        <string name="h15" value="消耗MP 55 , 基本攻击力 480 , 持续时间 85秒                    "/>
+        <string name="h16" value="消耗MP 58 , 基本攻击力 492 , 持续时间 90秒                    "/>
+        <string name="h17" value="消耗MP 61 , 基本攻击力 504 , 持续时间 95秒                    "/>
+        <string name="h18" value="消耗MP 64 , 基本攻击力 516 , 持续时间 100秒                    "/>
+        <string name="h19" value="消耗MP 67 , 基本攻击力 528 , 持续时间 105秒                    "/>
+        <string name="h2" value="消耗MP 16 , 基本攻击力 348 , 持续时间 20秒                    "/>
+        <string name="h20" value="消耗MP 70 , 基本攻击力 540 , 持续时间 110秒                    "/>
+        <string name="h21" value="消耗MP 73 , 基本攻击力 555 , 持续时间 115秒                    "/>
+        <string name="h22" value="消耗MP 76 , 基本攻击力 570 , 持续时间 120秒                    "/>
+        <string name="h23" value="消耗MP 79 , 基本攻击力 585 , 持续时间 125秒                    "/>
+        <string name="h24" value="消耗MP 82 , 基本攻击力 600 , 持续时间 130秒                    "/>
+        <string name="h25" value="消耗MP 85 , 基本攻击力 615 , 持续时间 135秒                    "/>
+        <string name="h26" value="消耗MP 88 , 基本攻击力 630 , 持续时间 140秒                    "/>
+        <string name="h27" value="消耗MP 91 , 基本攻击力 645 , 持续时间 145秒                    "/>
+        <string name="h28" value="消耗MP 94 , 基本攻击力 660 , 持续时间 150秒                    "/>
+        <string name="h29" value="消耗MP 97 , 基本攻击力 675 , 持续时间 155秒                    "/>
+        <string name="h3" value="消耗MP 19 , 基本攻击力 357 , 持续时间 25秒                    "/>
+        <string name="h30" value="消耗MP 100 , 基本攻击力 690 , 持续时间 160秒                    "/>
+        <string name="h4" value="消耗MP 22 , 基本攻击力 366 , 持续时间 30秒                    "/>
+        <string name="h5" value="消耗MP 25 , 基本攻击力 375 , 持续时间 35秒                    "/>
+        <string name="h6" value="消耗MP 28 , 基本攻击力 384 , 持续时间 40秒                    "/>
+        <string name="h7" value="消耗MP 31 , 基本攻击力 393 , 持续时间 45秒                    "/>
+        <string name="h8" value="消耗MP 34 , 基本攻击力 402 , 持续时间 50秒                    "/>
+        <string name="h9" value="消耗MP 37 , 基本攻击力 411 , 持续时间 55秒                    "/>
     </imgdir>
     <imgdir name="2321004">
         <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值 \n#c冷却时间 : 3分#"/>
@@ -4926,7 +4926,7 @@
         <string name="name" value="终极无限"/>
     </imgdir>
     <imgdir name="2321005">
-        <string name="desc" value="一定时间内防止组队成员中异常状态，\n含眩晕状态，不含诱惑状态。\n#c冷却时间 : 2分#"/>
+        <string name="desc" value="一定时间内防止组队成员中异常状态，\n包括眩晕、诱惑状态。\n#c冷却时间 : 2分#"/>
         <string name="h1" value="消耗MP 12 , 持续时间 11秒                    "/>
         <string name="h10" value="消耗MP 30 , 持续时间 20秒                    "/>
         <string name="h11" value="消耗MP 22 , 持续时间 21秒                    "/>
@@ -4974,71 +4974,71 @@
         <string name="name" value="复活术"/>
     </imgdir>
     <imgdir name="2321007">
-        <string name="desc" value="用神圣的弓箭, 给一个敌人2次圣属性攻击."/>
-        <string name="h1" value="消耗MP 16 , 基本 攻击力 123, 熟练度 60%                    "/>
-        <string name="h10" value="消耗MP 16 , 基本 攻击力 150, 熟练度 60%                    "/>
-        <string name="h11" value="消耗MP 24 , 基本 攻击力 154, 熟练度 60%                    "/>
-        <string name="h12" value="消耗MP 24 , 基本 攻击力 158, 熟练度 60%                    "/>
-        <string name="h13" value="消耗MP 24 , 基本 攻击力 162, 熟练度 60%                    "/>
-        <string name="h14" value="消耗MP 24 , 基本 攻击力 166, 熟练度 60%                    "/>
-        <string name="h15" value="消耗MP 24 , 基本 攻击力 170, 熟练度 60%                    "/>
-        <string name="h16" value="消耗MP 24 , 基本 攻击力 174, 熟练度 60%                    "/>
-        <string name="h17" value="消耗MP 24 , 基本 攻击力 178, 熟练度 60%                    "/>
-        <string name="h18" value="消耗MP 24 , 基本 攻击力 182, 熟练度 60%                    "/>
-        <string name="h19" value="消耗MP 24 , 基本 攻击力 186, 熟练度 60%                    "/>
-        <string name="h2" value="消耗MP 16 , 基本 攻击力 126, 熟练度 60%                    "/>
-        <string name="h20" value="消耗MP 24 , 基本 攻击力 190, 熟练度 60%                    "/>
-        <string name="h21" value="消耗MP 30 , 基本 攻击力 195, 熟练度 60%                    "/>
-        <string name="h22" value="消耗MP 30 , 基本 攻击力 200, 熟练度 60%                    "/>
-        <string name="h23" value="消耗MP 30 , 基本 攻击力 205, 熟练度 60%                    "/>
-        <string name="h24" value="消耗MP 30 , 基本 攻击力 210, 熟练度 60%                    "/>
-        <string name="h25" value="消耗MP 30 , 基本 攻击力 215, 熟练度 60%                    "/>
-        <string name="h26" value="消耗MP 29 , 基本 攻击力 220, 熟练度 60%                    "/>
-        <string name="h27" value="消耗MP 28 , 基本 攻击力 225, 熟练度 60%                    "/>
-        <string name="h28" value="消耗MP 27 , 基本 攻击力 230, 熟练度 60%                    "/>
-        <string name="h29" value="消耗MP 26 , 基本 攻击力 235, 熟练度 60%                    "/>
-        <string name="h3" value="消耗MP 16 , 基本 攻击力 129, 熟练度 60%                    "/>
-        <string name="h30" value="消耗MP 25 , 基本攻击力 240, 熟练度 60%                    "/>
-        <string name="h4" value="消耗MP 16 , 基本 攻击力 132, 熟练度 60%                    "/>
-        <string name="h5" value="消耗MP 16 , 基本 攻击力 135, 熟练度 60%                    "/>
-        <string name="h6" value="消耗MP 16 , 基本 攻击力 138, 熟练度 60%                    "/>
-        <string name="h7" value="消耗MP 16 , 基本 攻击力 141, 熟练度 60%                    "/>
-        <string name="h8" value="消耗MP 16 , 基本 攻击力 144, 熟练度 60%                    "/>
-        <string name="h9" value="消耗MP 16 , 基本 攻击力 147, 熟练度 60%                    "/>
+        <string name="desc" value="用神圣的弓箭 , 给一个敌人圣属性攻击 . "/>
+        <string name="h1" value="消耗MP 16 , 基本攻击力 369 , 熟练度 15%                    "/>
+        <string name="h10" value="消耗MP 16 , 基本攻击力 450 , 熟练度 30%                    "/>
+        <string name="h11" value="消耗MP 24 , 基本攻击力 462 , 熟练度 30%                    "/>
+        <string name="h12" value="消耗MP 24 , 基本攻击力 474 , 熟练度 30%                    "/>
+        <string name="h13" value="消耗MP 24 , 基本攻击力 486 , 熟练度 35%                    "/>
+        <string name="h14" value="消耗MP 24 , 基本攻击力 498 , 熟练度 35%                    "/>
+        <string name="h15" value="消耗MP 24 , 基本攻击力 510 , 熟练度 35%                    "/>
+        <string name="h16" value="消耗MP 24 , 基本攻击力 522 , 熟练度 40%                    "/>
+        <string name="h17" value="消耗MP 24 , 基本攻击力 534 , 熟练度 40%                    "/>
+        <string name="h18" value="消耗MP 24 , 基本攻击力 546 , 熟练度 40%                    "/>
+        <string name="h19" value="消耗MP 24 , 基本攻击力 558 , 熟练度 45%                    "/>
+        <string name="h2" value="消耗MP 16 , 基本攻击力 378 , 熟练度 15% ."/>
+        <string name="h20" value="消耗MP 24 , 基本攻击力 570 , 熟练度 45%                    "/>
+        <string name="h21" value="消耗MP 30 , 基本攻击力 585 , 熟练度 45%                    "/>
+        <string name="h22" value="消耗MP 30 , 基本攻击力 600 , 熟练度 50%                    "/>
+        <string name="h23" value="消耗MP 30 , 基本攻击力 615 , 熟练度 50%                    "/>
+        <string name="h24" value="消耗MP 30 , 基本攻击力 630 , 熟练度 50%                    "/>
+        <string name="h25" value="消耗MP 30 , 基本攻击力 645 , 熟练度 45%                    "/>
+        <string name="h26" value="消耗MP 29 , 基本攻击力 660 , 熟练度 55%                    "/>
+        <string name="h27" value="消耗MP 28 , 基本攻击力 675 , 熟练度 55%                    "/>
+        <string name="h28" value="消耗MP 27 , 基本攻击力 690 , 熟练度 60%                    "/>
+        <string name="h29" value="消耗MP 26 , 基本攻击力 705 , 熟练度 60%                    "/>
+        <string name="h3" value="消耗MP 16 , 基本攻击力 387 , 熟练度 15% ."/>
+        <string name="h30" value="消耗MP 25 , 基本攻击力 720 , 熟练度 60%                    "/>
+        <string name="h4" value="消耗MP 16 , 基本攻击力 396 , 熟练度 20%                    "/>
+        <string name="h5" value="消耗MP 16 , 基本攻击力 405 , 熟练度 20%                    "/>
+        <string name="h6" value="消耗MP 16 , 基本攻击力 414 , 熟练度 20%                    "/>
+        <string name="h7" value="消耗MP 16 , 基本攻击力 423 , 熟练度 25%                    "/>
+        <string name="h8" value="消耗MP 16 , 基本攻击力 432 , 熟练度 25%                    "/>
+        <string name="h9" value="消耗MP 16 , 基本攻击力 441 , 熟练度 25%                    "/>
         <string name="name" value="光芒飞箭"/>
     </imgdir>
     <imgdir name="2321008">
         <string name="desc" value="从天空掉落神圣的光,\n给15只以下的敌人给予圣属性伤害"/>
-        <string name="h1" value="消耗MP 2100 , 基本 攻击力 215 , 攻击2次.       "/>
-        <string name="h10" value="消耗MP 3000 , 基本 攻击力 260 , 攻击2次.       "/>
-        <string name="h11" value="消耗MP 3100 , 基本 攻击力 265 , 攻击2次.       "/>
-        <string name="h12" value="消耗MP 3200 , 基本 攻击力 270 , 攻击2次.       "/>
-        <string name="h13" value="消耗MP 3300 , 基本 攻击力 275 , 攻击2次.       "/>
-        <string name="h14" value="消耗MP 3400 , 基本 攻击力 280 , 攻击2次.       "/>
-        <string name="h15" value="消耗MP 3500 , 基本 攻击力 285 , 攻击2次.       "/>
-        <string name="h16" value="消耗MP 3600 , 基本 攻击力 290 , 攻击2次.       "/>
-        <string name="h17" value="消耗MP 3700 , 基本 攻击力 295 , 攻击2次.       "/>
-        <string name="h18" value="消耗MP 3800 , 基本 攻击力 300 , 攻击2次.       "/>
-        <string name="h19" value="消耗MP 3900 , 基本 攻击力 305 , 攻击2次.       "/>
-        <string name="h2" value="消耗MP 2200 , 基本 攻击力 220 , 攻击2次.       "/>
-        <string name="h20" value="消耗MP 4000 , 基本 攻击力 310 , 攻击2次.       "/>
-        <string name="h21" value="消耗MP 3950 , 基本 攻击力 313 , 攻击2次.       "/>
-        <string name="h22" value="消耗MP 3900 , 基本 攻击力 316 , 攻击2次.       "/>
-        <string name="h23" value="消耗MP 3850 , 基本 攻击力 319 , 攻击2次.       "/>
-        <string name="h24" value="消耗MP 3800 , 基本 攻击力 322 , 攻击2次.       "/>
-        <string name="h25" value="消耗MP 3750 , 基本 攻击力 325 , 攻击2次.       "/>
-        <string name="h26" value="消耗MP 3700 , 基本 攻击力 328 , 攻击2次.       "/>
-        <string name="h27" value="消耗MP 3650 , 基本 攻击力 331 , 攻击2次.       "/>
-        <string name="h28" value="消耗MP 3600 , 基本 攻击力 334 , 攻击2次.       "/>
-        <string name="h29" value="消耗MP 3550 , 基本 攻击力 337 , 攻击2次.       "/>
-        <string name="h3" value="消耗MP 2300 , 基本 攻击力 225 , 攻击2次.       "/>
-        <string name="h30" value="消耗MP 3500 , 基本 攻击力 340 , 攻击2次.       "/>
-        <string name="h4" value="消耗MP 2400 , 基本 攻击力 230 , 攻击2次.       "/>
-        <string name="h5" value="消耗MP 2500 , 基本 攻击力 235 , 攻击2次.       "/>
-        <string name="h6" value="消耗MP 2600 , 基本 攻击力 240 , 攻击2次.       "/>
-        <string name="h7" value="消耗MP 2700 , 基本 攻击力 245 , 攻击2次.       "/>
-        <string name="h8" value="消耗MP 2800 , 基本 攻击力 250 , 攻击2次.       "/>
-        <string name="h9" value="消耗MP 2900 , 基本 攻击力 255 , 攻击2次.       "/>
+        <string name="h1" value="消耗MP 2100 , 基本攻击力 430                    "/>
+        <string name="h10" value="消耗MP 3000 , 基本攻击力 520                    "/>
+        <string name="h11" value="消耗MP 3100 , 基本攻击力 530                    "/>
+        <string name="h12" value="消耗MP 3200 , 基本攻击力 540                    "/>
+        <string name="h13" value="消耗MP 3300 , 基本攻击力 550                    "/>
+        <string name="h14" value="消耗MP 3400 , 基本攻击力 560                    "/>
+        <string name="h15" value="消耗MP 3500 , 基本攻击力 570                    "/>
+        <string name="h16" value="消耗MP 3600 , 基本攻击力 580                    "/>
+        <string name="h17" value="消耗MP 3700 , 基本攻击力 590                    "/>
+        <string name="h18" value="消耗MP 3800 , 基本攻击力 600                    "/>
+        <string name="h19" value="消耗MP 3900 , 基本攻击力 610                    "/>
+        <string name="h2" value="消耗MP 2200 , 基本攻击力 440                    "/>
+        <string name="h20" value="消耗MP 4000 , 基本攻击力 620                    "/>
+        <string name="h21" value="消耗MP 3950 , 基本攻击力 625                    "/>
+        <string name="h22" value="消耗MP 3900 , 基本攻击力 630                    "/>
+        <string name="h23" value="消耗MP 3850 , 基本攻击力 635                    "/>
+        <string name="h24" value="消耗MP 3800 , 基本攻击力 640                    "/>
+        <string name="h25" value="消耗MP 3750 , 基本攻击力 645                    "/>
+        <string name="h26" value="消耗MP 3700 , 基本攻击力 650                    "/>
+        <string name="h27" value="消耗MP 3650 , 基本攻击力 655                    "/>
+        <string name="h28" value="消耗MP 3600 , 基本攻击力 660                    "/>
+        <string name="h29" value="消耗MP 3550 , 基本攻击力 665                    "/>
+        <string name="h3" value="消耗MP 2300 , 基本攻击力 450                    "/>
+        <string name="h30" value="消耗MP 3500 , 基本攻击力 670                    "/>
+        <string name="h4" value="消耗MP 2400 , 基本攻击力 460                    "/>
+        <string name="h5" value="消耗MP 2500 , 基本攻击力 470                    "/>
+        <string name="h6" value="消耗MP 2600 , 基本攻击力 480                    "/>
+        <string name="h7" value="消耗MP 2700 , 基本攻击力 490                    "/>
+        <string name="h8" value="消耗MP 2800 , 基本攻击力 500                     "/>
+        <string name="h9" value="消耗MP 2900 , 基本攻击力 510                    "/>
         <string name="name" value="圣光普照"/>
     </imgdir>
     <imgdir name="2321009">

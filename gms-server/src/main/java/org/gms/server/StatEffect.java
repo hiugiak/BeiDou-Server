@@ -817,6 +817,11 @@ public class StatEffect {
                 case BlazeWizard.SLOW:
                     monsterStatus.put(MonsterStatus.SPEED, ret.x);
                     break;
+                case FPWizard.MEDITATION:
+                case ILWizard.MEDITATION:
+                case BlazeWizard.MEDITATION:
+                    statups.add(new Pair<>(BuffStat.STANCE, 40));
+                    break;
                 case FPWizard.POISON_BREATH:
                 case FPMage.ELEMENT_COMPOSITION:
                     monsterStatus.put(MonsterStatus.POISON, 1);
