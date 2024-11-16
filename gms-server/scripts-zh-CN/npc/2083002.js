@@ -26,7 +26,15 @@
  *@NPC: Crystal of Roots
  */
 function start() {
-    cm.sendYesNo("你想要离开吗？");
+    if (cm.getMapId() > 240050400) {
+        if (!cm.getEventInstance().isEventCleared()) {
+            cm.sendYesNo("你想要离开吗？");
+        } else {
+            cm.sendYesNo("你们终于打败了暗黑龙王，真是太牛逼啦！是否收下这两颗石头并离开这里？");
+        }
+    } else {
+        cm.sendYesNo("你想要离开吗？");
+    }
 }
 
 function action(mode, type, selection) {
@@ -34,7 +42,12 @@ function action(mode, type, selection) {
         cm.dispose();
     } else {
         if (cm.getMapId() > 240050400) {
-            cm.warp(240050600);
+            if (!cm.getEventInstance().isEventCleared()) {
+                cm.warp(240050600);
+            } else {
+                cm.warp(240050600);
+                cm.gainItem(2041200, 2)
+            }
         } else {
             cm.warp(240040700, "out00");
         }

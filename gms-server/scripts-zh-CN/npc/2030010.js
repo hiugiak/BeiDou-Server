@@ -46,7 +46,16 @@ function action(mode, type, selection) {
     if (mode < 1) {
         cm.dispose();
     } else {
-        cm.warp(211042300);
+        if (cm.getMapId() == 280030000) {
+            if (!cm.getEventInstance().isEventCleared()) {
+                cm.warp(211042300);
+            } else {
+                cm.warp(211042300);
+                cm.gainItem(2000004, 100)
+            }
+        } else {
+            cm.warp(211042300);
+        }
         cm.dispose();
     }
 }
