@@ -39,6 +39,7 @@ import org.gms.constants.skills.ILMage;
 import org.gms.constants.skills.NightLord;
 import org.gms.constants.skills.NightWalker;
 import org.gms.constants.skills.Priest;
+import org.gms.constants.skills.Rogue;
 import org.gms.constants.skills.Shadower;
 import org.gms.constants.skills.WhiteKnight;
 import org.gms.net.packet.Packet;
@@ -1177,9 +1178,13 @@ public class Monster extends AbstractLoadedLife {
 
         final Map<MonsterStatus, Integer> statis = status.getStati();
         if (stats.isBoss()) {
-            if (!(statis.containsKey(MonsterStatus.SPEED)
-                    && statis.containsKey(MonsterStatus.NINJA_AMBUSH)
-                    && statis.containsKey(MonsterStatus.WATK))) {
+            if (statis.containsKey(MonsterStatus.FREEZE) || statis.containsKey(MonsterStatus.SPEED) ||
+                statis.containsKey(MonsterStatus.DOOM) || statis.containsKey(MonsterStatus.SHADOW_WEB)||
+                statis.containsKey(MonsterStatus.SHOWDOWN) || statis.containsKey(MonsterStatus.STUN)) {
+                //限制冰冻术，缓速术，巫毒术，影网术，挑衅，眩晕对BOSS生效
+                return false;
+            }
+            if(status.getSkill().getId() == Rogue.DISORDER){ // 限制飞侠诅咒术对BOSS生效
                 return false;
             }
         }

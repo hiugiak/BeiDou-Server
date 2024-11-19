@@ -1202,8 +1202,6 @@ public class StatEffect {
             Monster monster = (Monster) mo;
             if (isDispel()) {
                 monster.debuffMob(skill_.getId());
-            } else if (isSeal() && monster.isBoss()) {  // thanks IxianMace for noticing seal working on bosses
-                // do nothing
             } else {
                 if (makeChanceResult()) {
                     monster.applyStatus(applyfrom, new MonsterStatusEffect(getMonsterStati(), skill_, null, false), isPoison(), getDuration());
