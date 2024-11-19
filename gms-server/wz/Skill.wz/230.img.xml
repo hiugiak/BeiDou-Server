@@ -843,10 +843,10 @@
                     <string name="hs" value="h1"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="10"/>
-                    <int name="acc" value="1"/>
-                    <int name="eva" value="1"/>
-                    <int name="pdd" value="1"/>
-                    <int name="mdd" value="1"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -854,10 +854,10 @@
                     <string name="hs" value="h2"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="20"/>
-                    <int name="acc" value="2"/>
-                    <int name="eva" value="2"/>
-                    <int name="pdd" value="2"/>
-                    <int name="mdd" value="2"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -865,10 +865,10 @@
                     <string name="hs" value="h3"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="30"/>
-                    <int name="acc" value="3"/>
-                    <int name="eva" value="3"/>
-                    <int name="pdd" value="3"/>
-                    <int name="mdd" value="3"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -876,10 +876,10 @@
                     <string name="hs" value="h4"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="40"/>
-                    <int name="acc" value="4"/>
-                    <int name="eva" value="4"/>
-                    <int name="pdd" value="4"/>
-                    <int name="mdd" value="4"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -887,10 +887,10 @@
                     <string name="hs" value="h5"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="50"/>
-                    <int name="acc" value="5"/>
-                    <int name="eva" value="5"/>
-                    <int name="pdd" value="5"/>
-                    <int name="mdd" value="5"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -898,10 +898,10 @@
                     <string name="hs" value="h6"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="60"/>
-                    <int name="acc" value="6"/>
-                    <int name="eva" value="6"/>
-                    <int name="pdd" value="6"/>
-                    <int name="mdd" value="6"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -909,10 +909,10 @@
                     <string name="hs" value="h7"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="70"/>
-                    <int name="acc" value="7"/>
-                    <int name="eva" value="7"/>
-                    <int name="pdd" value="7"/>
-                    <int name="mdd" value="7"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -920,10 +920,10 @@
                     <string name="hs" value="h8"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="80"/>
-                    <int name="acc" value="8"/>
-                    <int name="eva" value="8"/>
-                    <int name="pdd" value="8"/>
-                    <int name="mdd" value="8"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -931,10 +931,10 @@
                     <string name="hs" value="h9"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="90"/>
-                    <int name="acc" value="9"/>
-                    <int name="eva" value="9"/>
-                    <int name="pdd" value="9"/>
-                    <int name="mdd" value="9"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -942,10 +942,10 @@
                     <string name="hs" value="h10"/>
                     <int name="mpCon" value="12"/>
                     <int name="time" value="100"/>
-                    <int name="acc" value="10"/>
-                    <int name="eva" value="10"/>
-                    <int name="pdd" value="10"/>
-                    <int name="mdd" value="10"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
@@ -953,10 +953,10 @@
                     <string name="hs" value="h11"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="110"/>
-                    <int name="acc" value="11"/>
-                    <int name="eva" value="11"/>
-                    <int name="pdd" value="11"/>
-                    <int name="mdd" value="11"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -964,10 +964,10 @@
                     <string name="hs" value="h12"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="120"/>
-                    <int name="acc" value="12"/>
-                    <int name="eva" value="12"/>
-                    <int name="pdd" value="12"/>
-                    <int name="mdd" value="12"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -975,10 +975,10 @@
                     <string name="hs" value="h13"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="130"/>
-                    <int name="acc" value="13"/>
-                    <int name="eva" value="13"/>
-                    <int name="pdd" value="13"/>
-                    <int name="mdd" value="13"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -986,10 +986,10 @@
                     <string name="hs" value="h14"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="140"/>
-                    <int name="acc" value="14"/>
-                    <int name="eva" value="14"/>
-                    <int name="pdd" value="14"/>
-                    <int name="mdd" value="14"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -997,10 +997,10 @@
                     <string name="hs" value="h15"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="150"/>
-                    <int name="acc" value="15"/>
-                    <int name="eva" value="15"/>
-                    <int name="pdd" value="15"/>
-                    <int name="mdd" value="15"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -1008,10 +1008,10 @@
                     <string name="hs" value="h16"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="160"/>
-                    <int name="acc" value="16"/>
-                    <int name="eva" value="16"/>
-                    <int name="pdd" value="16"/>
-                    <int name="mdd" value="16"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -1019,10 +1019,10 @@
                     <string name="hs" value="h17"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="170"/>
-                    <int name="acc" value="17"/>
-                    <int name="eva" value="17"/>
-                    <int name="pdd" value="17"/>
-                    <int name="mdd" value="17"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -1030,10 +1030,10 @@
                     <string name="hs" value="h18"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="180"/>
-                    <int name="acc" value="18"/>
-                    <int name="eva" value="18"/>
-                    <int name="pdd" value="18"/>
-                    <int name="mdd" value="18"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -1041,10 +1041,10 @@
                     <string name="hs" value="h19"/>
                     <int name="mpCon" value="24"/>
                     <int name="time" value="190"/>
-                    <int name="acc" value="19"/>
-                    <int name="eva" value="19"/>
-                    <int name="pdd" value="19"/>
-                    <int name="mdd" value="19"/>
+                    <int name="acc" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
@@ -1053,9 +1053,9 @@
                     <int name="mpCon" value="24"/>
                     <int name="time" value="200"/>
                     <int name="acc" value="20"/>
-                    <int name="eva" value="20"/>
-                    <int name="pdd" value="20"/>
-                    <int name="mdd" value="20"/>
+                    <int name="eva" value="40"/>
+                    <int name="pdd" value="50"/>
+                    <int name="mdd" value="100"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
