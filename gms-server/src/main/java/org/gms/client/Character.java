@@ -2485,6 +2485,10 @@ public class Character extends AbstractCharacterObject {
         dispelDebuff(Disease.SEAL);
         dispelDebuff(Disease.WEAKEN);
         dispelDebuff(Disease.SLOW);    // thanks Conrad for noticing ZOMBIFY isn't dispellable
+        dispelDebuff(Disease.SEDUCE);
+        dispelDebuff(Disease.ZOMBIFY);
+        dispelDebuff(Disease.CONFUSE);
+        dispelDebuff(Disease.STUN);
     }
 
     public void purgeDebuffs() {
