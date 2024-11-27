@@ -1337,19 +1337,19 @@ public class ItemInformationProvider {
     }
 
     public Equip randomizeUpgradeStats(Equip equip) {
-        equip.setStr(getRandUpgradedStat(equip.getStr(), 2));
-        equip.setDex(getRandUpgradedStat(equip.getDex(), 2));
-        equip.setInt(getRandUpgradedStat(equip.getInt(), 2));
-        equip.setLuk(getRandUpgradedStat(equip.getLuk(), 2));
-        equip.setMatk(getRandUpgradedStat(equip.getMatk(), 2));
-        equip.setWatk(getRandUpgradedStat(equip.getWatk(), 2));
-        equip.setAcc(getRandUpgradedStat(equip.getAcc(), 2));
-        equip.setAvoid(getRandUpgradedStat(equip.getAvoid(), 2));
-        equip.setJump(getRandUpgradedStat(equip.getJump(), 2));
-        equip.setWdef(getRandUpgradedStat(equip.getWdef(), 5));
-        equip.setMdef(getRandUpgradedStat(equip.getMdef(), 5));
-        equip.setHp(getRandUpgradedStat(equip.getHp(), 5));
-        equip.setMp(getRandUpgradedStat(equip.getMp(), 5));
+        equip.setStr(getRandUpgradedStat(equip.getStr(), 20));
+        equip.setDex(getRandUpgradedStat(equip.getDex(), 20));
+        equip.setInt(getRandUpgradedStat(equip.getInt(), 20));
+        equip.setLuk(getRandUpgradedStat(equip.getLuk(), 20));
+        equip.setMatk(getRandUpgradedStat(equip.getMatk(), 20));
+        equip.setWatk(getRandUpgradedStat(equip.getWatk(), 20));
+        equip.setAcc(getRandUpgradedStat(equip.getAcc(), 20));
+        equip.setAvoid(getRandUpgradedStat(equip.getAvoid(), 20));
+        equip.setJump(getRandUpgradedStat(equip.getJump(), 20));
+        equip.setWdef(getRandUpgradedStat(equip.getWdef(), 50));
+        equip.setMdef(getRandUpgradedStat(equip.getMdef(), 50));
+        equip.setHp(getRandUpgradedStat(equip.getHp(), 50));
+        equip.setMp(getRandUpgradedStat(equip.getMp(), 50));
         return equip;
     }
 
