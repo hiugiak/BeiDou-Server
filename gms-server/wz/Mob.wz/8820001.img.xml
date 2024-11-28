@@ -3,7 +3,7 @@
   <imgdir name="info">
     <int name="bodyAttack" value="1"/>
     <int name="level" value="180"/>
-    <int name="maxHP" value="2100000000"/>
+    <int name="maxHP" value="105000000"/>
     <int name="maxMP" value="50000"/>
     <int name="speed" value="-50"/>
     <int name="PADamage" value="1700"/>
@@ -26,7 +26,7 @@
     <string name="buff" value="2022449"/>
     <int name="hpTagColor" value="1"/>
     <int name="hpTagBgcolor" value="5"/>
-    <string name="elemAttr" value="P2H2F2I2"/>
+    <string name="elemAttr" value="P2F2I2"/>
     <int name="mobType" value="1"/>
     <int name="rareItemDropLevel" value="3"/>
     <imgdir name="skill">
