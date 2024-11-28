@@ -54,7 +54,7 @@ function action(mode, type, selection) {
     }
     if (status == 0 && mode == 1) {
         var selStr = "嗯？你是谁？哦，你听说过我的锻造技术？如果是这样的话，我会很乐意帮你加工一些矿石……不过需要收费。#b"
-        var options = ["精炼矿石", "精炼宝石", "精炼稀有宝石", "精炼水晶矿石", "制作材料", "制作箭矢"];
+        var options = ["精炼矿石", "精炼宝石", "精炼稀有宝石", "精炼水晶矿石", "制作材料", "制作强化宝石", "制作箭矢"];
         for (var i = 0; i < options.length; i++) {
             selStr += "\r\n#L" + i + "# " + options[i] + "#l";
         }
@@ -102,7 +102,16 @@ function action(mode, type, selection) {
             }
             equip = false;
             cm.sendSimple(selStr);
-        } else if (selectedType == 5) { //arrow refine
+        }else if (selectedType == 5) { 
+            var selStr = "那么，你想要合成哪种宝石呢？#b";
+            var minerals = ["#v4250002:##t4250002#", "#v4250102:##t4250102#", "#v4250202:##t4250202#", "#v4250302:##t4250302#", "#v4250402:##t4250402#", "#v4250502:##t4250502#", "#v4250602:##t4250602#", "#v4250702:##t4250702#", "#v4250802:##t4250802#",
+                 "#v4250902:##t4250902#", "#v4251002:##t4251002#", "#v4251102:##t4251102#", "#v4251202:##t4251202#", "#v4251302:##t4251302#", "#v4251402:##t4251402#"];
+            for (var i = 0; i < minerals.length; i++) {
+                selStr += "\r\n#L" + i + "# " + minerals[i] + "#l";
+            }
+            equip = false;
+            cm.sendSimple(selStr);
+        } else if (selectedType == 6) { //arrow refine
             var selStr = "箭矢吗？包在我身上！#b";
             var arrows = ["#i2060000##t2060000#", "#i2061000##t2061000#", "#i2060001##t2060001#", "#i2061001##t2061001#", "#i2060002##t2060002#", "#i2061002##t2061002#"];
             for (var i = 0; i < arrows.length; i++) {
@@ -161,9 +170,18 @@ function action(mode, type, selection) {
             mats = matSet[selectedItem];
             matQty = matQtySet[selectedItem];
             cost = costSet[selectedItem];
+        } else if (selectedType == 5) { 
+            var itemSet = [4250002, 4250102, 4250202, 4250302, 4250402, 4250502, 4250602, 4250702, 4250802, 4250902, 4251002, 4251102, 4251202, 4251302, 4251402];
+            var matSet = [4021007, 4021005, 4021000, 4021004, 4021001, 4021002, 4021006, 4021003, 4005000, 4005001, 4005003, 4005002, 4032133, 4021008, 4005004];
+            var matQtySet = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 1, 10, 10];
+            var costSet = [10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000, 10000000];
+            item = itemSet[selectedItem];
+            mats = matSet[selectedItem];
+            matQty = matQtySet[selectedItem];
+            cost = costSet[selectedItem];
         }
 
-        var prompt = "那么，你想让我制作一些#i" + item + "##t" + item + "#吗？你希望我制作多少？";
+        var prompt = "那么，你想让我制作一些#i" + item + ":##t" + item + "#吗？你希望我制作多少？";
 
         cm.sendGetNumber(prompt, 1, 1, 100)
     } else if (status == 3 && mode == 1) {
@@ -174,7 +192,7 @@ function action(mode, type, selection) {
             qty = (selection > 0) ? selection : (selection < 0 ? -selection : 1);
         }
 
-        if (selectedType == 5) { //arrow refine
+        if (selectedType == 6) { //arrow refine
             var itemSet = [2060000, 2061000, 2060001, 2061001, 2060002, 2061002];
             var matSet = [[4003001, 4003004], [4003001, 4003004], [4011000, 4003001, 4003004], [4011000, 4003001, 4003004],
                 [4011001, 4003001, 4003005], [4011001, 4003001, 4003005]];
@@ -186,14 +204,14 @@ function action(mode, type, selection) {
             cost = costSet[selectedItem];
         }
 
-        var prompt = "你想让我制作多少 ";
+        var prompt = "你想让我制作";
         if (qty == 1) {
-            prompt += "一个 #i" + item + "##t" + item + "#?";
+            prompt += "一个 #i" + item + ":##t" + item + "#?";
         } else {
-            prompt += qty + " #t" + item + "#?";
+            prompt += qty + " 个 #i" + item + "##t" + item + "#?";
         }
 
-        prompt += " 既然如此，我需要你提供一些特定的物品来制作箭矢。不过，确保你的库存空间足够哦！#b";
+        prompt += " 既然如此，我需要你提供以下物品来完成制作。不过，确保你的库存空间足够哦！\r\n#b";
 
         if (mats instanceof Array) {
             for (var i = 0; i < mats.length; i++) {
