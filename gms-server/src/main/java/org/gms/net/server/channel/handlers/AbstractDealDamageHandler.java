@@ -533,7 +533,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
                     }
                     if (attack.skill == Paladin.HEAVENS_HAMMER) {
                         if (!monster.isBoss()) {
-                            damageMonsterWithSkill(player, map, monster, monster.getHp() - 1, attack.skill, 1777);
+                            damageMonsterWithSkill(player, map, monster, monster.getHp() + 1, attack.skill, 1777);
                         } else {
                             int HHDmg = (player.calculateMaxBaseDamage(player.getTotalWatk()) * (SkillFactory.getSkill(Paladin.HEAVENS_HAMMER).getEffect(player.getSkillLevel(SkillFactory.getSkill(Paladin.HEAVENS_HAMMER))).getDamage() / 100));
                             damageMonsterWithSkill(player, map, monster, (int) (Math.floor(Math.random() * (HHDmg / 5) + HHDmg * .8)), attack.skill, 1777);
