@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<imgdir name="Eqp.img">
+<imgdir name="Eqp1.img">
     <imgdir name="Eqp">
         <imgdir name="Accessory">
             <imgdir name="1010000">
@@ -1555,6 +1555,9 @@
             <imgdir name="1012999">
                 <string name="name" value="品克缤瞳印"/>
                 <string name="desc" value="击败时间的宠儿 - 品克缤所获得的证明."/>
+            </imgdir>
+            <imgdir name="1022048">
+                <string name="name" value="透明眼饰"/>
             </imgdir>
         </imgdir>
         <imgdir name="Cap">
@@ -4317,6 +4320,13 @@
                 <string name="name" value="考古学家帽子"/>
                 <string name="desc" value="作为遗物大会参与奖奖品的考古学家帽\n子"/>
             </imgdir>
+            <imgdir name="1003096">
+                <string name="name" value="妖狐面具帽子"/>
+            </imgdir>
+            <imgdir name="1005559">
+                <string name="name" value="星之魔法帽"/>
+                <string name="desc" value="由中国冒险岛玩家温温设计。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="Cape">
             <imgdir name="1102000">
@@ -4865,6 +4875,52 @@
             <imgdir name="1102236">
                 <string name="name" value="丘比特的翅膀"/>
                 <string name="desc" value="丘比特翅膀会帮助穿戴者在冒险岛世界\n寻找真爱。"/>
+            </imgdir>
+            <imgdir name="1102604">
+                <string name="name" value="蒼穹之翼"/>
+            </imgdir>
+            <imgdir name="1103212">
+                <string name="name" value="天降祥云"/>
+            </imgdir>
+            <imgdir name="1103214">
+                <string name="name" value="极光之镜"/>
+                <string name="desc" value="由中国冒险岛玩家Criceto设计。"/>
+            </imgdir>
+            <imgdir name="1103221">
+                <string name="name" value="闪亮银河"/>
+            </imgdir>
+            <imgdir name="1103246">
+                <string name="name" value="萤火之森"/>
+                <string name="desc" value="由中国冒险岛玩家“无常”设计。"/>
+            </imgdir>
+            <imgdir name="1103249">
+                <string name="name" value="冰凌草"/>
+            </imgdir>
+            <imgdir name="1103273">
+                <string name="name" value="星之魔法阵"/>
+                <string name="desc" value="由中国冒险岛玩家温温设计。"/>
+            </imgdir>
+            <imgdir name="1103325">
+                <string name="name" value="（限定）空山新雨夜披风"/>
+                <string name="desc" value="由中国冒险岛玩家小马设计。"/>
+            </imgdir>
+            <imgdir name="1103401">
+                <string name="name" value="神秘深夜"/>
+            </imgdir>
+            <imgdir name="1103519">
+                <string name="name" value="星夜魔法阵"/>
+                <string name="desc" value="蕴含着无尽魔力的星夜魔法阵。"/>
+            </imgdir>
+            <imgdir name="1103520">
+                <string name="name" value="管家的黑白猫"/>
+                <string name="desc" value="由冒险岛中国玩家皮皮设计。"/>
+            </imgdir>
+            <imgdir name="1103526">
+                <string name="name" value="熊猫懒洋洋"/>
+                <string name="desc" value="由冒险岛中国玩家皮皮设计。"/>
+            </imgdir>
+            <imgdir name="1103552">
+                <string name="name" value="圣灵单翼"/>
             </imgdir>
         </imgdir>
         <imgdir name="Coat">
@@ -14706,6 +14762,40 @@
             <imgdir name="1052234">
                 <string name="name" value="绅士套服"/>
             </imgdir>
+            <imgdir name="1050380">
+                <string name="name" value="超能力者校服"/>
+            </imgdir>
+            <imgdir name="1050381">
+                <string name="name" value="超能力者校服"/>
+            </imgdir>
+            <imgdir name="1051450">
+                <string name="name" value="超能力者校服"/>
+            </imgdir>
+            <imgdir name="1051451">
+                <string name="name" value="超能力者校服"/>
+            </imgdir>
+            <imgdir name="1053595">
+                <string name="name" value="星之魔法学院校服（男）"/>
+                <string name="desc" value="由中国冒险岛玩家温温设计。"/>
+            </imgdir>
+            <imgdir name="1053596">
+                <string name="name" value="万物之灵守护者（男）"/>
+            </imgdir>
+            <imgdir name="1053797">
+                <string name="name" value="万物之灵守护者（女）"/>
+            </imgdir>
+            <imgdir name="1053905">
+                <string name="name" value="星之魔法见习生 "/>
+                <string name="desc" value="由冒险岛中国玩家皮皮设计。"/>
+            </imgdir>
+            <imgdir name="1053917">
+                <string name="name" value="趴趴熊猫套服 "/>
+                <string name="desc" value="由冒险岛中国玩家皮皮设计。"/>
+            </imgdir>
+            <imgdir name="1053939">
+                <string name="name" value="飒爽清风连衣裙 "/>
+                <string name="desc" value="中国冒险岛玩家温温设计的作品。\r\n\r\n注意！与不是套服和套装的装备一起穿戴时，角色形象可能会不自然。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="Pants">
             <imgdir name="1060000">
@@ -16677,6 +16767,10 @@
                 <string name="name" value="怪物卡戒指13阶段"/>
                 <string name="desc" value="收集390组怪物卡片之后兑换的戒指。"/>
             </imgdir>
+            <imgdir name="1115332">
+                <string name="name" value="灵狐名片戒指 "/>
+                <string name="desc" value="由北美冒险岛玩家TsuusT设计。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="Shield">
             <imgdir name="1092000">
@@ -16857,6 +16951,9 @@
             <imgdir name="1092067">
                 <string name="name" value="透明盾牌"/>
                 <string name="desc" value="使装备中的盾牌道具变得透明的透明盾\n牌。装备非盾牌的辅助武器时，无法看\n到透明盾牌效果。"/>
+            </imgdir>
+            <imgdir name="1092064">
+                <string name="name" value="透明盾牌"/>
             </imgdir>
         </imgdir>
         <imgdir name="Shoes">
@@ -18130,6 +18227,30 @@
             </imgdir>
             <imgdir name="1072437">
                 <string name="name" value="玩具品克缤拖拖"/>
+            </imgdir>
+            <imgdir name="1073084">
+                <string name="name" value="超能力者皮鞋"/>
+            </imgdir>
+            <imgdir name="1073085">
+                <string name="name" value="超能力者皮鞋"/>
+            </imgdir>
+            <imgdir name="1073452">
+                <string name="name" value="星之魔法小皮鞋"/>
+                <string name="desc" value="由中国冒险岛玩家温温设计。"/>
+            </imgdir>
+            <imgdir name="1073599">
+                <string name="name" value="万物之灵的足迹（男）"/>
+            </imgdir>
+            <imgdir name="1073600">
+                <string name="name" value="万物之灵的足迹（女）"/>
+            </imgdir>
+            <imgdir name="1073619">
+                <string name="name" value="拿走拖鞋的小兔子"/>
+                <string name="desc" value="由冒险岛中国玩家皮皮设计。"/>
+            </imgdir>
+            <imgdir name="1073694">
+                <string name="name" value="星之魔法皮鞋"/>
+                <string name="desc" value="自带白色棉袜。"/>
             </imgdir>
         </imgdir>
         <imgdir name="Taming">
@@ -22381,6 +22502,30 @@
             <imgdir name="1702251">
                 <string name="name" value="电锯惊魂枪"/>
                 <string name="desc" value="散发恐怖气息的枪。可佩戴在#c所有武器\n#上。"/>
+            </imgdir>
+            <imgdir name="1703011">
+                <string name="name" value="星之魔法卡牌"/>
+                <string name="desc" value="可装备于#c所有武器#。由中国冒险岛玩家温温设计。"/>
+            </imgdir>
+            <imgdir name="1703148">
+                <string name="name" value="万物之灵权杖"/>
+                <string name="desc" value="蕴含万物之灵的力量。#c所有武器#都可装备。"/>
+            </imgdir>
+            <imgdir name="1703157">
+                <string name="name" value="神秘使魔"/>
+                <string name="desc" value="可装备于#c所有武器#。"/>
+            </imgdir>
+            <imgdir name="1703181">
+                <string name="name" value="별빛 은하수"/>
+                <string name="desc" value="금손 어워즈 은손 수상작 &quot;은하수 토끼 세트&quot;의 무기. #c모든 무기#에 착용이 가능하다."/>
+            </imgdir>
+            <imgdir name="1703185">
+                <string name="name" value="雪夜黑虎"/>
+                <string name="desc" value="可装备于#c所有武器#。"/>
+            </imgdir>
+            <imgdir name="1703176">
+                <string name="name" value="宇宙智能兔 "/>
+                <string name="desc" value="金手奖银手获奖作品“宇宙智能兔礼包”中的武器。可装备于#c所有武器#上。"/>
             </imgdir>
         </imgdir>
     </imgdir>
