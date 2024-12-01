@@ -39,7 +39,7 @@ function action(mode, type, selection) {
         case 0:
             var text = `#r目前卡组数量为: ${countCardSet()}#k，要兑换戒指吗？`;
             for (var i = 0; i < ringInfoList.length; i++) {
-                text += `\r\n#b#L${i}##t${ringInfoList[i].ID}##l#k`;
+                text += `\r\n#b#L${i}##v${ringInfoList[i].ID}:##t${ringInfoList[i].ID}##l#k`;
             }
             return cm.sendSimple(text);
         case 1:
@@ -48,7 +48,7 @@ function action(mode, type, selection) {
             }
             sel = selection;
             if (!playerCanHoldRing(sel)) {
-                cm.sendOk('身上已有怪物卡戒指，无法兑换。');
+                cm.sendOk('身上没有兑换所需要的前置怪物卡戒指，无法兑换。\r\n另外，当身上有任意等级的戒指时，无法领取新手戒指。');
                 return cm.dispose();
             }
             if (sel == 0) {
@@ -117,9 +117,9 @@ function showRequirement(ringIndex) {
         text += `#i${materialID}# #b#t${materialID}# 10 个#k`;
     }
     if (lastStageRingID > 0) {
-        text += `\r\n\r\n#i${lastStageRingID}# #b#t${lastStageRingID}##k`;
+        text += `\r\n#v${lastStageRingID}:# #b#t${lastStageRingID}##k\r\n\r\n是否确认兑换？`;
     }
-    cm.sendNext(text);
+    cm.sendYesNo(text);
 }
 
 function countCardSet() {
