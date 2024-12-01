@@ -1597,181 +1597,181 @@
                 <imgdir name="1">
                     <string name="hs" value="h1"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="369"/>
+                    <int name="mad" value="246"/>
                     <int name="mastery" value="1"/>
                 </imgdir>
                 <imgdir name="2">
                     <string name="hs" value="h2"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="378"/>
+                    <int name="mad" value="252"/>
                     <int name="mastery" value="1"/>
                 </imgdir>
                 <imgdir name="3">
                     <string name="hs" value="h3"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="387"/>
+                    <int name="mad" value="258"/>
                     <int name="mastery" value="1"/>
                 </imgdir>
                 <imgdir name="4">
                     <string name="hs" value="h4"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="396"/>
+                    <int name="mad" value="264"/>
                     <int name="mastery" value="2"/>
                 </imgdir>
                 <imgdir name="5">
                     <string name="hs" value="h5"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="405"/>
+                    <int name="mad" value="270"/>
                     <int name="mastery" value="2"/>
                 </imgdir>
                 <imgdir name="6">
                     <string name="hs" value="h6"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="414"/>
+                    <int name="mad" value="276"/>
                     <int name="mastery" value="2"/>
                 </imgdir>
                 <imgdir name="7">
                     <string name="hs" value="h7"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="423"/>
+                    <int name="mad" value="282"/>
                     <int name="mastery" value="3"/>
                 </imgdir>
                 <imgdir name="8">
                     <string name="hs" value="h8"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="432"/>
+                    <int name="mad" value="288"/>
                     <int name="mastery" value="3"/>
                 </imgdir>
                 <imgdir name="9">
                     <string name="hs" value="h9"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="441"/>
+                    <int name="mad" value="294"/>
                     <int name="mastery" value="3"/>
                 </imgdir>
                 <imgdir name="10">
                     <string name="hs" value="h10"/>
                     <int name="mpCon" value="16"/>
-                    <int name="mad" value="450"/>
+                    <int name="mad" value="300"/>
                     <int name="mastery" value="4"/>
                 </imgdir>
                 <imgdir name="11">
                     <string name="hs" value="h11"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="462"/>
+                    <int name="mad" value="308"/>
                     <int name="mastery" value="4"/>
                 </imgdir>
                 <imgdir name="12">
                     <string name="hs" value="h12"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="474"/>
+                    <int name="mad" value="316"/>
                     <int name="mastery" value="4"/>
                 </imgdir>
                 <imgdir name="13">
                     <string name="hs" value="h13"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="486"/>
+                    <int name="mad" value="324"/>
                     <int name="mastery" value="5"/>
                 </imgdir>
                 <imgdir name="14">
                     <string name="hs" value="h14"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="498"/>
+                    <int name="mad" value="332"/>
                     <int name="mastery" value="5"/>
                 </imgdir>
                 <imgdir name="15">
                     <string name="hs" value="h15"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="510"/>
+                    <int name="mad" value="340"/>
                     <int name="mastery" value="5"/>
                 </imgdir>
                 <imgdir name="16">
                     <string name="hs" value="h16"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="522"/>
+                    <int name="mad" value="348"/>
                     <int name="mastery" value="6"/>
                 </imgdir>
                 <imgdir name="17">
                     <string name="hs" value="h17"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="534"/>
+                    <int name="mad" value="356"/>
                     <int name="mastery" value="6"/>
                 </imgdir>
                 <imgdir name="18">
                     <string name="hs" value="h18"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="546"/>
+                    <int name="mad" value="364"/>
                     <int name="mastery" value="6"/>
                 </imgdir>
                 <imgdir name="19">
                     <string name="hs" value="h19"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="558"/>
+                    <int name="mad" value="372"/>
                     <int name="mastery" value="7"/>
                 </imgdir>
                 <imgdir name="20">
                     <string name="hs" value="h20"/>
                     <int name="mpCon" value="24"/>
-                    <int name="mad" value="570"/>
+                    <int name="mad" value="380"/>
                     <int name="mastery" value="7"/>
                 </imgdir>
                 <imgdir name="21">
                     <string name="hs" value="h21"/>
                     <int name="mpCon" value="30"/>
-                    <int name="mad" value="585"/>
+                    <int name="mad" value="390"/>
                     <int name="mastery" value="7"/>
                 </imgdir>
                 <imgdir name="22">
                     <string name="hs" value="h22"/>
                     <int name="mpCon" value="30"/>
-                    <int name="mad" value="600"/>
+                    <int name="mad" value="400"/>
                     <int name="mastery" value="8"/>
                 </imgdir>
                 <imgdir name="23">
                     <string name="hs" value="h23"/>
                     <int name="mpCon" value="30"/>
-                    <int name="mad" value="615"/>
+                    <int name="mad" value="410"/>
                     <int name="mastery" value="8"/>
                 </imgdir>
                 <imgdir name="24">
                     <string name="hs" value="h24"/>
                     <int name="mpCon" value="30"/>
-                    <int name="mad" value="630"/>
+                    <int name="mad" value="420"/>
                     <int name="mastery" value="8"/>
                 </imgdir>
                 <imgdir name="25">
                     <string name="hs" value="h25"/>
                     <int name="mpCon" value="30"/>
-                    <int name="mad" value="645"/>
+                    <int name="mad" value="430"/>
                     <int name="mastery" value="9"/>
                 </imgdir>
                 <imgdir name="26">
                     <string name="hs" value="h26"/>
                     <int name="mpCon" value="29"/>
-                    <int name="mad" value="660"/>
+                    <int name="mad" value="440"/>
                     <int name="mastery" value="9"/>
                 </imgdir>
                 <imgdir name="27">
                     <string name="hs" value="h27"/>
                     <int name="mpCon" value="28"/>
-                    <int name="mad" value="675"/>
+                    <int name="mad" value="450"/>
                     <int name="mastery" value="9"/>
                 </imgdir>
                 <imgdir name="28">
                     <string name="hs" value="h28"/>
                     <int name="mpCon" value="27"/>
-                    <int name="mad" value="690"/>
+                    <int name="mad" value="460"/>
                     <int name="mastery" value="10"/>
                 </imgdir>
                 <imgdir name="29">
                     <string name="hs" value="h29"/>
                     <int name="mpCon" value="26"/>
-                    <int name="mad" value="705"/>
+                    <int name="mad" value="470"/>
                     <int name="mastery" value="10"/>
                 </imgdir>
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="mpCon" value="25"/>
-                    <int name="mad" value="720"/>
+                    <int name="mad" value="480"/>
                     <int name="mastery" value="10"/>
                 </imgdir>
             </imgdir>
