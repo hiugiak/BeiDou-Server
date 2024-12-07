@@ -97,8 +97,8 @@ function end(mode, type, selection)
 	    if (status == 0)
 	    {
 			//第一层对话
-            qm.sendOk("看来你已经见过小睡了，欢迎来到北斗，这是给你的启动资金，希望对您的冒险有所帮助\r\n\r\n#fUI/CashShop.img/CSDiscount/bonus# 金币: 1000000");
-            qm.gainMeso(100000);			
+            qm.sendOk("看来你已经见过小睡了，欢迎来到北斗，这是给你的启动资金，希望对您的冒险有所帮助\r\n\r\n#fUI/CashShop.img/CSDiscount/bonus# 金币: 10000000");
+            qm.gainMeso(10000000);
 			qm.forceCompleteQuest();
             qm.dispose();			
 	    }

@@ -19,7 +19,7 @@ function action(mode, type, selection)
 	    }
 		else
 		{
-			cm.warp(1);
+			cm.warp(10000);
 			cm.dispose();
 		}
 	}
