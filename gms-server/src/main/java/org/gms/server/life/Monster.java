@@ -1180,7 +1180,8 @@ public class Monster extends AbstractLoadedLife {
         if (stats.isBoss()) {
             if (statis.containsKey(MonsterStatus.FREEZE) || statis.containsKey(MonsterStatus.SPEED) ||
                 statis.containsKey(MonsterStatus.DOOM) || statis.containsKey(MonsterStatus.SHADOW_WEB)||
-                statis.containsKey(MonsterStatus.SHOWDOWN) || statis.containsKey(MonsterStatus.STUN)) {
+                statis.containsKey(MonsterStatus.SHOWDOWN) || statis.containsKey(MonsterStatus.STUN)||
+                statis.containsKey(MonsterStatus.POISON)) {
                 //限制冰冻术，缓速术，巫毒术，影网术，挑衅，眩晕对BOSS生效
                 return false;
             }
