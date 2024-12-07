@@ -22,7 +22,7 @@ function action(mode, type, selection) {
     }
     if (status == 0 && mode == 1) {
         var selStr = "这里是兑换中心，现在开放了一些物品的兑换\r\n您看看有什么感兴趣的？#b"
-        var options = ["选项一暂没想好", "选项二暂没想好", "兑换正向混沌卷轴", "兑换其他物品暂没想好"];
+        var options = ["坐骑兑换", "选项二暂没想好", "兑换正向混沌卷轴", "兑换其他物品暂没想好"];
         for (var i = 0; i < options.length; i++) {
             selStr += "\r\n#L" + i + "# " + options[i] + "#l";
         }
@@ -32,7 +32,8 @@ function action(mode, type, selection) {
         selectedType = selection;
         if (selectedType == 0) { 
             var selStr = "好的，那么你想兑换啥？#b";
-            var items = ["#k#v1002562:##t1002562#"];
+            var items = ["#k用#t1902002#兑换#k#v1902018:##t1902018#", "#k用#t1902018#兑换#k#v1902002:##t1902002#",
+                "#k用#t1912000#兑换#k#v1912011:##t1912011#：狼系列坐骑鞍", "#k用#t1912011#兑换#k#v1912000:##t1912000#：冒险家坐骑鞍"];
             for (var i = 0; i < items.length; i++) {
                 selStr += "\r\n#L" + i + "# " + items[i] + "#l";
             }
@@ -40,7 +41,7 @@ function action(mode, type, selection) {
             equip = true;
         } else if (selectedType == 1) { 
             var selStr = "你想兑换哪种物品？#b";
-            var crystals = ["#k#v1052081:##t1052081#"];
+            var crystals = ["#k#v1052081:##t1052081#", "#k#v1002562:##t1002562#"];
             for (var i = 0; i < crystals.length; i++) {
                 selStr += "\r\n#L" + i + "# " + crystals[i] + "#l";
             }
@@ -57,7 +58,7 @@ function action(mode, type, selection) {
             equip = false;
         } else if (selectedType == 3) { 
             var selStr = "你想兑换哪种物品？#b";
-            var materials = ["#k#v2100902:##t2100902#"];
+            var materials = ["#k#v4030012#50个#t4030012#兑换#k#v2100902:#神秘召唤包"];
             for (var i = 0; i < materials.length; i++) {
                 selStr += "\r\n#L" + i + "# " + materials[i] + "#l";
             }
@@ -101,19 +102,19 @@ function action(mode, type, selection) {
         }
 
         if (selectedType == 0) { 
-            var itemSet = [1002562];
-            var matSet = [[2010009, 2010003]];
-            var matQtySet = [[5, 5]];
-            var costSet = [1000];
+            var itemSet = [1902018, 1902002, 1912011, 1912011];
+            var matSet = [1902002, 1902018, 1912000, 1912011];
+            var matQtySet = [1, 1, 1, 1];
+            var costSet = [10000000, 10000000, 5000000, 5000000,];
             item = itemSet[selectedItem];
             mats = matSet[selectedItem];
             matQty = matQtySet[selectedItem];
             cost = costSet[selectedItem];
         } else if (selectedType == 1) { 
-            var itemSet = [1052081];
-            var matSet = [2010009];
-            var matQtySet = [10];
-            var costSet = [1000];
+            var itemSet = [1052081, 1002562];
+            var matSet = [2010009, [2010009, 2010003]];
+            var matQtySet = [10, [5, 5]];
+            var costSet = [1000, 1000];
             item = itemSet[selectedItem];
             mats = matSet[selectedItem];
             matQty = matQtySet[selectedItem];
