@@ -38465,6 +38465,7 @@
     <imgdir name="0">
       <int name="npc" value="2060005"/>
       <int name="lvmin" value="30"/>
+      <int name="interval" value="1"/>
       <imgdir name="pet">
         <imgdir name="0">
           <int name="id" value="5000000"/>
