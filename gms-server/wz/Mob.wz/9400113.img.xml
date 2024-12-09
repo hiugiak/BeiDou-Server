@@ -5,7 +5,7 @@
     <int name="level" value="155"/>
     <int name="maxHP" value="500000000"/>
     <int name="maxMP" value="50000"/>
-    <int name="speed" value="0"/>
+    <int name="speed" value="-50"/>
     <int name="PADamage" value="1300"/>
     <int name="PDDamage" value="3100"/>
     <int name="MADamage" value="1200"/>
