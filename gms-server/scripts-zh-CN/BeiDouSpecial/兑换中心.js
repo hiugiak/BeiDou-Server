@@ -22,7 +22,7 @@ function action(mode, type, selection) {
     }
     if (status == 0 && mode == 1) {
         var selStr = "这里是兑换中心，现在开放了一些物品的兑换\r\n您看看有什么感兴趣的？#b"
-        var options = ["兑换坐骑", "选项二暂没想好", "兑换正向混沌卷轴"];
+        var options = ["兑换坐骑", "选项二暂没想好", "兑换正向混沌卷轴", "兑换怪物卡片"];
         for (var i = 0; i < options.length; i++) {
             selStr += "\r\n#L" + i + "# " + options[i] + "#l";
         }
