@@ -25,6 +25,8 @@ import org.gms.config.YamlConfig;
 import org.gms.constants.game.GameConstants;
 import org.gms.server.maps.AbstractAnimatedMapObject;
 import org.gms.server.maps.MapleMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -38,6 +40,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * @author RonanLana
  */
 public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject {
+    private static final Logger logger = LoggerFactory.getLogger(AbstractCharacterObject.class);
+
     @Setter
     @Getter
     protected MapleMap map;
@@ -268,7 +272,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
             this.transientHp = Float.NEGATIVE_INFINITY;
         }
         this.maxHp = hp_;
-        this.clientMaxHp = Math.min(30000, hp_);
+        this.clientMaxHp = Math.min(32000, hp_);
     }
 
     protected void setMaxMp(int mp_) {
@@ -276,7 +280,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
             this.transientMp = Float.NEGATIVE_INFINITY;
         }
         this.maxMp = mp_;
-        this.clientMaxMp = Math.min(30000, mp_);
+        this.clientMaxMp = Math.min(32000, mp_);
     }
 
     private static long clampStat(int v, int min, int max) {
@@ -294,6 +298,26 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
         return ((r & 0x0FFFF) << displacement);
     }
 
+    private static long calcStatPoolInt(Integer v, int displacement) {
+        long r;
+        if (v == null) {
+            r = (long) 1 << 31;
+        } else {
+            r = clampStat(v, -Integer.MAX_VALUE, Integer.MAX_VALUE);
+        }
+
+        return ((r & 0x0FFFFFFFF) << displacement);
+    }
+
+    private static long calcStatPoolLong(Integer v1, Integer v2) {
+        long ret = 0;
+
+        ret |= calcStatPoolInt(v1, 32);
+        ret |= calcStatPoolInt(v2, 0);
+
+        return ret;
+    }
+
     private static long calcStatPoolLong(Integer v1, Integer v2, Integer v3, Integer v4) {
         long ret = 0;
 
@@ -305,7 +329,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
         return ret;
     }
 
-    private void changeStatPool(Long hpMpPool, Long strDexIntLuk, Long newSp, int newAp, boolean silent) {
+    private void changeStatPool(Long hpPool, Long mpPool, Long strDexIntLuk, Long newSp, int newAp, boolean silent) {
         effLock.lock();
         statWlock.lock();
         try {
@@ -313,13 +337,12 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
             boolean poolUpdate = false;
             boolean statUpdate = false;
 
-            if (hpMpPool != null) {
-                short newHp = (short) (hpMpPool >> 48);
-                short newMp = (short) (hpMpPool >> 32);
-                short newMaxHp = (short) (hpMpPool >> 16);
-                short newMaxMp = hpMpPool.shortValue();
+            if (hpPool != null) {
+                int newHp = (int) (hpPool >> 32);
+                int newMaxHp = hpPool.intValue();
+                logger.debug("changeStatPool, hpPool = {}, newHP = {}, newMaxHp = {}", hpPool, newHp, newMaxHp);
 
-                if (newMaxHp != Short.MIN_VALUE) {
+                if (newMaxHp != Integer.MIN_VALUE) {
                     if (newMaxHp < 50) {
                         newMaxHp = 50;
                     }
@@ -330,12 +353,18 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
                     statUpdates.put(Stat.HP, hp);
                 }
 
-                if (newHp != Short.MIN_VALUE) {
+                if (newHp != Integer.MIN_VALUE) {
                     setHp(newHp);
                     statUpdates.put(Stat.HP, hp);
                 }
+            }
 
-                if (newMaxMp != Short.MIN_VALUE) {
+            if (mpPool != null) {
+                int newMp = (int) (mpPool >> 32);
+                int newMaxMp = mpPool.intValue();
+                logger.debug("changeStatPool, mpPool = {}, newMp = {}, newMaxMp = {}", mpPool, newMp, newMaxMp);
+
+                if (newMaxMp != Integer.MIN_VALUE) {
                     if (newMaxMp < 5) {
                         newMaxMp = 5;
                     }
@@ -346,7 +375,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
                     statUpdates.put(Stat.MP, mp);
                 }
 
-                if (newMp != Short.MIN_VALUE) {
+                if (newMp != Integer.MIN_VALUE) {
                     setMp(newMp);
                     statUpdates.put(Stat.MP, mp);
                 }
@@ -430,8 +459,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
     }
 
     private void changeHpMpPool(Integer hp, Integer mp, Integer maxhp, Integer maxmp, boolean silent) {
-        long hpMpPool = calcStatPoolLong(hp, mp, maxhp, maxmp);
-        changeStatPool(hpMpPool, null, null, -1, silent);
+        changeStatPool(calcStatPoolLong(hp, maxhp), calcStatPoolLong(mp, maxmp), null, null, -1, silent);
     }
 
     public void updateHp(int hp) {
@@ -605,10 +633,12 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
                 return false;
             }
 
-            long hpMpPool = calcStatPoolLong(null, null, maxHp + deltaHP, maxMp);
+            long hpPool = calcStatPoolLong(null, maxHp + deltaHP);
+            long mpPool = calcStatPoolLong(null, maxMp);
+            // long hpMpPool = calcStatPoolLong(null, null, maxHp + deltaHP, maxMp);
             long strDexIntLuk = calcStatPoolLong(attrStr, attrDex, attrInt, attrLuk);
 
-            changeStatPool(hpMpPool, strDexIntLuk, null, remainingAp - deltaAp, false);
+            changeStatPool(hpPool, mpPool, strDexIntLuk, null, remainingAp - deltaAp, false);
             setHpMpApUsed(hpMpApUsed + deltaAp);
             return true;
         } finally {
@@ -625,10 +655,12 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
                 return false;
             }
 
-            long hpMpPool = calcStatPoolLong(null, null, maxHp, maxMp + deltaMP);
+            long hpPool = calcStatPoolLong(null, maxHp);
+            long mpPool = calcStatPoolLong(null, maxMp + deltaMP);
+            // long hpMpPool = calcStatPoolLong(null, null, maxHp, maxMp + deltaMP);
             long strDexIntLuk = calcStatPoolLong(attrStr, attrDex, attrInt, attrLuk);
 
-            changeStatPool(hpMpPool, strDexIntLuk, null, remainingAp - deltaAp, false);
+            changeStatPool(hpPool, mpPool, strDexIntLuk, null, remainingAp - deltaAp, false);
             setHpMpApUsed(hpMpApUsed + deltaAp);
             return true;
         } finally {
@@ -642,7 +674,8 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
     }
 
     public boolean assignStrDexIntLuk(int deltaStr, int deltaDex, int deltaInt, int deltaLuk) {
-        return assignStrDexIntLuk(Integer.valueOf(deltaStr), Integer.valueOf(deltaDex), Integer.valueOf(deltaInt), Integer.valueOf(deltaLuk));
+        return assignStrDexIntLuk(Integer.valueOf(deltaStr), Integer.valueOf(deltaDex), Integer.valueOf(deltaInt),
+                Integer.valueOf(deltaLuk));
     }
 
     private boolean assignStrDexIntLuk(Integer deltaStr, Integer deltaDex, Integer deltaInt, Integer deltaLuk) {
@@ -656,7 +689,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
 
             int newStr = attrStr, newDex = attrDex, newInt = attrInt, newLuk = attrLuk;
             if (deltaStr != null) {
-                newStr += deltaStr;   // thanks Rohenn for noticing an NPE case after "null" started being used
+                newStr += deltaStr; // thanks Rohenn for noticing an NPE case after "null" started being used
             }
             if (deltaDex != null) {
                 newDex += deltaDex;
@@ -723,18 +756,21 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
         changeStrDexIntLuk(str, dex, int_, luk, remainingAp, false);
     }
 
-    private void changeStrDexIntLuk(Integer str, Integer dex, Integer int_, Integer luk, int remainingAp, boolean silent) {
+    private void changeStrDexIntLuk(Integer str, Integer dex, Integer int_, Integer luk, int remainingAp,
+            boolean silent) {
         long strDexIntLuk = calcStatPoolLong(str, dex, int_, luk);
-        changeStatPool(null, strDexIntLuk, null, remainingAp, silent);
+        changeStatPool(null, null, strDexIntLuk, null, remainingAp, silent);
     }
 
-    private void changeStrDexIntLukSp(Integer str, Integer dex, Integer int_, Integer luk, int remainingAp, int remainingSp, int skillbook, boolean silent) {
+    private void changeStrDexIntLukSp(Integer str, Integer dex, Integer int_, Integer luk, int remainingAp,
+            int remainingSp, int skillbook, boolean silent) {
         long strDexIntLuk = calcStatPoolLong(str, dex, int_, luk);
         long sp = calcStatPoolLong(0, 0, remainingSp, skillbook);
-        changeStatPool(null, strDexIntLuk, sp, remainingAp, silent);
+        changeStatPool(null, null, strDexIntLuk, sp, remainingAp, silent);
     }
 
-    protected void updateStrDexIntLukSp(int str, int dex, int int_, int luk, int remainingAp, int remainingSp, int skillbook) {
+    protected void updateStrDexIntLukSp(int str, int dex, int int_, int luk, int remainingAp, int remainingSp,
+            int skillbook) {
         changeStrDexIntLukSp(str, dex, int_, luk, remainingAp, remainingSp, skillbook, false);
     }
 
@@ -755,7 +791,7 @@ public abstract class AbstractCharacterObject extends AbstractAnimatedMapObject 
 
     protected void changeRemainingSp(int remainingSp, int skillbook, boolean silent) {
         long sp = calcStatPoolLong(0, 0, remainingSp, skillbook);
-        changeStatPool(null, null, sp, Short.MIN_VALUE, silent);
+        changeStatPool(null, null, null, sp, Short.MIN_VALUE, silent);
     }
 
     public void gainSp(int deltaSp, int skillbook, boolean silent) {
