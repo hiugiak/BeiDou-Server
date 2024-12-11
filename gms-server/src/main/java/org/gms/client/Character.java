@@ -3982,6 +3982,8 @@ public class Character extends AbstractCharacterObject {
             if (beholderBuffSchedule != null) {
                 beholderBuffSchedule.cancel(false);
             }
+            Skill BerserkX = SkillFactory.getSkill(DarkKnight.BERSERK);
+            final int skilllevel = getSkillLevel(BerserkX);
             Skill bHealing = SkillFactory.getSkill(DarkKnight.AURA_OF_BEHOLDER);
             int bHealingLvl = getSkillLevel(bHealing);
             if (bHealingLvl > 0) {
@@ -3992,10 +3994,16 @@ public class Character extends AbstractCharacterObject {
                         return;
                     }
 
-                    addHP(healEffect.getHp());
-                    sendPacket(PacketCreator.showOwnBuffEffect(beholder, 2));
-                    getMap().broadcastMessage(Character.this, PacketCreator.summonSkill(getId(), beholder, 5), true);
-                    getMap().broadcastMessage(Character.this, PacketCreator.showOwnBuffEffect(beholder, 2), false);
+                    if ((this.getHp() + (healEffect.getHp())) > (this.localMaxHp)
+                            * BerserkX.getEffect(skilllevel).getX() / 100) {
+                        addHP(0); // 如果判定当前血量+当前等级的灵魂治愈的X > 最大血量*当前等级恶龙附身的X，则不加血，防止灵魂治愈血量加到恶龙血线以上导致恶龙失效。
+                    } else {
+                        addHP(healEffect.getHp());
+                        sendPacket(PacketCreator.showOwnBuffEffect(beholder, 2));
+                        getMap().broadcastMessage(Character.this, PacketCreator.summonSkill(getId(), beholder, 5),
+                                true);
+                        getMap().broadcastMessage(Character.this, PacketCreator.showOwnBuffEffect(beholder, 2), false);
+                    }
                 }, healInterval, healInterval);
             }
             Skill bBuff = SkillFactory.getSkill(DarkKnight.HEX_OF_BEHOLDER);
@@ -6676,8 +6684,8 @@ public class Character extends AbstractCharacterObject {
                 localMaxMp += (int) ((hbmp.doubleValue() / 100) * localMaxMp);
             }
 
-            localMaxHp = Math.min(30000, localMaxHp);
-            localMaxMp = Math.min(30000, localMaxMp);
+            localMaxHp = Math.min(30000, localMaxHp); // 修改最大血量，最多32765
+            localMaxMp = Math.min(30000, localMaxMp); // 修改最大蓝量，最多32765
 
             StatEffect combo = getBuffEffect(BuffStat.ARAN_COMBO);
             if (combo != null) {
