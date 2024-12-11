@@ -1000,30 +1000,35 @@
                     <int name="x" value="48"/>
                     <int name="time" value="20"/>
                     <int name="pdd" value="20"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="2">
                     <string name="hs" value="h2"/>
                     <int name="x" value="46"/>
                     <int name="time" value="20"/>
                     <int name="pdd" value="20"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="3">
                     <string name="hs" value="h3"/>
                     <int name="x" value="44"/>
                     <int name="time" value="20"/>
                     <int name="pdd" value="20"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="4">
                     <string name="hs" value="h4"/>
                     <int name="x" value="42"/>
                     <int name="time" value="20"/>
                     <int name="pdd" value="20"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="5">
                     <string name="hs" value="h5"/>
                     <int name="x" value="40"/>
                     <int name="time" value="20"/>
                     <int name="pdd" value="20"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="6">
                     <string name="hs" value="h6"/>
@@ -1031,6 +1036,7 @@
                     <int name="time" value="40"/>
                     <int name="pdd" value="40"/>
                     <int name="mdd" value="25"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="7">
                     <string name="hs" value="h7"/>
@@ -1038,6 +1044,7 @@
                     <int name="time" value="40"/>
                     <int name="pdd" value="40"/>
                     <int name="mdd" value="25"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="8">
                     <string name="hs" value="h8"/>
@@ -1045,6 +1052,7 @@
                     <int name="time" value="40"/>
                     <int name="pdd" value="40"/>
                     <int name="mdd" value="25"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="9">
                     <string name="hs" value="h9"/>
@@ -1052,6 +1060,7 @@
                     <int name="time" value="40"/>
                     <int name="pdd" value="40"/>
                     <int name="mdd" value="25"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="10">
                     <string name="hs" value="h10"/>
@@ -1059,6 +1068,7 @@
                     <int name="time" value="40"/>
                     <int name="pdd" value="40"/>
                     <int name="mdd" value="25"/>
+                    <int name="y" value="1000"/>
                 </imgdir>
                 <imgdir name="11">
                     <string name="hs" value="h11"/>
@@ -1067,6 +1077,7 @@
                     <int name="pdd" value="60"/>
                     <int name="mdd" value="50"/>
                     <int name="acc" value="10"/>
+                    <int name="y" value="990"/>
                 </imgdir>
                 <imgdir name="12">
                     <string name="hs" value="h12"/>
@@ -1075,6 +1086,7 @@
                     <int name="pdd" value="60"/>
                     <int name="mdd" value="50"/>
                     <int name="acc" value="10"/>
+                    <int name="y" value="980"/>
                 </imgdir>
                 <imgdir name="13">
                     <string name="hs" value="h13"/>
@@ -1083,6 +1095,7 @@
                     <int name="pdd" value="60"/>
                     <int name="mdd" value="50"/>
                     <int name="acc" value="10"/>
+                    <int name="y" value="970"/>
                 </imgdir>
                 <imgdir name="14">
                     <string name="hs" value="h14"/>
@@ -1091,6 +1104,7 @@
                     <int name="pdd" value="60"/>
                     <int name="mdd" value="50"/>
                     <int name="acc" value="10"/>
+                    <int name="y" value="960"/>
                 </imgdir>
                 <imgdir name="15">
                     <string name="hs" value="h15"/>
@@ -1099,6 +1113,7 @@
                     <int name="pdd" value="60"/>
                     <int name="mdd" value="50"/>
                     <int name="acc" value="10"/>
+                    <int name="y" value="950"/>
                 </imgdir>
                 <imgdir name="16">
                     <string name="hs" value="h16"/>
@@ -1108,6 +1123,7 @@
                     <int name="mdd" value="75"/>
                     <int name="acc" value="20"/>
                     <int name="eva" value="30"/>
+                    <int name="y" value="940"/>
                 </imgdir>
                 <imgdir name="17">
                     <string name="hs" value="h17"/>
@@ -1117,6 +1133,7 @@
                     <int name="mdd" value="75"/>
                     <int name="acc" value="20"/>
                     <int name="eva" value="30"/>
+                    <int name="y" value="930"/>
                 </imgdir>
                 <imgdir name="18">
                     <string name="hs" value="h18"/>
@@ -1126,6 +1143,7 @@
                     <int name="mdd" value="75"/>
                     <int name="acc" value="20"/>
                     <int name="eva" value="30"/>
+                    <int name="y" value="920"/>
                 </imgdir>
                 <imgdir name="19">
                     <string name="hs" value="h19"/>
@@ -1135,6 +1153,7 @@
                     <int name="mdd" value="75"/>
                     <int name="acc" value="20"/>
                     <int name="eva" value="30"/>
+                    <int name="y" value="910"/>
                 </imgdir>
                 <imgdir name="20">
                     <string name="hs" value="h20"/>
@@ -1144,6 +1163,7 @@
                     <int name="mdd" value="75"/>
                     <int name="acc" value="20"/>
                     <int name="eva" value="30"/>
+                    <int name="y" value="900"/>
                 </imgdir>
                 <imgdir name="21">
                     <string name="hs" value="h21"/>
@@ -1154,6 +1174,7 @@
                     <int name="acc" value="25"/>
                     <int name="eva" value="50"/>
                     <int name="pad" value="3"/>
+                    <int name="y" value="880"/>
                 </imgdir>
                 <imgdir name="22">
                     <string name="hs" value="h22"/>
@@ -1164,6 +1185,7 @@
                     <int name="acc" value="25"/>
                     <int name="eva" value="50"/>
                     <int name="pad" value="6"/>
+                    <int name="y" value="860"/>
                 </imgdir>
                 <imgdir name="23">
                     <string name="hs" value="h23"/>
@@ -1174,6 +1196,7 @@
                     <int name="acc" value="25"/>
                     <int name="eva" value="50"/>
                     <int name="pad" value="9"/>
+                    <int name="y" value="840"/>
                 </imgdir>
                 <imgdir name="24">
                     <string name="hs" value="h24"/>
@@ -1184,6 +1207,7 @@
                     <int name="acc" value="25"/>
                     <int name="eva" value="50"/>
                     <int name="pad" value="12"/>
+                    <int name="y" value="820"/>
                 </imgdir>
                 <imgdir name="25">
                     <string name="hs" value="h25"/>
@@ -1194,6 +1218,7 @@
                     <int name="acc" value="25"/>
                     <int name="eva" value="50"/>
                     <int name="pad" value="15"/>
+                    <int name="y" value="800"/>
                 </imgdir>
             </imgdir>
             <imgdir name="req">

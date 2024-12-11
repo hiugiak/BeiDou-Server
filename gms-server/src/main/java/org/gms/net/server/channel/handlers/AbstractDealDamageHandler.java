@@ -909,7 +909,8 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
                 }
 
                 if (ret.skill == Marksman.SNIPE) {
-                    damage = 950000 + Randomizer.nextInt(50000);
+                    damage = 200000 + (int) (((chr.getTotalDex() * 0.9) + (chr.getTotalStr() / 4)) * chr.getTotalWatk() / 25 ) * 15;
+                    //一击要害箭固定伤害 = 面板最大攻击力 * 1500%
                     hitDmgMax = 1000000;
                 } else if (ret.skill == Beginner.BAMBOO_RAIN || ret.skill == Noblesse.BAMBOO_RAIN || ret.skill == Evan.BAMBOO_THRUST || ret.skill == Legend.BAMBOO_THRUST) {
                     hitDmgMax = 82569000; // 30% of Max HP of strongest Dojo boss

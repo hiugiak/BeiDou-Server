@@ -625,6 +625,7 @@ public class StatEffect {
                     break;
                 case Bowmaster.CONCENTRATE:
                     statups.add(new Pair<>(BuffStat.CONCENTRATE, x));
+                    statups.add(new Pair<>(BuffStat.STANCE, 50));
                     break;
                 case Bowmaster.HAMSTRING:
                     statups.add(new Pair<>(BuffStat.HAMSTRING, x));
@@ -749,6 +750,9 @@ public class StatEffect {
                 case BlazeWizard.IFRIT:
                     statups.add(new Pair<>(BuffStat.SUMMON, 1));
                     break;
+                case DarkKnight.HEX_OF_BEHOLDER:
+                    statups.add(new Pair<>(BuffStat.COMBO_BARRIER, ret.y));
+                break;
                 // ----------------------------- MONSTER STATUS ---------------------------------- //
                 case Crusader.ARMOR_CRASH:
                 case DragonKnight.POWER_CRASH:
