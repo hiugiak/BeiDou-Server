@@ -57,7 +57,8 @@ function action(mode, type, selection) {
         text += "当前信用券：" + cm.getPlayer().getCashShop().getCash(4) + "\r\n";
         text += " \r\n";
         text += "#L3#传送自由#l \t #L63#整容集合#l\r\n\r\n";
-        text += "#L71#兑换中心#l\t #L70#怪物手册兑换戒指#l\r\n";
+        text += "#L71#兑换中心#l\t #L70#怪物手册兑换戒指#l\r\n\r\n";
+        text += "#L72#删除道具#l\t \r\n";
         if (cm.getPlayer().isGM()) {
             text += "\r\n\r\n";
             text += "\t\t\t\t#r=====以下内容仅GM可见=====\r\n";
@@ -128,6 +129,9 @@ function doSelect(selection) {
             break;
         case 71:
             openNpc("兑换中心")
+            break;
+        case 72:
+            openNpc("删除道具")
             break;
         default:
             cm.sendOk("该功能暂不支持，敬请期待！");

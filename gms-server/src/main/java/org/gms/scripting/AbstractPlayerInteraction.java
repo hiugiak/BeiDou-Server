@@ -1299,4 +1299,10 @@ public class AbstractPlayerInteraction {
         ExtendUtil.saveOrUpdateExtendValue(String.valueOf(getPlayer().getAccountId()), isDaily ? ExtendType.ACCOUNT_EXTEND_DAILY.getType() : ExtendType.ACCOUNT_EXTEND_WEEKLY.getType(),
                 extendName, extendValue);
     }
+    public void removeSlot(int inventoryType, int id, int possessed) {
+        Inventory inventory = getInventory(inventoryType);
+        Item item = inventory.getItem((short) id);
+        InventoryManipulator.removeFromSlot(c, inventory.getType(), (short) id, (short) possessed, true, false);
+        c.sendPacket(PacketCreator.getShowItemGain(item.getItemId(), (short) -possessed, true));
+    }
 }
