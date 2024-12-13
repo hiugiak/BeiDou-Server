@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<imgdir name="Eqp1.img">
+<imgdir name="Eqp.img">
     <imgdir name="Eqp">
         <imgdir name="Accessory">
             <imgdir name="1010000">
@@ -14779,7 +14779,8 @@
                 <string name="desc" value="由中国冒险岛玩家温温设计。"/>
             </imgdir>
             <imgdir name="1053596">
-                <string name="name" value="万物之灵守护者（男）"/>
+                <string name="name" value="星之魔法学院校服（女）"/>
+                <string name="desc" value="由中国冒险岛玩家温温设计。"/>
             </imgdir>
             <imgdir name="1053797">
                 <string name="name" value="万物之灵守护者（女）"/>
@@ -14795,6 +14796,9 @@
             <imgdir name="1053939">
                 <string name="name" value="飒爽清风连衣裙 "/>
                 <string name="desc" value="中国冒险岛玩家温温设计的作品。\r\n\r\n注意！与不是套服和套装的装备一起穿戴时，角色形象可能会不自然。"/>
+            </imgdir>
+            <imgdir name="1053796">
+                <string name="name" value="万物之灵守护者（男）"/>
             </imgdir>
         </imgdir>
         <imgdir name="Pants">
@@ -18428,6 +18432,467 @@
             <imgdir name="1932012">
                 <string name="name" value="透明蝙蝠怪"/>
                 <string name="desc" value="透明蝙蝠怪"/>
+            </imgdir>
+            <imgdir name="1912054">
+                <string name="name" value="兔子车夫鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1902003">
+                <string name="name" value="缺少name报告给管理员 1902003"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902022">
+                <string name="name" value="缺少name报告给管理员 1902022"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902023">
+                <string name="name" value="缺少name报告给管理员 1902023"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902025">
+                <string name="name" value="缺少name报告给管理员 1902025"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902026">
+                <string name="name" value="缺少name报告给管理员 1902026"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902027">
+                <string name="name" value="缺少name报告给管理员 1902027"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902029">
+                <string name="name" value="缺少name报告给管理员 1902029"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902030">
+                <string name="name" value="缺少name报告给管理员 1902030"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902043">
+                <string name="name" value="缺少name报告给管理员 1902043"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902044">
+                <string name="name" value="缺少name报告给管理员 1902044"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902046">
+                <string name="name" value="缺少name报告给管理员 1902046"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902049">
+                <string name="name" value="缺少name报告给管理员 1902049"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902050">
+                <string name="name" value="缺少name报告给管理员 1902050"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902051">
+                <string name="name" value="缺少name报告给管理员 1902051"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902052">
+                <string name="name" value="缺少name报告给管理员 1902052"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902053">
+                <string name="name" value="缺少name报告给管理员 1902053"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902054">
+                <string name="name" value="缺少name报告给管理员 1902054"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902055">
+                <string name="name" value="缺少name报告给管理员 1902055"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902056">
+                <string name="name" value="缺少name报告给管理员 1902056"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902057">
+                <string name="name" value="缺少name报告给管理员 1902057"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902058">
+                <string name="name" value="缺少name报告给管理员 1902058"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902062">
+                <string name="name" value="缺少name报告给管理员 1902062"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902063">
+                <string name="name" value="缺少name报告给管理员 1902063"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902065">
+                <string name="name" value="缺少name报告给管理员 1902065"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902066">
+                <string name="name" value="缺少name报告给管理员 1902066"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902067">
+                <string name="name" value="缺少name报告给管理员 1902067"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902068">
+                <string name="name" value="缺少name报告给管理员 1902068"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902070">
+                <string name="name" value="缺少name报告给管理员 1902070"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902071">
+                <string name="name" value="缺少name报告给管理员 1902071"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902072">
+                <string name="name" value="缺少name报告给管理员 1902072"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902073">
+                <string name="name" value="缺少name报告给管理员 1902073"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902074">
+                <string name="name" value="缺少name报告给管理员 1902074"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902075">
+                <string name="name" value="缺少name报告给管理员 1902075"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902120">
+                <string name="name" value="缺少name报告给管理员 1902120"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902335">
+                <string name="name" value="缺少name报告给管理员 1902335"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902401">
+                <string name="name" value="缺少name报告给管理员 1902401"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902402">
+                <string name="name" value="缺少name报告给管理员 1902402"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902403">
+                <string name="name" value="缺少name报告给管理员 1902403"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912001">
+                <string name="name" value="缺少name报告给管理员 1912001"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912015">
+                <string name="name" value="缺少name报告给管理员 1912015"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912016">
+                <string name="name" value="缺少name报告给管理员 1912016"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912018">
+                <string name="name" value="缺少name报告给管理员 1912018"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912019">
+                <string name="name" value="缺少name报告给管理员 1912019"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912042">
+                <string name="name" value="缺少name报告给管理员 1912042"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912044">
+                <string name="name" value="缺少name报告给管理员 1912044"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912045">
+                <string name="name" value="缺少name报告给管理员 1912045"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912046">
+                <string name="name" value="缺少name报告给管理员 1912046"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912050">
+                <string name="name" value="缺少name报告给管理员 1912050"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912051">
+                <string name="name" value="缺少name报告给管理员 1912051"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912056">
+                <string name="name" value="缺少name报告给管理员 1912056"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912057">
+                <string name="name" value="缺少name报告给管理员 1912057"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912058">
+                <string name="name" value="缺少name报告给管理员 1912058"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912060">
+                <string name="name" value="缺少name报告给管理员 1912060"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912061">
+                <string name="name" value="缺少name报告给管理员 1912061"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912065">
+                <string name="name" value="缺少name报告给管理员 1912065"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912066">
+                <string name="name" value="缺少name报告给管理员 1912066"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912067">
+                <string name="name" value="缺少name报告给管理员 1912067"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912068">
+                <string name="name" value="缺少name报告给管理员 1912068"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912069">
+                <string name="name" value="缺少name报告给管理员 1912069"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912070">
+                <string name="name" value="缺少name报告给管理员 1912070"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912071">
+                <string name="name" value="缺少name报告给管理员 1912071"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912072">
+                <string name="name" value="缺少name报告给管理员 1912072"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912073">
+                <string name="name" value="缺少name报告给管理员 1912073"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912076">
+                <string name="name" value="缺少name报告给管理员 1912076"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912077">
+                <string name="name" value="缺少name报告给管理员 1912077"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912078">
+                <string name="name" value="缺少name报告给管理员 1912078"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912079">
+                <string name="name" value="缺少name报告给管理员 1912079"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912080">
+                <string name="name" value="缺少name报告给管理员 1912080"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912081">
+                <string name="name" value="缺少name报告给管理员 1912081"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912082">
+                <string name="name" value="缺少name报告给管理员 1912082"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912083">
+                <string name="name" value="缺少name报告给管理员 1912083"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912084">
+                <string name="name" value="缺少name报告给管理员 1912084"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912085">
+                <string name="name" value="缺少name报告给管理员 1912085"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912087">
+                <string name="name" value="缺少name报告给管理员 1912087"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912088">
+                <string name="name" value="缺少name报告给管理员 1912088"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912089">
+                <string name="name" value="缺少name报告给管理员 1912089"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912090">
+                <string name="name" value="缺少name报告给管理员 1912090"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912091">
+                <string name="name" value="缺少name报告给管理员 1912091"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912120">
+                <string name="name" value="缺少name报告给管理员 1912120"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912335">
+                <string name="name" value="缺少name报告给管理员 1912335"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912401">
+                <string name="name" value="缺少name报告给管理员 1912401"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1912403">
+                <string name="name" value="缺少name报告给管理员 1912403"/>
+                <string name="desc" value="null"/>
+            </imgdir>
+            <imgdir name="1902004">
+                <string name="name" value="玩具木马"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——玩具木马。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用# "/>
+            </imgdir>
+            <imgdir name="1902013">
+                <string name="name" value="无辜水牛"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——无辜水牛。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902014">
+                <string name="name" value="玩具坦克"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——玩具坦克。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902019">
+                <string name="name" value="鳄鱼王"/>
+                <string name="desc" value="鳄鱼的首领。必须需#c鳄鱼马鞍#一同装备。"/>
+            </imgdir>
+            <imgdir name="1902024">
+                <string name="name" value="天马"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——天马。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902028">
+                <string name="name" value="筋斗云"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——筋斗云。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#  "/>
+            </imgdir>
+            <imgdir name="1902031">
+                <string name="name" value="骑士团战车"/>
+            </imgdir>
+            <imgdir name="1902032">
+                <string name="name" value="梦魇"/>
+            </imgdir>
+            <imgdir name="1902033">
+                <string name="name" value="机械套装"/>
+            </imgdir>
+            <imgdir name="1902034">
+                <string name="name" value="打豆豆机器人"/>
+            </imgdir>
+            <imgdir name="1902035">
+                <string name="name" value="蝙蝠怪"/>
+            </imgdir>
+            <imgdir name="1902037">
+                <string name="name" value="透明蝙蝠怪"/>
+            </imgdir>
+            <imgdir name="1902045">
+                <string name="name" value="老虎只是传说"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——老虎只是传说。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902047">
+                <string name="name" value="飞天直升飞机"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——飞天直升飞机。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902048">
+                <string name="name" value="莱格斯的豺犬"/>
+            </imgdir>
+            <imgdir name="1902059">
+                <string name="name" value="巨无霸兔子"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——巨无霸兔子。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902060">
+                <string name="name" value="兔兔加油"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——兔兔加油。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1902061">
+                <string name="name" value="兔子车夫"/>
+                <string name="desc" value="有#c骑兽技能#和基础骑宠才能使用的装饰骑宠——兔子车夫。同时要装备匹配的鞍子。\n注：#c无法习得骑兽技能的职业均不能使用#"/>
+            </imgdir>
+            <imgdir name="1912002">
+                <string name="name" value="木马鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912009">
+                <string name="name" value="水牛马鞍"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912010">
+                <string name="name" value="玩具坦克皮鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912012">
+                <string name="name" value="鳄鱼王马鞍"/>
+                <string name="desc" value="必须与驯服的怪物─#c鳄鱼王#一同装备的马鞍。"/>
+            </imgdir>
+            <imgdir name="1912017">
+                <string name="name" value="天马连心石"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912021">
+                <string name="name" value="鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912024">
+                <string name="name" value="骑士团战车皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912025">
+                <string name="name" value="梦魇皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912026">
+                <string name="name" value="机械套装皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912027">
+                <string name="name" value="打豆豆机器人皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912028">
+                <string name="name" value="蝙蝠怪皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912030">
+                <string name="name" value="透明蝙蝠怪"/>
+            </imgdir>
+            <imgdir name="1912038">
+                <string name="name" value="不要迷恋鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912040">
+                <string name="name" value="飞天直升机驾驶舱"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912041">
+                <string name="name" value="莱格斯的豺狗皮鞍子"/>
+            </imgdir>
+            <imgdir name="1912043">
+                <string name="name" value="男男机车"/>
+            </imgdir>
+            <imgdir name="1912052">
+                <string name="name" value="巨无霸兔子鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
+            </imgdir>
+            <imgdir name="1912053">
+                <string name="name" value="兔兔加油鞍子"/>
+                <string name="desc" value="和特定骑宠配套，一起装备，才能顺利骑上骑宠。"/>
             </imgdir>
         </imgdir>
         <imgdir name="Weapon">
