@@ -228,7 +228,7 @@ public final class TakeDamageHandler extends AbstractPacketHandler {
 
                 StatEffect cBarrier = chr.getBuffEffect(BuffStat.COMBO_BARRIER);  // thanks BHB for noticing Combo Barrier buff not working
                 if (cBarrier != null) {
-                    damage *= (cBarrier.getX() / 1000.0);
+                    damage *= (cBarrier.getY() / 1000.0);
                 }
             }
             if (damagefrom != -3 && damagefrom != -4) {

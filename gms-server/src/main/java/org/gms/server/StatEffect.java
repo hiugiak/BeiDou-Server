@@ -854,7 +854,7 @@ public class StatEffect {
                     statups.add(new Pair<>(BuffStat.ARAN_COMBO, 100));
                     break;
                 case Aran.COMBO_BARRIER:
-                    statups.add(new Pair<>(BuffStat.COMBO_BARRIER, ret.x));
+                    statups.add(new Pair<>(BuffStat.COMBO_BARRIER, ret.y));
                     break;
                 case Aran.COMBO_DRAIN:
                     statups.add(new Pair<>(BuffStat.COMBO_DRAIN, ret.x));
