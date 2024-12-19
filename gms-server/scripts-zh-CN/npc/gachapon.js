@@ -47,18 +47,22 @@ function action(mode, type, selection) {
         }
         if (status == 0 && mode == 1) {
             if (cm.haveItem(ticketId)) {
-                cm.sendYesNo("你可以使用" + curMapName + "扭蛋机。你想要使用你的扭蛋券吗？");
+                cm.sendNext("你可以使用" + curMapName + "扭蛋机。你想要使用你的扭蛋券吗？");
             } else {
                 cm.sendSimple("欢迎来到" + curMapName + "扭蛋机。我可以为您做些什么呢？\r\n\r\n#L0#什么是扭蛋机？#l\r\n#L1#在哪里可以购买扭蛋机券？#l");
             }
         } else if (status == 1 && cm.haveItem(ticketId)) {
-            if (cm.canHold(1302000) && cm.canHold(2000000) && cm.canHold(3010001) && cm.canHold(4000000)) { // One free slot in every inventory.
+            if (!(cm.canHold(1302000) && cm.canHold(2000000) && cm.canHold(3010001) && cm.canHold(4000000))) {                  // One free slot in every inventory.
+                cm.sendOk("请确保你的#r装备、消耗、设置#k和#r其他#k物品栏中至少有一个空位。");
+                cm.dispose();
+            } 
+            else {
                 cm.gainItem(ticketId, -1);
                 cm.doGachapon();
-            } else {
-                cm.sendOk("请确保你的#r装备、消耗、设置#k和#r其他#k物品栏中至少有一个空位。");
+                cm.sendOk("抽奖成功，点击确定返回第一页。");
+                status = -1;
             }
-            cm.dispose();
+            
         } else if (status == 1) {
             if (selection == 0) {
                 cm.sendNext("玩转扭蛋机，赢得稀有卷轴、装备、椅子、熟练书和其他酷炫物品！你只需要一张 #b扭蛋券#k 就有机会成为随机物品的幸运获得者。");
