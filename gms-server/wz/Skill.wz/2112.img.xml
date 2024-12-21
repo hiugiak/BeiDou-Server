@@ -2030,210 +2030,210 @@
                 <imgdir name="1">
                     <string name="hs" value="h1"/>
                     <int name="time" value="60"/>
-                    <int name="x" value="916"/>
+                    <int name="y" value="916"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="2">
                     <string name="hs" value="h2"/>
                     <int name="time" value="66"/>
-                    <int name="x" value="912"/>
+                    <int name="y" value="912"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="3">
                     <string name="hs" value="h3"/>
                     <int name="time" value="72"/>
-                    <int name="x" value="908"/>
+                    <int name="y" value="908"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="4">
                     <string name="hs" value="h4"/>
                     <int name="time" value="78"/>
-                    <int name="x" value="904"/>
+                    <int name="y" value="904"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="5">
                     <string name="hs" value="h5"/>
                     <int name="time" value="84"/>
-                    <int name="x" value="900"/>
+                    <int name="y" value="900"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="6">
                     <string name="hs" value="h6"/>
                     <int name="time" value="90"/>
-                    <int name="x" value="896"/>
+                    <int name="y" value="896"/>
                     <vector name="lt" x="-200" y="-150"/>
                     <vector name="rb" x="200" y="150"/>
                 </imgdir>
                 <imgdir name="7">
                     <string name="hs" value="h7"/>
                     <int name="time" value="96"/>
-                    <int name="x" value="892"/>
+                    <int name="y" value="892"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
                 <imgdir name="8">
                     <string name="hs" value="h8"/>
                     <int name="time" value="102"/>
-                    <int name="x" value="888"/>
+                    <int name="y" value="888"/>
                     <vector name="lt" x="-250" y="-150"/>
                     <vector name="rb" x="250" y="150"/>
                 </imgdir>
                 <imgdir name="9">
                     <string name="hs" value="h9"/>
                     <int name="time" value="108"/>
-                    <int name="x" value="884"/>
+                    <int name="y" value="884"/>
                     <vector name="lt" x="-250" y="-200"/>
                     <vector name="rb" x="250" y="200"/>
                 </imgdir>
                 <imgdir name="10">
                     <string name="hs" value="h10"/>
                     <int name="time" value="114"/>
-                    <int name="x" value="880"/>
+                    <int name="y" value="880"/>
                     <vector name="lt" x="-250" y="-200"/>
                     <vector name="rb" x="250" y="200"/>
                 </imgdir>
                 <imgdir name="11">
                     <string name="hs" value="h11"/>
                     <int name="time" value="120"/>
-                    <int name="x" value="876"/>
+                    <int name="y" value="876"/>
                     <vector name="lt" x="-250" y="-200"/>
                     <vector name="rb" x="250" y="200"/>
                 </imgdir>
                 <imgdir name="12">
                     <string name="hs" value="h12"/>
                     <int name="time" value="126"/>
-                    <int name="x" value="872"/>
+                    <int name="y" value="872"/>
                     <vector name="lt" x="-250" y="-200"/>
                     <vector name="rb" x="250" y="200"/>
                 </imgdir>
                 <imgdir name="13">
                     <string name="hs" value="h13"/>
                     <int name="time" value="132"/>
-                    <int name="x" value="868"/>
+                    <int name="y" value="868"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
                 <imgdir name="14">
                     <string name="hs" value="h14"/>
                     <int name="time" value="138"/>
-                    <int name="x" value="864"/>
+                    <int name="y" value="864"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
                 <imgdir name="15">
                     <string name="hs" value="h15"/>
                     <int name="time" value="144"/>
-                    <int name="x" value="860"/>
+                    <int name="y" value="860"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
                 <imgdir name="16">
                     <string name="hs" value="h16"/>
                     <int name="time" value="150"/>
-                    <int name="x" value="856"/>
+                    <int name="y" value="856"/>
                     <vector name="lt" x="-300" y="-200"/>
                     <vector name="rb" x="300" y="200"/>
                 </imgdir>
                 <imgdir name="17">
                     <string name="hs" value="h17"/>
                     <int name="time" value="156"/>
-                    <int name="x" value="852"/>
+                    <int name="y" value="852"/>
                     <vector name="lt" x="-300" y="-250"/>
                     <vector name="rb" x="300" y="250"/>
                 </imgdir>
                 <imgdir name="18">
                     <string name="hs" value="h18"/>
                     <int name="time" value="162"/>
-                    <int name="x" value="848"/>
+                    <int name="y" value="848"/>
                     <vector name="lt" x="-300" y="-250"/>
                     <vector name="rb" x="300" y="250"/>
                 </imgdir>
                 <imgdir name="19">
                     <string name="hs" value="h19"/>
                     <int name="time" value="168"/>
-                    <int name="x" value="844"/>
+                    <int name="y" value="844"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="20">
                     <string name="hs" value="h20"/>
                     <int name="time" value="174"/>
-                    <int name="x" value="840"/>
+                    <int name="y" value="840"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="21">
                     <string name="hs" value="h21"/>
                     <int name="time" value="180"/>
-                    <int name="x" value="836"/>
+                    <int name="y" value="836"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="22">
                     <string name="hs" value="h22"/>
                     <int name="time" value="186"/>
-                    <int name="x" value="832"/>
+                    <int name="y" value="832"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="23">
                     <string name="hs" value="h23"/>
                     <int name="time" value="192"/>
-                    <int name="x" value="828"/>
+                    <int name="y" value="828"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="24">
                     <string name="hs" value="h24"/>
                     <int name="time" value="198"/>
-                    <int name="x" value="824"/>
+                    <int name="y" value="824"/>
                     <vector name="lt" x="-350" y="-250"/>
                     <vector name="rb" x="350" y="250"/>
                 </imgdir>
                 <imgdir name="25">
                     <string name="hs" value="h25"/>
                     <int name="time" value="204"/>
-                    <int name="x" value="820"/>
+                    <int name="y" value="820"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
                 <imgdir name="26">
                     <string name="hs" value="h26"/>
                     <int name="time" value="210"/>
-                    <int name="x" value="816"/>
+                    <int name="y" value="816"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
                 <imgdir name="27">
                     <string name="hs" value="h27"/>
                     <int name="time" value="216"/>
-                    <int name="x" value="812"/>
+                    <int name="y" value="812"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
                 <imgdir name="28">
                     <string name="hs" value="h28"/>
                     <int name="time" value="222"/>
-                    <int name="x" value="808"/>
+                    <int name="y" value="808"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
                 <imgdir name="29">
                     <string name="hs" value="h29"/>
                     <int name="time" value="228"/>
-                    <int name="x" value="804"/>
+                    <int name="y" value="804"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
                 <imgdir name="30">
                     <string name="hs" value="h30"/>
                     <int name="time" value="240"/>
-                    <int name="x" value="800"/>
+                    <int name="y" value="800"/>
                     <vector name="lt" x="-400" y="-300"/>
                     <vector name="rb" x="400" y="300"/>
                 </imgdir>
