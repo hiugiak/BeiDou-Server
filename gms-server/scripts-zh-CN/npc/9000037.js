@@ -102,13 +102,7 @@ function action(mode, type, selection) {
                 }
             } else if (state == 2) {
                 if (cm.isEventLeader()) {
-                    if (cm.getPlayer().getEventInstance().isEventTeamTogether()) {
-                        cm.sendYesNo("你的队伍准备好继续前进到下一阶段了吗？如果你认为已经完成了，就走过传送门，现在是时候了。现在，你们真的想要继续吗？");
-                    } else {
-                        cm.sendOk("请等待您的队伍重新集合后再继续。");
-                        cm.dispose();
-
-                    }
+                    cm.sendYesNo("你的队伍准备好继续前进到下一阶段了吗？如果你认为已经完成了，就走过传送门，现在是时候了。现在，你们真的想要继续吗？");
                 } else {
                     cm.sendOk("等待你的队长发出信号让我继续。如果你感觉不太好，想要退出，走过传送门，你将被传送出去，并且你会因为走到这一步而获得奖品。");
                     cm.dispose();
