@@ -509,12 +509,12 @@ public class GameConstants {
             default:
                 return (job.getId() / 1000 == 1)
                         ? getCygnusMaxLevel()
-                        : 200; // 4th job: cygnus is 120, rest is 200
+                        : 250; // 4th job: cygnus is 120, rest is 250
         }
     }
 
     public static int getCygnusMaxLevel() {
-        return Math.min(Math.max(120, YamlConfig.config.server.CYGNUS_MAX_LEVEL), 200);
+        return Math.min(Math.max(120, YamlConfig.config.server.CYGNUS_MAX_LEVEL), 250);
     }
 
     public static int getSkillBook(final int job) {

@@ -4411,6 +4411,9 @@ public class Character extends AbstractCharacterObject {
     public boolean hasNoviceExpRate() {
         return YamlConfig.config.server.USE_ENFORCE_NOVICE_EXPRATE && isBeginnerJob() && level < 11;
     }
+    public boolean hasafter200lvExpRate() {
+        return level > 200;
+    }
 
     public int getExpRate() {
         if (hasNoviceExpRate()) {   // base exp rate 1x for early levels idea thanks to Vcoc
@@ -4422,6 +4425,7 @@ public class Character extends AbstractCharacterObject {
 
     public float getLevelExpRate() {
         if (hasNoviceExpRate()) return 1; // 新手经验保护
+        else if (hasafter200lvExpRate()) return (YamlConfig.config.worlds.get(getWorld()).level_exp_rate * level + 1 ) / (level - 200); //200级以后经验倍率随等级逐渐降低
 
         return 1f + YamlConfig.config.worlds.get(getWorld()).level_exp_rate * level;
     }
@@ -4716,7 +4720,7 @@ public class Character extends AbstractCharacterObject {
     }
 
     public int getMaxClassLevel() {
-        return isCygnus() ? GameConstants.getCygnusMaxLevel() : 200;
+        return isCygnus() ? GameConstants.getCygnusMaxLevel() : 250;
     }
 
     public int getMaxLevel() {
