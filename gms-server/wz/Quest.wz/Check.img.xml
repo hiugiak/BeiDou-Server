@@ -54822,15 +54822,15 @@
         </imgdir>
         <imgdir name="1">
           <int name="id" value="4000264"/>
-          <int name="count" value="150"/>
+          <int name="count" value="600"/>
         </imgdir>
         <imgdir name="2">
           <int name="id" value="4000266"/>
-          <int name="count" value="100"/>
+          <int name="count" value="600"/>
         </imgdir>
         <imgdir name="3">
           <int name="id" value="4000267"/>
-          <int name="count" value="100"/>
+          <int name="count" value="600"/>
         </imgdir>
       </imgdir>
     </imgdir>
