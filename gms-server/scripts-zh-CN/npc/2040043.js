@@ -32,7 +32,7 @@
 @	Description: Used to find the combo to unlock the next door. Players stand on 5 different crates to guess the combo.
 */
 
-const comboCount = 4;
+const comboCount = 2;
 
 function generateCombo() {
     var countPicked = 0;
