@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01103029.img">
+    <imgdir name="alert">
+        <imgdir name="0">
+            <canvas name="cape" width="262" height="170">
+                <vector name="origin" x="-70" y="92"/>
+                <imgdir name="map">
+                    <vector name="navel" x="180" y="45"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="271" height="169">
+                <imgdir name="map">
+                    <vector name="navel" x="180" y="45"/>
+                </imgdir>
+                <vector name="origin" x="-70" y="92"/>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="284" height="183">
+                <imgdir name="map">
+                    <vector name="navel" x="185" y="45"/>
+                </imgdir>
+                <vector name="origin" x="-70" y="92"/>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="282" height="182">
+                <imgdir name="map">
+                    <vector name="navel" x="180" y="45"/>
+                </imgdir>
+                <vector name="origin" x="-70" y="92"/>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="fly">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="10">
+            <uol name="cape" value="../../alert/10/cape"/>
+        </imgdir>
+        <imgdir name="11">
+            <uol name="cape" value="../../alert/11/cape"/>
+        </imgdir>
+        <imgdir name="12">
+            <uol name="cape" value="../../alert/12/cape"/>
+        </imgdir>
+        <imgdir name="13">
+            <uol name="cape" value="../../alert/13/cape"/>
+        </imgdir>
+        <imgdir name="14">
+            <uol name="cape" value="../../alert/14/cape"/>
+        </imgdir>
+        <imgdir name="15">
+            <uol name="cape" value="../../alert/15/cape"/>
+        </imgdir>
+        <imgdir name="16">
+            <uol name="cape" value="../../alert/16/cape"/>
+        </imgdir>
+        <imgdir name="17">
+            <uol name="cape" value="../../alert/17/cape"/>
+        </imgdir>
+        <imgdir name="18">
+            <uol name="cape" value="../../alert/18/cape"/>
+        </imgdir>
+        <imgdir name="19">
+            <uol name="cape" value="../../alert/19/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="20">
+            <uol name="cape" value="../../alert/20/cape"/>
+        </imgdir>
+        <imgdir name="21">
+            <uol name="cape" value="../../alert/21/cape"/>
+        </imgdir>
+        <imgdir name="22">
+            <uol name="cape" value="../../alert/22/cape"/>
+        </imgdir>
+        <imgdir name="23">
+            <uol name="cape" value="../../alert/23/cape"/>
+        </imgdir>
+        <imgdir name="24">
+            <uol name="cape" value="../../alert/24/cape"/>
+        </imgdir>
+        <imgdir name="25">
+            <uol name="cape" value="../../alert/25/cape"/>
+        </imgdir>
+        <imgdir name="26">
+            <uol name="cape" value="../../alert/26/cape"/>
+        </imgdir>
+        <imgdir name="27">
+            <uol name="cape" value="../../alert/27/cape"/>
+        </imgdir>
+        <imgdir name="28">
+            <uol name="cape" value="../../alert/28/cape"/>
+        </imgdir>
+        <imgdir name="29">
+            <uol name="cape" value="../../alert/29/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="30">
+            <uol name="cape" value="../../alert/30/cape"/>
+        </imgdir>
+        <imgdir name="31">
+            <uol name="cape" value="../../alert/31/cape"/>
+        </imgdir>
+        <imgdir name="32">
+            <uol name="cape" value="../../alert/32/cape"/>
+        </imgdir>
+        <imgdir name="33">
+            <uol name="cape" value="../../alert/33/cape"/>
+        </imgdir>
+        <imgdir name="34">
+            <uol name="cape" value="../../alert/34/cape"/>
+        </imgdir>
+        <imgdir name="35">
+            <uol name="cape" value="../../alert/35/cape"/>
+        </imgdir>
+        <imgdir name="36">
+            <uol name="cape" value="../../alert/36/cape"/>
+        </imgdir>
+        <imgdir name="37">
+            <uol name="cape" value="../../alert/37/cape"/>
+        </imgdir>
+        <imgdir name="38">
+            <uol name="cape" value="../../alert/38/cape"/>
+        </imgdir>
+        <imgdir name="39">
+            <uol name="cape" value="../../alert/39/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="40">
+            <uol name="cape" value="../../alert/40/cape"/>
+        </imgdir>
+        <imgdir name="41">
+            <uol name="cape" value="../../alert/41/cape"/>
+        </imgdir>
+        <imgdir name="42">
+            <uol name="cape" value="../../alert/42/cape"/>
+        </imgdir>
+        <imgdir name="43">
+            <uol name="cape" value="../../alert/43/cape"/>
+        </imgdir>
+        <imgdir name="44">
+            <uol name="cape" value="../../alert/44/cape"/>
+        </imgdir>
+        <imgdir name="45">
+            <uol name="cape" value="../../alert/45/cape"/>
+        </imgdir>
+        <imgdir name="46">
+            <uol name="cape" value="../../alert/46/cape"/>
+        </imgdir>
+        <imgdir name="47">
+            <uol name="cape" value="../../alert/47/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+        <imgdir name="6">
+            <uol name="cape" value="../../alert/6/cape"/>
+        </imgdir>
+        <imgdir name="7">
+            <uol name="cape" value="../../alert/7/cape"/>
+        </imgdir>
+        <imgdir name="8">
+            <uol name="cape" value="../../alert/8/cape"/>
+        </imgdir>
+        <imgdir name="9">
+            <uol name="cape" value="../../alert/9/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="heal">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="jump">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="ladder">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="prone">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="proneStab">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="rope">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shoot1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shoot2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shootF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="sit">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabO1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabO2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabOF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabT1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabT2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabTF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO3">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingOF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingP1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingP2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingPF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT3">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingTF">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="walk1">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="walk2">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../alert/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../alert/3/cape"/>
+        </imgdir>
+        <imgdir name="4">
+            <uol name="cape" value="../../alert/4/cape"/>
+        </imgdir>
+        <imgdir name="5">
+            <uol name="cape" value="../../alert/5/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="info">
+        <canvas name="icon" width="30" height="30">
+            <vector name="origin" x="-1" y="30"/>
+        </canvas>
+        <canvas name="iconRaw" width="30" height="30">
+            <vector name="origin" x="-1" y="30"/>
+        </canvas>
+        <string name="islot" value="Cp"/>
+        <string name="vslot" value="Cp"/>
+        <int name="reqJob" value="0"/>
+        <int name="reqLevel" value="0"/>
+        <int name="reqSTR" value="0"/>
+        <int name="reqDEX" value="0"/>
+        <int name="reqINT" value="0"/>
+        <int name="reqLUK" value="0"/>
+        <int name="cash" value="1"/>
+    </imgdir>
+</imgdir>

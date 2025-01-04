@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01103427.img">
+    <imgdir name="info">
+        <canvas name="icon" width="34" height="30">
+            <vector name="origin" x="1" y="30"/>
+            <string name="_hash" value="3c2af2caca19d3d5f0fde348a83dd2527d922e322a294ec23d5251a24cd13250"/>
+        </canvas>
+        <canvas name="iconRaw" width="34" height="30">
+            <vector name="origin" x="1" y="30"/>
+            <string name="_hash" value="55ea0b12a6622ceb99b5e2e0dd5ad4dc1d94bc2a81f2ced50d483fab49909f43"/>
+        </canvas>
+        <string name="islot" value="Sr"/>
+        <string name="vslot" value="Sr"/>
+        <int name="reqJob" value="0"/>
+        <int name="reqLevel" value="0"/>
+        <int name="reqSTR" value="0"/>
+        <int name="reqDEX" value="0"/>
+        <int name="reqINT" value="0"/>
+        <int name="reqLUK" value="0"/>
+        <int name="cash" value="1"/>
+    </imgdir>
+    <imgdir name="walk1">
+        <imgdir name="0">
+            <canvas name="cape" width="49" height="22">
+                <vector name="origin" x="7" y="5"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="96410db7efd624606f0c5c41f84e8381783754d2afcd6b5a063d6f64617dbc9f"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="51" height="30">
+                <vector name="origin" x="8" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="5ed016198caf5ea39c7c40682e928026f71c7445bd14d0890ab9dcab73dfd2ca"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="45" height="35">
+                <vector name="origin" x="7" y="18"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="7efe8dd08c7a5b867f09171518d958877620ec701554ad8fcaa628a746342145"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="51" height="30">
+                <vector name="origin" x="5" y="14"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="9643948dc5bad9ecd6aea38b1b8a6d2d0a370bd28aa6489bd4893a21b814e349"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="walk2">
+        <imgdir name="0">
+            <uol name="cape" value="../../walk1/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../walk1/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../walk1/2/cape"/>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../walk1/3/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand1">
+        <imgdir name="0">
+            <canvas name="cape" width="44" height="24">
+                <vector name="origin" x="5" y="4"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="ab6485a6da4d8c62509a4338b39be11e015350e4aa3abfbf78aa7a7aa9cb76dd"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="43" height="24">
+                <vector name="origin" x="7" y="5"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="88130d2c29c09207e8dfdf7cbea14314918576f7456dffaa92e024b9d4030c03"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="42" height="26">
+                <vector name="origin" x="9" y="5"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="2df7d89ae301fc5267ec9ba2419fda2b6fbb38166595ad99ee4ffd61a5381aa6"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stand2">
+        <imgdir name="0">
+            <uol name="cape" value="../../stand1/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../stand1/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../stand1/2/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="alert">
+        <imgdir name="0">
+            <canvas name="cape" width="44" height="26">
+                <vector name="origin" x="10" y="8"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="f4b909ece3fb7ddcea94b29fe677f8408652a0923706e4ad71705b821a824829"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="45" height="24">
+                <vector name="origin" x="10" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="9ec04cef52b0791eea64f8a2162adc86c9c9da4f0821d835ab008eaee844632c"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="46" height="24">
+                <vector name="origin" x="10" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="bdb552a4569c506784e21ed5448529c14d566e08befa581512388e7ea88bb40b"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO1">
+        <imgdir name="0">
+            <canvas name="cape" width="54" height="24">
+                <vector name="origin" x="6" y="11"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="26aa694fb81961b2c7a3bf8361477a10096e2e31d56b9d5d46c18845d959c7a4"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="52" height="33">
+                <vector name="origin" x="4" y="19"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="f59a4a85b126161019e60c4ffcfecfbfe7649646c756fa600485a3cc887c8b35"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="39" height="34">
+                <vector name="origin" x="-2" y="26"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="1f9b2255a969518eaf67711a9489d5569938352f2d55ca7e2d97ec8546047c30"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO2">
+        <imgdir name="0">
+            <canvas name="cape" width="53" height="23">
+                <vector name="origin" x="7" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="9253533f8c8983e4e396379a9a635bec4e7373c75d80d8b5fba7d08a9ceb8f00"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="48" height="30">
+                <vector name="origin" x="5" y="20"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="41c3da3dc4c3c3af886aa937612eff20c09545c1c4b95372dbf0c6f4a4d5fe33"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="39" height="34">
+                <vector name="origin" x="2" y="23"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingO3">
+        <imgdir name="0">
+            <canvas name="cape" width="51" height="21">
+                <vector name="origin" x="4" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="fbf05d18a0dbeafda1c72915a88281950d7728793b9d1bc558ee5db54ba740c4"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="2" height="2">
+                <vector name="origin" x="-7" y="0"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="49" height="34">
+                <vector name="origin" x="3" y="22"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="aea7700217382ba7f7ab8fc2ac88988d0d2c20f830afea4e3891a283d10ef2a5"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingOF">
+        <imgdir name="0">
+            <canvas name="cape" width="48" height="25">
+                <vector name="origin" x="10" y="8"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="d0a826864cbaaa38587ce802e4df43be60e654c42c31d07498b3ee45e228fa3f"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="56" height="25">
+                <vector name="origin" x="45" y="7"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="b083abb18a1f138c1cc71711a24f5f070adca2513d6007e0e3af5fc718209363"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="44" height="29">
+                <vector name="origin" x="-6" y="22"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="be1e27f40898c540db8dcfdf717752dcb9576f68e3f9a0b9067aebc197f81618"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="46" height="34">
+                <vector name="origin" x="4" y="24"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="291eed1bf9ae9d32c8dbcccde787c2fb79d40cbb873e81c6a12a1e6abdc044f8"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT1">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="25">
+                <vector name="origin" x="7" y="7"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="10ee16fe91a5875dc187870bde11ba899967ca45fd1831f4fde02180a83a80f1"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="49" height="29">
+                <vector name="origin" x="3" y="13"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="b354e6c6743ec5c9397ad3eeaec43107d74c7e597e132a649edac2b4dc0edfc1"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="43" height="37">
+                <vector name="origin" x="0" y="24"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="95cd4ad29c7de2cda9760c6be5b0feb47944d1915eb2c9a94b7102dbaa4d0133"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT2">
+        <imgdir name="0">
+            <canvas name="cape" width="50" height="26">
+                <vector name="origin" x="0" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="4e646505331261d7b512f47064abc8609cf69f781f7a4c3afb49bbbdd43853d4"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="29">
+                <vector name="origin" x="6" y="15"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="f365ce7567d3f2986146a275a3e96fec8fad63529c3d35b426a41b6824c8b0ab"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="50" height="42">
+                <vector name="origin" x="9" y="29"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="fdd4adbac4f9e18621af2d1c01b7a000fb4e0f25b1d2cb430f88537e7bc0f4c5"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingT3">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="25">
+                <vector name="origin" x="8" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="8d5ad1c93132710d2d44271d492ca91eae39700e763517f0832d3cc76badc034"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="49" height="30">
+                <vector name="origin" x="6" y="17"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="3a683f9ddf1cc4b742bc766e4638423128a9bce130ab67b453b12a0a238cb1d7"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="43" height="34">
+                <vector name="origin" x="0" y="21"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="4e4e4b31e3ec30ba57fce5565adaab54ec1f26a418a7f5d9a44f3e28067d03cf"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingTF">
+        <imgdir name="0">
+            <canvas name="cape" width="42" height="37">
+                <vector name="origin" x="30" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="359238503a7b45f1dba498389bf3c3e39c861b95676d87c7ef26a8f2d2550a1e"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="55" height="28">
+                <vector name="origin" x="15" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="3855ff7d966331b86782861c020acf6da7a0088fe9d44fb86ec2158ba070239b"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="50" height="30">
+                <vector name="origin" x="9" y="17"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="e591813b57098aa24438c37168d847d7d96d0696811a8ddbab4cbb4b739984d6"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="43" height="34">
+                <vector name="origin" x="2" y="23"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingP1">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="25">
+                <vector name="origin" x="8" y="8"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="49" height="29">
+                <vector name="origin" x="3" y="14"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="8427701a487ca4e44b3f63ed8e12c3b7e5e1d4f8060e6f515d7d04e288f4814a"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="43" height="37">
+                <vector name="origin" x="0" y="25"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingP2">
+        <imgdir name="0">
+            <canvas name="cape" width="50" height="26">
+                <vector name="origin" x="5" y="8"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="29">
+                <vector name="origin" x="7" y="15"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="50" height="42">
+                <vector name="origin" x="9" y="29"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="swingPF">
+        <imgdir name="0">
+            <canvas name="cape" width="53" height="21">
+                <vector name="origin" x="8" y="7"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="78c18061a02d07dc7ebd1a3feae806be177104a8b66ea5f0685513cb8e71b1df"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="54" height="25">
+                <vector name="origin" x="9" y="11"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="85bca4d6eed06daa9d0eea97e6d04722825b488fc3115cd39375b6361ec50be1"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="42" height="44">
+                <vector name="origin" x="12" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="96a8d944b2b798dde64fef280e959632a8fe32156741b3b4ce0f5b12376e0e87"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="41" height="37">
+                <vector name="origin" x="2" y="24"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="21f23167263b08148c8077662499779252f48f32df74df8be5ae2c3847e0832f"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabO1">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="26">
+                <vector name="origin" x="13" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="c11f81773f3466834eb8f4052403eab073a65e3deae7d11793af7097b5e90544"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="45" height="29">
+                <vector name="origin" x="-6" y="22"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+                <string name="_hash" value="ba726115137f73702867a548f68c1aac83454848d6151ab4e7f1bcbdb6def440"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabO2">
+        <imgdir name="0">
+            <canvas name="cape" width="54" height="27">
+                <vector name="origin" x="9" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="09db397d1174f2ad2684bdc6f1fe6e95434a9a5e0afc13cf6c8136a5892098a6"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="45" height="29">
+                <vector name="origin" x="-7" y="22"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeOverHead"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabOF">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="25">
+                <vector name="origin" x="11" y="13"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="49" height="30">
+                <vector name="origin" x="12" y="15"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="43" height="34">
+                <vector name="origin" x="2" y="23"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabT1">
+        <imgdir name="0">
+            <canvas name="cape" width="52" height="25">
+                <vector name="origin" x="8" y="10"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="e41f03956acc591158daca3cb5b3b1be790f1f367a70bd22277e2a8b66451d34"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="29">
+                <vector name="origin" x="5" y="14"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="6620ef473ce442a43ef20452cc6486ea229feec632591eddfac6d374547691c5"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="50" height="40">
+                <vector name="origin" x="7" y="26"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="bef996ebd19696962277033dbcb83a476315d30f3ff6fed11c7b24498a055bbd"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabT2">
+        <imgdir name="0">
+            <canvas name="cape" width="51" height="25">
+                <vector name="origin" x="7" y="11"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="f95b80f18d5c1f5ca7eb3e6962a33b1c0d44aa02a123a034c43af7696c01e85e"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="29">
+                <vector name="origin" x="8" y="16"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="45" height="34">
+                <vector name="origin" x="10" y="19"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="4ad2400fc0dca96babb640063c270d6faa54a19de8ad338482aa344f5d7bd97a"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="stabTF">
+        <imgdir name="0">
+            <uol name="cape" value="../../swingPF/0/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../swingPF/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="42" height="37">
+                <vector name="origin" x="13" y="2"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="df373a0b45f3c3829d2b7b943d76bb8b3c824667c6f1f399f5cbfbc9ac84a9d8"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <uol name="cape" value="../../stabT1/2/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shoot1">
+        <imgdir name="0">
+            <canvas name="cape" width="55" height="25">
+                <vector name="origin" x="11" y="11"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="5beef153c85c1467a88e7babc49895a2817e47845971ce24f33941df6eaff909"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="29">
+                <vector name="origin" x="11" y="15"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="82eccafd8c061fafcd0271112d75cf9dbb28436fb9409ac595e71f4f3a920e35"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="43" height="34">
+                <vector name="origin" x="11" y="17"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="f38bf57f7d68f7ff8670c388696ce2a6026922d0e1d2be9d15a8f4dd950020df"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shoot2">
+        <imgdir name="0">
+            <canvas name="cape" width="56" height="27">
+                <vector name="origin" x="10" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="eeb87b97bfeb9ea7f2ed4c95d5120b276b827f907a6b8b4991b82a0d95c84daf"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="56" height="27">
+                <vector name="origin" x="10" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <canvas name="cape" width="56" height="27">
+                <vector name="origin" x="10" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="3">
+            <canvas name="cape" width="51" height="31">
+                <vector name="origin" x="10" y="16"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="bf0501189b2bdcf4addbee87ad760a3c2ad799a2645cc8d561d52023658ebc0c"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="4">
+            <canvas name="cape" width="44" height="34">
+                <vector name="origin" x="10" y="18"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="aae27b8cabc6289804d2d74531fe7babb0291be5d5a3b5cce362e984c0032006"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="shootF">
+        <imgdir name="0">
+            <canvas name="cape" width="53" height="22">
+                <vector name="origin" x="15" y="5"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="2b0b18105c52e19c6a79da7477c99cd20fcef1b7e5a558d4ecd143e9103fbe8e"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="51" height="29">
+                <vector name="origin" x="15" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="dad96d3901fb5e15bb45dea71ce168b0399e0f6e0274a2baa2b8886d7b181ecf"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../1/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="proneStab">
+        <imgdir name="0">
+            <canvas name="cape" width="52" height="24">
+                <vector name="origin" x="9" y="22"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="cape"/>
+                <string name="_hash" value="185eb3c2496a0c61d4f672b261354f4d86a72b68936eec40d88d1432c69f7b00"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="26">
+                <vector name="origin" x="9" y="24"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="cape"/>
+                <string name="_hash" value="1a68755023cb4c68d5a71874725aa36d54636a6e3d729754dd04dc089b6d8010"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="prone">
+        <imgdir name="0">
+            <uol name="cape" value="../../proneStab/0/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="heal">
+        <imgdir name="0">
+            <uol name="cape" value="../../alert/1/cape"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="cape" value="../../swingO2/1/cape"/>
+        </imgdir>
+        <imgdir name="2">
+            <uol name="cape" value="../../swingO2/0/cape"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="fly">
+        <imgdir name="0">
+            <canvas name="cape" width="54" height="26">
+                <vector name="origin" x="8" y="12"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="26d1257a7eaa071be6b89c92fd38d072c848d2434c7a618f2931fb0606a945ec"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="50" height="30">
+                <vector name="origin" x="7" y="16"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="jump">
+        <imgdir name="0">
+            <canvas name="cape" width="43" height="38">
+                <vector name="origin" x="10" y="4"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="5de5a1a392e503819518330ea70b58fb2b2ddf85a32b806615d382fb99870b8e"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="sit">
+        <imgdir name="0">
+            <canvas name="cape" width="54" height="25">
+                <vector name="origin" x="8" y="11"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="capeBelowBody"/>
+                <string name="_hash" value="f4176f365cb001f08162eb7717ef0393ff9b5cdb7bcaf92a4368bec52078cd7e"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="ladder">
+        <imgdir name="0">
+            <canvas name="cape" width="42" height="37">
+                <vector name="origin" x="13" y="4"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="backShield"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="42" height="42">
+                <vector name="origin" x="12" y="4"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="backShield"/>
+                <string name="_hash" value="3cbff6ff3a8536da974e546df77a86f55d09d682a107d6fce55a54199b3f0b0b"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+    <imgdir name="rope">
+        <imgdir name="0">
+            <canvas name="cape" width="41" height="37">
+                <vector name="origin" x="13" y="4"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="backShield"/>
+                <string name="_hash" value="dd97907b862f2ff72faef061755577fe50ba3c1dd3687ad899928c954c424e02"/>
+            </canvas>
+        </imgdir>
+        <imgdir name="1">
+            <canvas name="cape" width="41" height="44">
+                <vector name="origin" x="12" y="6"/>
+                <imgdir name="map">
+                    <vector name="navel" x="0" y="0"/>
+                </imgdir>
+                <string name="z" value="backShield"/>
+                <string name="_hash" value="e9bb076822d9c0866321dff32f7cef824adcc840cf1e56a9d231b9619eebf54d"/>
+            </canvas>
+        </imgdir>
+    </imgdir>
+</imgdir>
