@@ -26,11 +26,11 @@
  *@NPC: Crystal of Roots
  */
 function start() {
-    if (cm.getMapId() > 240050400) {
+    if (cm.getMapId() == 240060000||cm.getMapId() == 240060100||cm.getMapId() == 240060200) {
         if (!cm.getEventInstance().isEventCleared()) {
             cm.sendYesNo("你想要离开吗？");
         } else {
-            cm.sendYesNo("你们终于打败了暗黑龙王，真是太牛逼啦！是否收下这两颗石头并离开这里？");
+            cm.sendYesNo("你们终于打败了暗黑龙王，真是太厉害啦！点击确定可离开这里并获得2颗暗黑龙王石以及30000点券。");
         }
     } else {
         cm.sendYesNo("你想要离开吗？");
@@ -41,12 +41,13 @@ function action(mode, type, selection) {
     if (mode < 1) {
         cm.dispose();
     } else {
-        if (cm.getMapId() > 240050400) {
+        if (cm.getMapId() == 240060000||cm.getMapId() == 240060100||cm.getMapId() == 240060200) {
             if (!cm.getEventInstance().isEventCleared()) {
                 cm.warp(240050600);
             } else {
                 cm.warp(240050600);
                 cm.gainItem(2041200, 2)
+                cm.getPlayer().getCashShop().gainCash(1, 30000);
             }
         } else {
             cm.warp(240040700, "out00");

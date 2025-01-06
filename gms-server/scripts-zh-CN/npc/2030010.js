@@ -51,7 +51,7 @@ function action(mode, type, selection) {
                 cm.warp(211042300);
             } else {
                 cm.warp(211042300);
-                cm.gainItem(2000004, 100)
+                cm.getPlayer().getCashShop().gainCash(1, 10000);
             }
         } else {
             cm.warp(211042300);

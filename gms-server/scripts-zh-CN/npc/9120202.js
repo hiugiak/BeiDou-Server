@@ -55,7 +55,7 @@ function action(mode, type, selection) {
             }
         } else {
             if (status == 0) {
-                cm.sendNext("你们做到了，干得漂亮！现在我们的城市摆脱了那些暴徒的暴政！作为城市的代表，请接受这份奖励，作为对你们努力的认可，我会把你们带回城里。");
+                cm.sendNext("你们做到了，干得漂亮！现在我们的城市摆脱了那些暴徒的暴政！作为城市的代表，请接受这份奖励，作为对你们努力的认可，我会把你们带回城里。（获得30000点券以及些许随机奖励）");
             }
 
             if (status == 1) {
@@ -63,6 +63,7 @@ function action(mode, type, selection) {
                 if (!eim.giveEventReward(cm.getPlayer())) {
                     cm.sendNext("请先在您的物品栏腾出空间…");
                 } else {
+                    cm.getPlayer().getCashShop().gainCash(1, 30000);
                     cm.warp(801040101);
                 }
 
