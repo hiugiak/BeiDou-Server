@@ -92,7 +92,7 @@ function action(mode, type, selection) {
             cm.sendSimple(selStr);
         } else if (selectedType == 4) { //thief weapon
             var selStr = "Very well, then which Thief weapon shall receive a dragon's power?#b";
-            var weapon = ["Dragon Kanzir#k - Lv. 110 STR Dagger#b", "Dragon Kreda#k - Lv. 110 LUK Dagger#b", "Dragon Green Sleve#k - Lv. 110 Claw#b"];
+            var weapon = ["Dragon Kanzir#k - Lv. 110 STR Dagger#b", "Dragon Kreda#k - Lv. 110 LUK Dagger#b", "Dragon Green Sleve#k - Lv. 110 Claw#b", "Dragon Blue Sleve#k - Lv. 110 Claw#b"];
             for (var i = 0; i < weapon.length; i++) {
                 selStr += "\r\n#L" + i + "# " + weapon[i] + "#l";
             }
@@ -140,10 +140,10 @@ function action(mode, type, selection) {
             matQty = matQtySet[selectedItem];
             cost = costSet[selectedItem];
         } else if (selectedType == 4) { //thief weapon
-            var itemSet = [1332049, 1332050, 1472051];
-            var matSet = [[1332051, 4000244, 4000245, 4005000, 4005002], [1332052, 4000244, 4000245, 4005002, 4005003], [1472053, 4000244, 4000245, 4005002, 4005003]];
-            var matQtySet = [[1, 20, 25, 5, 3], [1, 20, 25, 3, 5], [1, 20, 25, 2, 6]];
-            var costSet = [120000, 120000, 120000];
+            var itemSet = [1332049, 1332050, 1472051, 1472052];
+            var matSet = [[1332051, 4000244, 4000245, 4005000, 4005002], [1332052, 4000244, 4000245, 4005002, 4005003], [1472053, 4000244, 4000245, 4005002, 4005003], [1472053, 4000244, 4000245, 4005002, 4005003]];
+            var matQtySet = [[1, 20, 25, 5, 3], [1, 20, 25, 3, 5], [1, 20, 25, 6, 2], [1, 20, 25, 2, 6]];
+            var costSet = [120000, 120000, 120000, 120000];
             item = itemSet[selectedItem];
             mats = matSet[selectedItem];
             matQty = matQtySet[selectedItem];
