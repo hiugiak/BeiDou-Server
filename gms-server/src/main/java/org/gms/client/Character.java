@@ -1890,7 +1890,13 @@ public class Character extends AbstractCharacterObject {
         }
 
         if (itemId / 10000 == 238) {
-            this.getMonsterBook().addCard(client, itemId);
+            if(itemId / 1000 == 2388) {
+                if (getAbstractPlayerInteraction().canHold(itemId)){
+                    getAbstractPlayerInteraction().gainItem(itemId, true);
+                }
+                else {return false;}
+            }
+            else {this.getMonsterBook().addCard(client, itemId);}
         }
         return true;
     }
