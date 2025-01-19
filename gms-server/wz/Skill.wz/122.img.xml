@@ -3517,9 +3517,6 @@
                     </canvas>
                 </imgdir>
             </imgdir>
-            <imgdir name="action">
-                <string name="0" value="sanctuary"/>
-            </imgdir>
             <int name="invisible" value="1"/>
         </imgdir>
     </imgdir>
