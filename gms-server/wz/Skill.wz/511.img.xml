@@ -22,103 +22,103 @@
             <imgdir name="level">
                 <imgdir name="1">
                     <string name="hs" value="h1"/>
-                    <int name="prop" value="22"/>
-                    <int name="damage" value="103"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="2">
                     <string name="hs" value="h2"/>
-                    <int name="prop" value="24"/>
-                    <int name="damage" value="106"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="3">
                     <string name="hs" value="h3"/>
-                    <int name="prop" value="26"/>
-                    <int name="damage" value="109"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="4">
                     <string name="hs" value="h4"/>
-                    <int name="prop" value="28"/>
-                    <int name="damage" value="112"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="5">
                     <string name="hs" value="h5"/>
-                    <int name="prop" value="30"/>
-                    <int name="damage" value="115"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="6">
                     <string name="hs" value="h6"/>
-                    <int name="prop" value="32"/>
-                    <int name="damage" value="118"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="7">
                     <string name="hs" value="h7"/>
-                    <int name="prop" value="34"/>
-                    <int name="damage" value="121"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="8">
                     <string name="hs" value="h8"/>
-                    <int name="prop" value="36"/>
-                    <int name="damage" value="124"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="9">
                     <string name="hs" value="h9"/>
-                    <int name="prop" value="38"/>
-                    <int name="damage" value="127"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="10">
                     <string name="hs" value="h10"/>
-                    <int name="prop" value="40"/>
-                    <int name="damage" value="130"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="11">
                     <string name="hs" value="h11"/>
-                    <int name="prop" value="42"/>
-                    <int name="damage" value="133"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="12">
                     <string name="hs" value="h12"/>
-                    <int name="prop" value="44"/>
-                    <int name="damage" value="136"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="13">
                     <string name="hs" value="h13"/>
-                    <int name="prop" value="46"/>
-                    <int name="damage" value="139"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="14">
                     <string name="hs" value="h14"/>
-                    <int name="prop" value="48"/>
-                    <int name="damage" value="142"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="15">
                     <string name="hs" value="h15"/>
-                    <int name="prop" value="50"/>
-                    <int name="damage" value="145"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="16">
                     <string name="hs" value="h16"/>
-                    <int name="prop" value="52"/>
-                    <int name="damage" value="148"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="17">
                     <string name="hs" value="h17"/>
-                    <int name="prop" value="54"/>
-                    <int name="damage" value="151"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="18">
                     <string name="hs" value="h18"/>
-                    <int name="prop" value="56"/>
-                    <int name="damage" value="154"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="19">
                     <string name="hs" value="h19"/>
-                    <int name="prop" value="58"/>
-                    <int name="damage" value="157"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
                 <imgdir name="20">
                     <string name="hs" value="h20"/>
-                    <int name="prop" value="60"/>
-                    <int name="damage" value="160"/>
+                    <int name="prop" value="0"/>
+                    <int name="damage" value="100"/>
                 </imgdir>
             </imgdir>
         </imgdir>

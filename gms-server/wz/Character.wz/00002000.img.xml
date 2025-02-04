@@ -414,7 +414,7 @@
                 <string name="group" value="skin"/>
             </canvas>
             <short name="face" value="1"/>
-            <int name="delay" value="500"/>
+            <int name="delay" value="250"/>
         </imgdir>
         <imgdir name="1">
             <canvas name="body" width="24" height="30">
@@ -452,7 +452,7 @@
                 <string name="group" value="skin"/>
             </canvas>
             <short name="face" value="1"/>
-            <int name="delay" value="500"/>
+            <int name="delay" value="250"/>
         </imgdir>
         <imgdir name="2">
             <canvas name="body" width="24" height="31">
@@ -490,7 +490,7 @@
                 <string name="group" value="skin"/>
             </canvas>
             <short name="face" value="1"/>
-            <int name="delay" value="500"/>
+            <int name="delay" value="250"/>
         </imgdir>
     </imgdir>
     <imgdir name="swingO1">
@@ -2304,17 +2304,17 @@
         <imgdir name="0">
             <string name="action" value="alert"/>
             <int name="frame" value="0"/>
-            <int name="delay" value="-500"/>
+            <int name="delay" value="-250"/>
         </imgdir>
         <imgdir name="1">
             <string name="action" value="alert"/>
             <int name="frame" value="1"/>
-            <int name="delay" value="-500"/>
+            <int name="delay" value="-250"/>
         </imgdir>
         <imgdir name="2">
             <string name="action" value="alert"/>
             <int name="frame" value="2"/>
-            <int name="delay" value="500"/>
+            <int name="delay" value="250"/>
         </imgdir>
     </imgdir>
     <imgdir name="alert4">
