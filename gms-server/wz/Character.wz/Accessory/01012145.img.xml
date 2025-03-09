@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<imgdir name="01012999.img">
+<imgdir name="01012145.img">
     <imgdir name="info">
-        <canvas name="icon" width="28" height="33">
-            <vector name="origin" x="-2" y="31"/>
-        </canvas>
-        <canvas name="iconRaw" width="28" height="33">
-            <vector name="origin" x="-2" y="31"/>
-        </canvas>
-        <string name="islot" value="Af"/>
-        <string name="vslot" value="Af"/>
-        <int name="reqJob" value="0"/>
-        <int name="reqLevel" value="0"/>
-        <int name="reqSTR" value="0"/>
-        <int name="reqDEX" value="0"/>
-        <int name="reqINT" value="0"/>
-        <int name="reqLUK" value="0"/>
-        <int name="incACC" value="50"/>
-        <int name="incEVA" value="50"/>
-        <int name="incSTR" value="100"/>
-        <int name="incDEX" value="100"/>
-        <int name="incINT" value="100"/>
-        <int name="incLUK" value="100"/>
-        <int name="incMHP" value="1000"/>
-        <int name="price" value="1000000"/>
-        <int name="cash" value="0"/>
-        <int name="incPDD" value="300"/>
-        <int name="incMDD" value="300"/>
         <imgdir name="level">
             <imgdir name="info">
                 <imgdir name="1">
@@ -120,13 +95,29 @@
                 </imgdir>
             </imgdir>
         </imgdir>
+        <canvas name="icon" width="29" height="29">
+            <vector name="origin" x="-2" y="29"/>
+        </canvas>
+        <canvas name="iconRaw" width="29" height="24">
+            <vector name="origin" x="-2" y="29"/>
+        </canvas>
+        <string name="islot" value="Af"/>
+        <string name="vslot" value="Af"/>
+        <int name="reqJob" value="0"/>
+        <int name="reqLevel" value="10"/>
+        <int name="reqSTR" value="0"/>
+        <int name="reqDEX" value="0"/>
+        <int name="reqINT" value="0"/>
+        <int name="reqLUK" value="0"/>
+        <int name="incLUK" value="4"/>
+        <int name="timeLimited" value="1"/>
         <int name="tuc" value="10"/>
     </imgdir>
     <imgdir name="default">
-        <canvas name="default" width="4" height="4">
-            <vector name="origin" x="0" y="0"/>
+        <canvas name="default" width="30" height="13">
+            <vector name="origin" x="31" y="32"/>
             <imgdir name="map">
-                <vector name="brow" x="12" y="2"/>
+                <vector name="brow" x="-1" y="-38"/>
             </imgdir>
             <string name="z" value="accessoryFace"/>
         </canvas>
@@ -174,7 +165,7 @@
     </imgdir>
     <imgdir name="stunned">
         <imgdir name="0">
-            <uol name="default" value="../../bewildered/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
     <imgdir name="vomit">
@@ -220,7 +211,15 @@
     </imgdir>
     <imgdir name="shine">
         <imgdir name="0">
-            <uol name="default" value="../../bewildered/0/default"/>
+            <uol name="default" value="../../default/default"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="blaze">
+        <imgdir name="0">
+            <uol name="default" value="../../default/default"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
     <imgdir name="love">
@@ -232,14 +231,6 @@
         </imgdir>
     </imgdir>
     <imgdir name="despair">
-        <imgdir name="0">
-            <uol name="default" value="../../default/default"/>
-        </imgdir>
-        <imgdir name="1">
-            <uol name="default" value="../../default/default"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="blaze">
         <imgdir name="0">
             <uol name="default" value="../../default/default"/>
         </imgdir>
@@ -273,10 +264,10 @@
     </imgdir>
     <imgdir name="dam">
         <imgdir name="0">
-            <uol name="default" value="../../cheers/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
         <imgdir name="1">
-            <uol name="default" value="../../cheers/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
 </imgdir>

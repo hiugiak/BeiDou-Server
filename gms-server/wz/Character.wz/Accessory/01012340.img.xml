@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<imgdir name="01012999.img">
+<imgdir name="01012340.img">
     <imgdir name="info">
-        <canvas name="icon" width="28" height="33">
-            <vector name="origin" x="-2" y="31"/>
-        </canvas>
-        <canvas name="iconRaw" width="28" height="33">
-            <vector name="origin" x="-2" y="31"/>
-        </canvas>
-        <string name="islot" value="Af"/>
-        <string name="vslot" value="Af"/>
-        <int name="reqJob" value="0"/>
-        <int name="reqLevel" value="0"/>
-        <int name="reqSTR" value="0"/>
-        <int name="reqDEX" value="0"/>
-        <int name="reqINT" value="0"/>
-        <int name="reqLUK" value="0"/>
-        <int name="incACC" value="50"/>
-        <int name="incEVA" value="50"/>
-        <int name="incSTR" value="100"/>
-        <int name="incDEX" value="100"/>
-        <int name="incINT" value="100"/>
-        <int name="incLUK" value="100"/>
-        <int name="incMHP" value="1000"/>
-        <int name="price" value="1000000"/>
-        <int name="cash" value="0"/>
-        <int name="incPDD" value="300"/>
-        <int name="incMDD" value="300"/>
         <imgdir name="level">
             <imgdir name="info">
                 <imgdir name="1">
@@ -120,15 +95,41 @@
                 </imgdir>
             </imgdir>
         </imgdir>
-        <int name="tuc" value="10"/>
+        <canvas name="icon" width="26" height="30">
+            <vector name="origin" x="-4" y="30"/>
+            <string name="_hash" value="6239aef91c84141c77e5f85125c928476477ad16e2e1ff562bebcb268ff92b0f"/>
+        </canvas>
+        <canvas name="iconRaw" width="23" height="29">
+            <vector name="origin" x="-5" y="30"/>
+            <string name="_hash" value="fe67c44410a547df87b89fa20b3b98f11113d2be4aba01b44587756a910ad967"/>
+        </canvas>
+        <string name="islot" value="Af"/>
+        <string name="vslot" value="Af"/>
+        <int name="tuc" value="1"/>
+        <int name="reqJob" value="2"/>
+        <int name="reqLevel" value="120"/>
+        <int name="reqSTR" value="0"/>
+        <int name="reqDEX" value="0"/>
+        <int name="reqINT" value="0"/>
+        <int name="reqLUK" value="0"/>
+        <int name="incPAD" value="3"/>
+        <int name="incMAD" value="3"/>
+        <int name="incPDD" value="26"/>
+        <int name="incMDD" value="26"/>
+        <int name="incINT" value="3"/>
+        <int name="incLUK" value="3"/>
+        <int name="tradeBlock" value="1"/>
+        <int name="setItemID" value="160"/>
+        <int name="price" value="1"/>
     </imgdir>
     <imgdir name="default">
-        <canvas name="default" width="4" height="4">
-            <vector name="origin" x="0" y="0"/>
+        <canvas name="default" width="15" height="15">
+            <vector name="origin" x="8" y="3"/>
             <imgdir name="map">
-                <vector name="brow" x="12" y="2"/>
+                <vector name="brow" x="0" y="0"/>
             </imgdir>
-            <string name="z" value="accessoryFace"/>
+            <string name="z" value="accessoryFaceOverFaceBelowCap"/>
+            <string name="_hash" value="c5fa41b79e5cdf430d3a5ae286680dc3e2ae8114ecce8964422ed17596370f2a"/>
         </canvas>
     </imgdir>
     <imgdir name="blink">
@@ -174,7 +175,7 @@
     </imgdir>
     <imgdir name="stunned">
         <imgdir name="0">
-            <uol name="default" value="../../bewildered/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
     <imgdir name="vomit">
@@ -182,7 +183,7 @@
             <uol name="default" value="../../default/default"/>
         </imgdir>
         <imgdir name="1">
-            <uol name="default" value="../0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
     <imgdir name="oops">
@@ -218,9 +219,12 @@
             <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
-    <imgdir name="shine">
+    <imgdir name="despair">
         <imgdir name="0">
-            <uol name="default" value="../../bewildered/0/default"/>
+            <uol name="default" value="../../default/default"/>
+        </imgdir>
+        <imgdir name="1">
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
     <imgdir name="love">
@@ -231,7 +235,7 @@
             <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
-    <imgdir name="despair">
+    <imgdir name="shine">
         <imgdir name="0">
             <uol name="default" value="../../default/default"/>
         </imgdir>
@@ -263,7 +267,7 @@
             <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
-    <imgdir name="hot">
+    <imgdir name="dam">
         <imgdir name="0">
             <uol name="default" value="../../default/default"/>
         </imgdir>
@@ -271,12 +275,12 @@
             <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
-    <imgdir name="dam">
+    <imgdir name="hot">
         <imgdir name="0">
-            <uol name="default" value="../../cheers/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
         <imgdir name="1">
-            <uol name="default" value="../../cheers/0/default"/>
+            <uol name="default" value="../../default/default"/>
         </imgdir>
     </imgdir>
 </imgdir>
