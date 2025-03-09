@@ -23,7 +23,6 @@
         <int name="incMHP" value="500"/>
         <int name="tuc" value="1"/>
         <int name="price" value="0"/>
-        <int name="tradeBlock" value="1"/>
         <int name="notSale" value="1"/>
         <int name="cash" value="0"/>
         <int name="medalTag" value="7"/>

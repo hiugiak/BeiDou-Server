@@ -27,8 +27,6 @@
     <int name="tuc" value="20"/>
     <int name="price" value="300000"/>
     <int name="cash" value="0"/>
-    <int name="tradeBlock" value="1"/>
-    <int name="only" value="3"/>
     <imgdir name="level">
       <imgdir name="info">
         <imgdir name="1">
