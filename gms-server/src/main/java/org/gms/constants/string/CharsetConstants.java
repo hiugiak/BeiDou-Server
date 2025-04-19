@@ -51,11 +51,11 @@ public class CharsetConstants {
      */
     @Getter
     private enum Language {
-        LANGUAGE_US(2, "US-ASCII", "en-US"),
-        LANGUAGE_CN(3, "GBK", "zh-CN"),
-        LANGUAGE_PT_BR(-1, "ISO-8859-1", "en-US"),
-        LANGUAGE_THAI(-1, "TIS620", "th-TH"),
-        LANGUAGE_KOREAN(-1, "MS949", "ko-KR");
+        LANGUAGE_US(2, "UTF-8", "en-US"),
+        LANGUAGE_CN(3, "UTF-8", "zh-CN"),
+        LANGUAGE_PT_BR(-1, "UTF-8", "en-US"),
+        LANGUAGE_THAI(-1, "UTF-8", "th-TH"),
+        LANGUAGE_KOREAN(-1, "UTF-8", "ko-KR");
 
         private final int lang;
         private final String charset;
