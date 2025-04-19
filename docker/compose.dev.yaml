@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      dockerfile: ./docker/server.dev.Dockerfile
+    volumes:
+      - ../gms-server/src/main/resources/application.yml:/opt/server/application.yml
+    depends_on:
+      db:
+        condition: service_healthy
