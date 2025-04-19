@@ -28,6 +28,7 @@ import org.gms.constants.game.GameConstants;
 import org.gms.constants.id.MapId;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.timeout.IdleStateEvent;
 import org.gms.net.PacketHandler;
 import org.gms.net.PacketProcessor;
@@ -109,6 +110,7 @@ public class Client extends ChannelInboundHandlerAdapter {
     private final Type type;
     private final long sessionId;
     private final PacketProcessor packetProcessor;
+    public final String wsPath;
 
     private Hwid hwid;
     private String remoteAddress;
@@ -157,10 +159,12 @@ public class Client extends ChannelInboundHandlerAdapter {
         CHANNEL
     }
 
-    public Client(Type type, long sessionId, String remoteAddress, PacketProcessor packetProcessor, int world, int channel) {
+    public Client(Type type, long sessionId, String remoteAddress, String wsPath, PacketProcessor packetProcessor,
+            int world, int channel) {
         this.type = type;
         this.sessionId = sessionId;
         this.remoteAddress = remoteAddress;
+        this.wsPath = wsPath;
         this.packetProcessor = packetProcessor;
         this.world = world;
         this.channel = channel;
@@ -168,28 +172,16 @@ public class Client extends ChannelInboundHandlerAdapter {
 
     public static Client createLoginClient(long sessionId, String remoteAddress, PacketProcessor packetProcessor,
                                            int world, int channel) {
-        return new Client(Type.LOGIN, sessionId, remoteAddress, packetProcessor, world, channel);
+        return new Client(Type.LOGIN, sessionId, remoteAddress, "/login", packetProcessor, world, channel);
     }
 
     public static Client createChannelClient(long sessionId, String remoteAddress, PacketProcessor packetProcessor,
                                              int world, int channel) {
-        return new Client(Type.CHANNEL, sessionId, remoteAddress, packetProcessor, world, channel);
+        return new Client(Type.CHANNEL, sessionId, remoteAddress, "/channel", packetProcessor, world, channel);
     }
 
     public static Client createMock() {
-        return new Client(null, -1, null, null, -123, -123);
-    }
-
-    @Override
-    public void channelActive(ChannelHandlerContext ctx) {
-        final io.netty.channel.Channel channel = ctx.channel();
-        if (!Server.getInstance().isOnline()) {
-            channel.close();
-            return;
-        }
-
-        this.remoteAddress = getRemoteAddress(channel);
-        this.ioChannel = channel;
+        return new Client(null, -1, null, "/ws", null, -123, -123);
     }
 
     private static String getRemoteAddress(io.netty.channel.Channel channel) {
@@ -239,6 +231,15 @@ public class Client extends ChannelInboundHandlerAdapter {
     public void userEventTriggered(ChannelHandlerContext ctx, Object event) {
         if (event instanceof IdleStateEvent idleEvent) {
             checkIfIdle(idleEvent);
+        } else if (event instanceof WebSocketServerProtocolHandler.HandshakeComplete) {
+            final io.netty.channel.Channel channel = ctx.channel();
+            if (!Server.getInstance().isOnline()) {
+                channel.close();
+                return;
+            }
+
+            this.remoteAddress = getRemoteAddress(channel);
+            this.ioChannel = channel;
         }
     }
 
@@ -259,6 +260,9 @@ public class Client extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
+        if (ioChannel == null) {
+            return;
+        }
         closeMapleSession();
     }
 
